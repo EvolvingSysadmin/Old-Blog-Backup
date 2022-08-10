@@ -1,0 +1,622 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201705 will be lost/reset.
+# Last config file used to build this data file was /home/evolvtion3654l/tmp/awstats/awstats.ryanheavican.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2701                
+POS_VISITOR 10849               
+POS_DAY 15416               
+POS_DOMAIN 3512                
+POS_LOGIN 4219                
+POS_ROBOT 4374                
+POS_WORMS 5064                
+POS_EMAILSENDER 5195                
+POS_EMAILRECEIVER 5338                
+POS_SESSION 16166               
+POS_SIDER 16362               
+POS_FILETYPES 5473                
+POS_DOWNLOADS 5769                
+POS_OS 5861                
+POS_BROWSER 6120                
+POS_SCREENSIZE 7426                
+POS_UNKNOWNREFERER 7500                
+POS_UNKNOWNREFERERBROWSER 7891                
+POS_ORIGIN 8065                
+POS_SEREFERRALS 8210                
+POS_PAGEREFS 8387                
+POS_SEARCHWORDS 8856                
+POS_KEYWORDS 9008                
+POS_MISC 2364                
+POS_ERRORS 9067                
+POS_CLUSTER 4075                
+POS_SIDER_404 9179                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170601000446 301 62861 8769472868165
+FirstTime 20170501004850
+LastTime 20170531233547
+LastUpdate 20170601051637 301 0 299 0 1
+TotalVisits 94                  
+TotalUnique 82                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 130                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 78 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 33 38 664570 34 46 50611
+1 1 4 107707 12 21 5138812
+2 10 15 515807 30 49 2302030
+3 3 16 1074703 14 25 2274117
+4 2 7 429200 20 43 3189248
+5 5 7 275649 8 12 10333
+6 11 17 384235 25 36 181545
+7 5 16 819329 36 62 243381
+8 0 2 271759 25 37 164969
+9 2 4 223260 59 80 2751692
+10 4 28 6763116 20 35 184653
+11 18 45 2703889 30 52 177395
+12 107 178 9838643 58 117 652435
+13 30 47 3100824 20 33 23307
+14 41 138 6290757 68 94 492943
+15 51 92 2877267 59 144 1486314
+16 43 101 8236348 29 79 4594030
+17 86 111 2966166 26 52 89074
+18 3 9 465213 19 27 61569
+19 1 1 3527 46 71 2275231
+20 54 99 10310033 47 98 85961
+21 7 12 620247 41 58 1275090
+22 3 21 6053656 13 23 2011975
+23 1 3 240043 31 38 38069
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 35
+us 361 701 38564147
+gb 78 131 13859398
+ca 35 47 1531243
+ru 10 32 6017713
+br 7 24 991237
+cn 6 10 183298
+nl 3 4 131339
+fr 3 7 177030
+md 2 2 15194
+ua 2 2 30009
+sn 2 6 242144
+iq 1 1 7597
+ir 1 2 123357
+sc 1 1 22412
+ao 1 3 16409
+pl 1 1 7991
+pa 1 5 199812
+mx 1 1 7597
+tr 1 1 22412
+tt 1 1 22412
+tw 1 2 101330
+au 1 9 504934
+th 1 1 7597
+jp 0 1 187056
+eg 0 1 115760
+ph 0 2 203141
+es 0 2 374112
+pr 0 1 187056
+in 0 2 374112
+py 0 1 118438
+de 0 1 118438
+by 0 1 115760
+be 0 2 231531
+my 0 2 305494
+pk 0 1 118438
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+bot[\s_+:,\.\;\/\\-] 209 1906694 20170531204515 63
+googlebot 186 4125461 20170531203149 47
+spider 183 16728894 20170531210326 25
+unknown 37 888 20170531175315 37
+checker 37 165282 20170531211107 4
+googlebot\-image 20 464734 20170531091536 0
+[\s_+:,\.\;\/\\-]bot 20 4658249 20170523051948 0
+crawl 15 68560 20170514090613 1
+google[_+\s]web[_+\s]preview 12 442586 20170524142851 0
+bingpreview 12 806761 20170531122834 0
+no_user_agent 7 120051 20170531203314 0
+ia_archiver 2 17124 20170509125507 1
+php 2 82628 20170515160232 0
+netcraft 1 22412 20170510101238 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+jpeg 29 5424624 0 0
+xml 7 8374 0 0
+ttf 11 1082367 0 0
+pdf 3 3186318 0 0
+html 259 2055148 0 0
+jpg 212 36840173 0 0
+Unknown 190 1559048 0 0
+woff2 44 3395126 0 0
+css 159 756015 0 0
+woff 9 881217 0 0
+eot 1 98486 0 0
+png 87 9949052 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/img/Ryan-Heavican-Resume.pdf 22 0 21827556
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+win8.1 5 2
+ios_iphone 23 9
+java 1 1
+win7 199 97
+linux 16 12
+macosx 10 5
+ios_ipad 10 1
+winnt 486 202
+linuxandroid 117 55
+Unknown 111 109
+macosx9 1 1
+win2003 11 9
+winxp 12 9
+win8 3 3
+winlong 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 67
+chrome36.0.1985.143 21 7
+firefox47.0 1 1
+chrome30.0.0.0 1 0
+msie11.0 3 1
+chrome59.0.3071.36 1 0
+firefox2.0.0.13 1 1
+safari4.0 1 1
+opera44.5.0071.6343 1 1
+opera8.50 1 1
+chrome53.0.2785.116 1 1
+chrome58.0.3029.83 104 51
+firefox11.0 2 0
+lg\- 1 1
+firefox40.0 1 1
+chrome53.0.2785.143 1 1
+chrome28.0.1500.71 1 1
+chrome31.0.1650.57 1 1
+chrome58.0.3029.110 447 193
+safari9.1.1 1 0
+chrome27.0.1453.90 4 4
+chrome38.0.1025.166 2 0
+safari9.0 1 1
+chrome58.0.3029.96 14 1
+iphone 1 1
+firefox50.0 1 1
+firefox38.0 1 1
+msie7.0 11 9
+firefox7.0.1 4 4
+safari10.0.3 1 1
+chrome20.0.1092.0 87 42
+safari10.0 17 3
+netscape 25 25
+safari10.0.2 1 0
+firefox17.0 1 1
+firefox26.0 1 1
+Unknown 17 17
+chrome54.0.2840.6 1 1
+firefox40.1 2 2
+firefox27.0 1 1
+firefox34.0 1 1
+safari8.0 1 1
+chrome34.0.1847.137 1 1
+chrome39.0.2171.95 25 25
+firefox33.0 2 2
+chrome57.0.2987.132 2 0
+firefox3.6.3 1 1
+firefox52.0 3 2
+msie9.0 1 1
+chrome17.0.963.79 1 1
+android 5 1
+chrome52.0.2743.116 1 0
+firefox53.0 26 4
+firefox4.0 2 2
+chrome56.0.2924.87 4 4
+chrome45.0.2454.94 2 2
+chrome41.0.2228.0 1 1
+chrome38.0.2125.111 2 2
+chrome57.0.2987.133 22 1
+msie8.0 14 8
+firefox29.0 1 0
+mozilla 71 69
+firefox49.0 1 1
+chrome27.0.1453.93 17 1
+chrome37.0.2062.120 1 1
+chrome17.0.963.12 1 1
+safari 14 5
+chrome49.0.2623.75 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+panscient.com 20170529004320
+Python-urllib/2.7 20170504094509
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170518122707
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20170531175318
+Mozilla 20170511175821
+Mozilla/5.0_(compatible;_ips-agent) 20170505154300
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Java/1.8.0_121 20170517125840
+panscient.com 20170529004320
+Python-urllib/2.7 20170504094509
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 294 308
+From1 70 115
+From2 16 55
+From3 12 20
+From4 129 513
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+yandex 3 3
+bing 1 1
+google 12 51
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://share-buttons-for-free.com 4 4
+http://sucuri.net 3 3
+http://www.facebook.com 2 2
+http://www.marinetraffic.com 1 1
+http://burger-imperia.com 1 1
+https://github.com 1 1
+http://kamera.creoseo.org/harga-sandisk-microsdhc-memory-cards-class-4-32gb-sdsdqm-032g-bq35/ 0 2
+http://webcache.googleusercontent.com/search 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+301 407 99475
+500 36 24120
+404 68 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 44
+/cropped-background-2-1-jpg 2 -
+/about 1 -
+/sitemap-index.xml.gz 1 -
+/admin 1 -
+/index.php 1 -
+/xmlrpc.php 2 -
+/user 1 -
+/blog 1 -
+/blog/wp-login.php 1 -
+/wp-content/uploads/2016/08/cropped-Background-2-1.jpg 1 -
+/license.php 4 -
+/login.php 1 http://ryanheavican.com/login.php
+/admin/include/download.php 2 -
+/user/register 1 -
+/wp-json/wp/v2/users 2 -
+/wp-content/common.php.suspected 1 http://ryanheavican.com/wp-content/common.php.suspected
+/author/thescientist/feed/ 1 -
+/blog/ 1 http://ryanheavican.com/blog/
+/wp-admin/logo_img.php 1 http://ryanheavican.com/wp-admin/logo_img.php
+/mailto:me@ryanheavican.com 2 google.com
+/id_rsa 2 -
+/news/wp-admin/setup-config.php 1 -
+/feed 2 -
+/administrator/language/en-GB/en-GB.xml 1 -
+/id_dsa 2 -
+/home/wp-admin/setup-config.php 1 -
+/customizer.php 1 -
+/wp-content/plugins/logo_img.php 1 http://ryanheavican.com/wp-content/plugins/logo_img.php
+/component/users/ 1 -
+/work. 1 -
+/server-2016-hyper-v-hos 1 -
+/admin.php 1 -
+/wp-content/uploads/2016/08/hyper-v-service.png 1 -
+/wp-admin/admin-ajax.php 6 -
+/.ssh/id_dsa 2 -
+/administrator 1 -
+/user/login 1 -
+/css/ 1 -
+/wp-login.php 6 -
+/wp-content/uploads/logo_img.php 1 http://ryanheavican.com/wp-content/uploads/logo_img.php
+/404testpage4525d2fdc 1 http://sucuri.net
+/.ssh/id_rsa 2 -
+/mailto:ryanheavican.com 2 google.com
+/404javascript.js 1 http://www.google.com/url/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 130
+74.10.124.2 179 407 20226211 20170524163246
+104.192.74.21 50 50 238688 20170511175821
+51.15.58.234 42 87 10220943 20170531203336
+70.209.196.168 40 59 1005401 20170523172908
+81.19.188.229 30 32 2547431 20170531175318
+167.114.172.223 16 16 225512 20170518122708
+72.79.54.220 15 15 72471 20170529004320
+68.5.185.210 14 32 1175535 20170531214509
+142.4.218.236 13 13 183189 20170510002647
+69.58.178.57 11 11 146583 20170505154300
+38.100.21.68 9 11 166420 20170515060938
+162.216.19.183 9 9 48447 20170531203150
+70.209.202.253 5 24 5951269 20170518162511
+70.198.61.43 3 12 507333 20170526073559
+186.204.137.194 3 12 506949 20170518155239
+163.172.4.153 3 3 24111 20170531233547
+173.244.48.89 3 7 221293 20170523215712
+204.187.14.78 3 7 229284 20170523160657
+66.249.88.17 2 2 15982 20170524142853
+178.17.170.164 2 2 15194 20170503024419
+189.100.35.203 2 6 242144 20170506142533
+177.136.149.91 2 6 242144 20170509105850
+207.228.78.33 2 6 238998 20170505165404
+46.42.164.75 2 5 119513 20170526025327
+69.252.228.102 2 2 15982 20170531051847
+112.211.209.220 0 1 84703 
+64.233.173.135 0 1 78053 
+216.69.191.98 1 1 22412 20170515140602
+94.10.129.127 0 1 187056 
+68.64.160.14 1 1 22412 20170506165036
+95.128.43.164 1 1 23610 20170530074734
+170.231.195.181 0 1 118438 
+90.23.115.50 1 5 161836 20170518003238
+1.33.69.246 0 1 187056 
+85.98.135.184 1 1 22412 20170522140311
+60.249.120.230 1 1 7597 20170506023159
+144.217.167.240 1 1 7597 20170519213115
+206.180.171.149 1 1 7597 20170512051707
+178.120.206.193 0 1 115760 
+42.156.137.116 1 1 7991 20170527181935
+188.43.30.133 1 1 23610 20170523141752
+190.213.114.24 1 1 22412 20170519145639
+42.156.138.108 1 1 7991 20170530025836
+144.217.80.113 1 1 7597 20170501120801
+103.42.197.208 0 1 187056 
+222.127.119.69 0 1 118438 
+46.148.120.79 1 1 22412 20170501004850
+79.151.213.209 0 1 187056 
+156.199.7.77 0 1 115760 
+89.167.129.94 0 1 187056 
+154.243.153.31 1 3 16409 20170501063411
+24.137.232.245 0 1 187056 
+124.40.246.68 0 1 187056 
+149.56.223.241 1 1 22412 20170501032116
+38.80.27.212 1 1 22412 20170511094441
+54.184.39.40 1 1 22412 20170519002636
+66.102.6.110 0 1 118438 
+5.239.139.152 1 1 7597 20170508053811
+73.169.232.167 1 17 5732968 20170514104145
+119.152.65.66 0 1 118438 
+66.249.88.14 1 1 7991 20170523132905
+139.226.144.64 1 1 7597 20170521164619
+31.221.52.58 0 1 60556 
+106.14.3.33 1 1 7597 20170507130008
+14.215.160.98 1 5 144131 20170527180459
+72.177.120.98 0 1 41314 
+83.56.55.181 0 1 187056 
+24.54.128.138 0 1 187056 
+184.151.246.120 0 1 53706 
+128.199.154.30 0 1 187056 
+37.238.160.29 1 1 7597 20170511150923
+175.140.114.82 0 1 118438 
+50.67.133.221 0 1 187056 
+85.26.116.190 0 1 187056 
+198.50.200.140 1 1 7597 20170522223441
+83.120.5.217 0 1 118438 
+176.195.116.248 1 17 5732968 20170531222420
+185.188.182.230 1 1 7597 20170510131858
+46.101.139.248 1 1 22412 20170512023748
+107.132.216.119 0 1 187056 
+46.105.31.30 1 1 7597 20170502220644
+115.164.80.40 0 1 187056 
+104.200.20.46 1 1 22412 20170519025051
+5.161.50.136 0 1 115760 
+109.131.159.7 0 1 44475 
+200.66.89.202 1 1 7597 20170505051431
+69.142.216.212 0 1 187056 
+156.74.250.15 0 1 187056 
+99.108.229.152 1 9 504934 20170512123822
+98.14.210.169 0 1 187056 
+104.128.21.240 1 1 7991 20170528210945
+51.15.36.144 1 1 25055 20170531203436
+54.88.255.201 1 1 22412 20170517125840
+52.71.155.178 1 1 5669 20170514114343
+66.102.6.108 0 1 118438 
+198.46.255.245 0 1 93733 
+118.89.165.145 1 1 7991 20170529155055
+94.240.43.194 1 1 7991 20170527162921
+70.209.205.34 1 1 7991 20170523200635
+185.129.148.181 1 1 7597 20170504030217
+66.249.88.20 1 1 7991 20170524142853
+84.25.102.215 0 1 93733 
+181.120.75.220 0 1 118438 
+69.28.91.31 1 1 7597 20170509071532
+216.108.161.124 0 1 218845 
+128.72.230.132 1 3 13974 20170527010606
+173.46.76.182 0 1 187056 
+185.47.62.214 1 1 22412 20170504094509
+41.82.84.164 2 6 242144 20170512044134
+196.16.6.167 1 1 22412 20170510065539
+223.207.169.36 1 1 7597 20170502205443
+52.95.75.0 0 1 60556 
+193.124.241.76 1 1 3527 20170505193706
+178.33.39.197 1 1 7597 20170523005733
+185.177.243.158 0 1 93733 
+70.179.131.95 0 1 187056 
+109.236.86.17 1 1 7597 20170518153904
+52.91.64.115 0 1 84703 
+172.58.137.54 0 1 187056 
+91.210.147.63 1 1 7597 20170518184809
+185.129.62.62 2 2 15194 20170503024407
+60.242.161.209 1 9 504934 20170523035716
+46.18.183.34 0 1 187056 
+216.69.191.97 1 1 22412 20170503162945
+209.171.88.64 0 1 187056 
+66.249.93.196 0 1 77192 
+95.211.138.129 1 1 7597 20170505003101
+111.81.10.64 0 1 93733 
+85.92.170.59 0 1 187056 
+186.73.71.178 1 5 199812 20170515140808
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170501 4 7 184590 4
+20170502 2 4 227365 2
+20170503 5 5 52800 3
+20170504 2 2 30009 2
+20170505 16 21 591358 5
+20170506 4 8 272153 3
+20170507 1 5 613240 1
+20170508 1 2 126035 1
+20170509 3 10 708556 2
+20170510 15 17 392192 3
+20170511 52 54 549486 3
+20170512 5 20 1176314 4
+20170513 0 2 302816 0
+20170514 2 18 5738637 2
+20170515 11 18 473347 3
+20170516 0 3 282076 0
+20170517 2 5 554348 2
+20170518 36 84 7617129 7
+20170519 4 5 261889 4
+20170521 1 5 687203 1
+20170522 2 5 393381 2
+20170523 204 370 17836870 14
+20170524 40 137 6270781 6
+20170525 0 1 187056 0
+20170526 5 17 626846 2
+20170527 4 11 361143 4
+20170528 1 2 195047 1
+20170529 16 16 80462 2
+20170530 2 3 218657 2
+20170531 81 154 18224162 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 5
+30mn-1h 3
+15mn-30mn 1
+1h+ 2
+5mn-15mn 1
+0s-30s 82
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/ 226 1823528 77 58
+/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2 44 3395126 1 6
+/dave-eggers-circle 21 147497 0 0
+/how-to-make-retropie 19 199159 5 4
+/work 18 127678 1 4
+/server-2016-hyper-v-host 16 117472 0 0
+/virtualization-homelab-cheaper-macbook 16 194928 2 3
+/google-analytics-certification 14 116364 0 0
+/archives 14 78841 0 0
+/graphic-design-portfolio 14 53390 1 1
+/html-css-jury-duty 14 114880 0 2
+/new-techsploits-blog-layout 13 120554 1 0
+/my-continually-evolving-homelab 12 123084 0 4
+/wordpress-google-analytics-plugin 11 83315 0 0
+/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf 11 1082367 0 5
+/font-awesome-4.7.0/fonts/fontawesome-webfont.woff 9 881217 2 0
+/deploying-vmware-lamp-server 8 81886 0 0
+/my-continually-evolving-homelab.html 7 52019 3 2
+/sitemap.xml 7 8374 1 2
+/html-css-jury-duty.html 5 28010 0 1
+/server-2016-hyper-v-host.html 5 18910 0 0
+/wordpress-google-analytics-plugin.html 4 16932 0 1
+/deploying-vmware-lamp-server.html 3 13806 0 0
+// 3 75165 0 0
+/virtualization-homelab-cheaper-macbook.html 2 11592 0 0
+/font-awesome-4.7.0/fonts/fontawesome-webfont.eot 1 98486 0 1
+/work.html 2 7054 0 0
+/google-analytics-certification.html 2 8132 0 0
+END_SIDER

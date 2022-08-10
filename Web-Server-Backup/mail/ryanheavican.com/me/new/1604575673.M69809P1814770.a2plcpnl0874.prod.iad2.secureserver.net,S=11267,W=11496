@@ -1,0 +1,229 @@
+Return-Path: <sonia@webgeeek.com>
+Delivered-To: me@ryanheavican.com
+Received: from a2plcpnl0874.prod.iad2.secureserver.net
+	by a2plcpnl0874.prod.iad2.secureserver.net with LMTP
+	id SPP8A7nho1/ysBsAbgEAXw
+	(envelope-from <sonia@webgeeek.com>)
+	for <me@ryanheavican.com>; Thu, 05 Nov 2020 04:27:53 -0700
+Return-path: <sonia@webgeeek.com>
+Envelope-to: me@ryanheavican.com
+Delivery-date: Thu, 05 Nov 2020 04:27:53 -0700
+Received: from mail-ed1-f65.google.com ([209.85.208.65]:34397)
+	by a2plcpnl0874.prod.iad2.secureserver.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <sonia@webgeeek.com>)
+	id 1kadQm-007oEf-VR
+	for me@ryanheavican.com; Thu, 05 Nov 2020 04:27:52 -0700
+Received: by mail-ed1-f65.google.com with SMTP id a15so1154013edy.1
+        for <me@ryanheavican.com>; Thu, 05 Nov 2020 03:27:32 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webgeeek-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=EDZZJbI6Dj8M+ysvScUqZ6evt2YAUr5uLOUN4iIA8eU=;
+        b=TKkRuwyZKeJKa29PqcCgQLwVgKgwRBU6fP6PIoiSrtB/9YdWdgKYBMIzUIoZkhUjri
+         Z+I+plI8DIssQAX1mCbQMDuAo5YQzXLyjg91H50d+GRUSADceYNJcE2n8eXlChPRZ6Wc
+         6LRBrWRq0WGa98SGBptFBZ7jFqrzoRxrxRy1jzp8AbBE/m6uZtcbFNE585tC3l0EwZ+R
+         wF6ggRpTk2z/m2seTZVgdiKpsblYAXVKlveQqmjnJ3kgHZfPPzc8FjwcyEDBS4xj2ZSR
+         oLl/laFRnj5FHN96XBZ00ZkDr+mtUUaMSK9907i4iSd5Q+fddr16eL/cNk7Sy3Jg5fib
+         pPww==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=EDZZJbI6Dj8M+ysvScUqZ6evt2YAUr5uLOUN4iIA8eU=;
+        b=uHnWfMUij5vR3rjXfaYWAKtpaMI5rCTVBbSb+LgtCU0EX97tpCqu3/Z1qA1dtEt0z+
+         Rec0qDg7Tly6iIFTBaHV7la0dY4ZN/xkW3f/jF4kILAZPjpfKEVDD2ky3YujRZqD2fyA
+         akG6XbxAmvbP8YnsyVBOhboNQ1OYQk6XVlv6eA0AWlIWoUQTIENUkqgwFWXUq4k7xQzp
+         V4Bpot2vmBe45yzGsvUSkFeNnh5T8iXs5nOBm3MX8fPRQyb4Oyei3lVmYC/iu5+tby1x
+         Bvgu44iDVEjF+w7LjoTfo5IIGUf5xBn13YVevQZGzeBqaGscamWPTPkgIjxr12VklssV
+         ZPfQ==
+X-Gm-Message-State: AOAM531qeHjhBQ7kYfLLoKzRiLfLTvkmeSdxBftySstobGp0Q8jePoyN
+	WIOzgkE/rz5YJBLDWbW3sCYGhw7pK3oG5K8vfpsoOhAI/R0=
+X-Google-Smtp-Source: ABdhPJzgpfL0RvBNQTaHSsxvF1Mx5LvQ23cMWJVV5ObBKcUXTl0BhP8jVs8F7JGhHHlPY468rwboa6CKThzPbrTnels=
+X-Received: by 2002:a05:6402:2d7:: with SMTP id b23mr1925341edx.196.1604575631187;
+ Thu, 05 Nov 2020 03:27:11 -0800 (PST)
+Received: from 240552747213 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 5 Nov 2020 06:27:10 -0500
+MIME-Version: 1.0
+Sender: sonia@webgeeek.com
+From: sonia@webgeeek.com
+Date: Thu, 5 Nov 2020 06:27:10 -0500
+X-Google-Sender-Auth: GwlkH14eORD3Y64MGtICkTjDIhc
+Message-ID: <CAD+FbQn8_9n2friwwtycvO0UTm-pOD6jPkUEiznBQqmOO=xdgQ@mail.gmail.com>
+Subject: Choose competitors that tend to target the same Audience
+To: me@ryanheavican.com
+Content-Type: multipart/alternative; boundary="0000000000008325eb05b35a60e9"
+
+--0000000000008325eb05b35a60e9
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Ryanheavican,
+
+
+
+I assume, yet again you have seen the similar mail.And this time during the
+Corona Virus outbreak. Don=E2=80=99t panic, as we are here not to inform yo=
+u about
+how to lockdown or quarantine yourself. Rather, we are to help you for
+better website ROI and its exponential growth.
+
+
+Let=E2=80=99s talk about scopes that have been missed out from your website
+promotion campaign as of today and need some serious attention. Such as:
+
+Unique contents, keywords to content optimisation and Meta tags.
+
+Poor or old school visual design and quality images.
+
+Clutter in the content (i.e. priorities have specified in a scattered way)
+
+Security issues and certification problems
+
+HTML  and navigation issues
+
+Slow page loading time
+
+Poor page responsive design
+
+Well, if you have not analyzed or thought of these factors essentially,
+then this is your wake-up call. Online search has surged up since last
+couple of weeks, people=E2=80=99s online search has enhanced due to pandemi=
+c as
+well as scarcity in the retail outlets. Hence, this is your golden chance
+to snatch it away.
+
+
+Reply us back and we will share more insightful reports with proper
+competitive analysis on various significant factors.
+
+
+Don=E2=80=99t be late; otherwise cost may also be high when markets start t=
+aking
+drift.
+
+
+
+Regards
+
+*Sonia*
+
+--0000000000008325eb05b35a60e9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;te=
+xt-align:justify;line-height:150%;background-image:initial;background-posit=
+ion:initial;background-size:initial;background-repeat:initial;background-or=
+igin:initial;background-clip:initial"><font face=3D"verdana, sans-serif" st=
+yle=3D"">Hi Ryanheavican,</font></p><p class=3D"MsoNormal" style=3D"margin:=
+0in 0in 0.0001pt;text-align:justify;line-height:150%;background-image:initi=
+al;background-position:initial;background-size:initial;background-repeat:in=
+itial;background-origin:initial;background-clip:initial"><font face=3D"verd=
+ana, sans-serif">=C2=A0=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0<br></font><=
+/p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justi=
+fy;line-height:150%;background-image:initial;background-position:initial;ba=
+ckground-size:initial;background-repeat:initial;background-origin:initial;b=
+ackground-clip:initial"><font face=3D"verdana, sans-serif"><span lang=3D"EN=
+-IN" style=3D"line-height:150%"></span></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:150%;background-image:initial;background-position:initial;backg=
+round-size:initial;background-repeat:initial;background-origin:initial;back=
+ground-clip:initial"><span style=3D"line-height:150%"><font face=3D"verdana=
+, sans-serif">I assume,
+yet again you have seen the similar mail.And this time during the Corona Vi=
+rus
+outbreak. Don=E2=80=99t panic, as we are here not to inform you about how t=
+o lockdown
+or quarantine yourself. Rather, we are to help you for better website ROI a=
+nd
+its exponential growth.</font></span></p><p class=3D"MsoNormal" style=3D"ma=
+rgin:0in 0in 0.0001pt;text-align:justify;line-height:150%;background-image:=
+initial;background-position:initial;background-size:initial;background-repe=
+at:initial;background-origin:initial;background-clip:initial"><span style=
+=3D"line-height:150%"><font face=3D"verdana, sans-serif"><br></font></span>=
+</p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:just=
+ify;line-height:150%;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial"><font face=3D"verdana, sans-serif"><span style=3D"=
+line-height:150%">Let=E2=80=99s
+talk about scopes that have been missed out from your website promotion
+campaign as of today and need some serious attention. Such as:</span><span =
+lang=3D"EN-IN" style=3D"line-height:150%"></span></font></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:150%;margin:=
+0in 0in 10pt"><span lang=3D"EN-IN" style=3D"line-height:150%"><font face=3D=
+"verdana, sans-serif">Unique
+contents, keywords to content optimisation and Meta tags.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:150%;margin:=
+0in 0in 10pt"><span lang=3D"EN-IN" style=3D"line-height:150%"><font face=3D=
+"verdana, sans-serif">Poor
+or old school visual design and quality images.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:150%;margin:=
+0in 0in 10pt"><span lang=3D"EN-IN" style=3D"line-height:150%"><font face=3D=
+"verdana, sans-serif">Clutter
+in the content (i.e. priorities have specified in a scattered way)</font></=
+span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:150%;margin:=
+0in 0in 10pt"><span lang=3D"EN-IN" style=3D"line-height:150%"><font face=3D=
+"verdana, sans-serif">Security
+issues and certification problems</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:150%;margin:=
+0in 0in 10pt"><span lang=3D"EN-IN" style=3D"line-height:150%"><font face=3D=
+"verdana, sans-serif">HTML=C2=A0 and navigation issues</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:150%;margin:=
+0in 0in 10pt"><span lang=3D"EN-IN" style=3D"line-height:150%"><font face=3D=
+"verdana, sans-serif">Slow
+page loading time</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:150%;margin:=
+0in 0in 10pt"><span lang=3D"EN-IN" style=3D"line-height:150%"><font face=3D=
+"verdana, sans-serif">Poor
+page responsive design</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:150%"><font face=3D"verdana, sans-serif"><span style=3D"line-he=
+ight:150%">Well, if you have not
+analyzed or thought of these factors essentially, then this is your wake-up
+call. Online search has surged up since last couple of weeks, people=E2=80=
+=99s online
+search has enhanced due to pandemic as well as scarcity in the retail outle=
+ts.
+Hence, this is your golden chance to snatch it away.</span><span lang=3D"EN=
+-IN" style=3D"line-height:150%"></span></font></p><p class=3D"MsoNormal" st=
+yle=3D"margin:0in 0in 0.0001pt;text-align:justify;line-height:150%"><span s=
+tyle=3D"line-height:150%"><font face=3D"verdana, sans-serif"><br></font></s=
+pan></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:150%"><span style=3D"line-height:150%"><font face=3D"verdana, s=
+ans-serif">Reply us back and we will
+share more insightful reports with proper competitive analysis on various
+significant factors.</font></span></p><p class=3D"MsoNormal" style=3D"margi=
+n:0in 0in 0.0001pt;text-align:justify;line-height:150%"><span style=3D"line=
+-height:150%"><font face=3D"verdana, sans-serif"><br></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:150%"><span style=3D"line-height:150%"><font face=3D"verdana, s=
+ans-serif">Don=E2=80=99t be late; otherwise
+cost may also be high when markets start taking drift.</font></span></p><p =
+class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;lin=
+e-height:150%"><span style=3D"line-height:150%"><font face=3D"verdana, sans=
+-serif"><br></font></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0i=
+n 0.0001pt;text-align:justify;line-height:150%"><span style=3D"line-height:=
+150%"><font face=3D"verdana, sans-serif"><br></font></span></p><p class=3D"=
+MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;line-height:=
+150%"><span style=3D"line-height:150%"><font face=3D"verdana, sans-serif">R=
+egards</font></span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.00=
+01pt;text-align:justify;line-height:150%"><span style=3D"line-height:150%">=
+<font face=3D"verdana, sans-serif"><b><span style=3D"color:rgb(32,33,36);le=
+tter-spacing:0.29px;text-align:center;white-space:nowrap">Sonia</span></b><=
+/font></span></p></div>
+
+--0000000000008325eb05b35a60e9--

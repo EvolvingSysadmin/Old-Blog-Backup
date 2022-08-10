@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="robots" content="doindex, dofollow">
+  <meta charset="utf-8">
+  <title>Affordable Virtualization Homelab | Ryan's Techsploits</title>
+  <meta name="description" content="Want to make your very own computer homelab? Learn how to make a virtualization homelab for cheaper than a Macbook.">
+  <meta name="keywords" content="virtualization homelab,cheap homelab,virtualization,computer homelab">
+  <meta name="author" content="Ryan Heavican">
+  <link rel="author" href="https://plus.google.com/u/0/+RyanHeavican"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="alternate" href="http://www.ryanheavican.com" hreflang="en-US" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="css/posts.css">
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Rock+Salt" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" media="bogus">
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29114312-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-default  navbar-fixed-top">
+          <div class="container-fluid">
+              <!-- Nav Brand -->
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      MENU <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand" id="navbar-brand"href="/">&lt;TECH&gt; SPLOITS</a>
+              </div>
+              <!-- Nav Links -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right" id="navbar-nav">
+                      <li>
+                        <a href="/#blog">Blog</a>
+                      </li>
+                      <li>
+                          <a href="/#about">About</a>
+                      </li>
+                      <li>
+                          <a href="work">Work</a>
+                      </li>
+                      <!--
+                      <li>
+                          <a href="#">Play</a>
+                      </li>
+                      -->
+                      <li>
+                          <a href="/#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- Page Header -->
+      <header class="intro-header">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                      <div class="post-heading">
+                          <h1>Build a Virtualization Homelab for Cheaper than a Macbook</h1>
+                          <h2 class="subheading">Can a complete homelab be built for the cost of a new Macbook?</h2>
+                          <div class="meta">Posted by <b>Ryan Heavican</b> on August 24, 2016 </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+
+      <!-- Blog Article -->
+      <article>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                      <p>Have you noticed that the cheapest Macbook currently retails for $1,299? Admittedly it’s an awesome notebook that I’d be ecstatic to own. However, it got me thinking: is it possible to build a lightning fast <a href="http://ryanheavican.com/my-continually-evolving-homelab">virtualization computer homelab</a> for cheaper than the current cost of a Macbook?</p>
+                      <figure>
+                        <img src="img/macbook-cost.png" alt="Current Macbook Cost">
+                        <figcaption>Current Macbook Cost</figcaption>
+                      </figure>
+                      <p>TL; DR: by utilizing newer generation hardware, open source software, and discount programs, it’s absolutely possible to build a fast virutalization homelab for cheaper than the cost of a Macbook.</p>
+                      <p>This virtualization homelab will provide you with the opportunity to learn about computer networking, operating systems, even how to make your own router and will also enable you to run any number of really cool services. And this homelab is easily expandable if your homelabbing becomes more and more of an addiction, like it has for me.</p>
+                      <h2 class="section-heading">Virtualization Homelab Hardware List</h2>
+                  <table width="458">
+                  <tbody>
+                  <tr>
+                  <td width="155"><strong>Device</strong></td>
+                  <td width="234"><strong>Model</strong></td>
+                  <td width="69"><strong>Cost</strong></td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">Hypervisor</td>
+                  <td style="font-weight: 400;"><a href="http://www.newegg.com/Product/Product.aspx?item=N82E16856102097">Intel Core i5 NUC NUC5i5RYH</a></td>
+                  <td style="font-weight: 400;">$350.99</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">Hypervisor SSD</td>
+                  <td style="font-weight: 400;"><a href="http://www.newegg.com/Product/Product.aspx?Item=9SIA2W03H16430">Samsung EVO 500GB M.2 SSD</a></td>
+                  <td style="font-weight: 400;">$169.99</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">Hypervisor Memory</td>
+                  <td style="font-weight: 400;"><a href="https://www.amazon.com/Crucial-PC3L-12800-SODIMM-204-Pin-Memory/dp/B007B5S52C">16GB Crucial DDR3L Memory</a></td>
+                  <td style="font-weight: 400;">$62.99</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">HyperVisor Storage HDD</td>
+                  <td style="font-weight: 400;"><a href="http://www.newegg.com/Product/Product.aspx?Item=9SIA2F83SS0008">2TB 2.5" Western Digital Blue</a></td>
+                  <td style="font-weight: 400;">$146.99</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">Firewall</td>
+                  <td style="font-weight: 400;"><a href="https://www.amazon.com/products-barebone-J1900-Industrial-computer/dp/B019Z8T9J0">4 Lan Mini PC Q310G4</a></td>
+                  <td style="font-weight: 400;">$149.00</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">Firewall SSD</td>
+                  <td style="font-weight: 400;"><a href="http://www.newegg.com/Product/Product.aspx?Item=9SIA9TS3JW8114">16GB mSATA SSD</a></td>
+                  <td style="font-weight: 400;">$24.99</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">Firewall Memory</td>
+                  <td style="font-weight: 400;"><a href="https://www.amazon.com/Crucial-Single-PC3L-12800-SODIMM-204-Pin/dp/B006YG8X9Y">4GB Single DDR3L Memory</a></td>
+                  <td style="font-weight: 400;">$18.99</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">Access Point</td>
+                  <td style="font-weight: 400;"><a href="https://www.amazon.com/Ubiquiti-Networks-Enterprise-AP-Unifi/dp/B00HXT8R2O">Ubiquiti Networks Enterprise AP Unifi</a></td>
+                  <td style="font-weight: 400;">$62.99</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">Switch</td>
+                  <td style="font-weight: 400;"><a href="https://www.amazon.com/TP-LINK-8-Port-Gigabit-Ethernet-TL-SG108E/dp/B00K4DS5KU">TL-SG108E 8-Port Smart Switch</a></td>
+                  <td style="font-weight: 400;">$29.95</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">NAS</td>
+                  <td style="font-weight: 400;"><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16822108194">Synology DS115</a></td>
+                  <td style="font-weight: 400;">$159.99</td>
+                  </tr>
+                  <tr>
+                  <td style="font-weight: 400;">NAS HDD</td>
+                  <td style="font-weight: 400;"><a href="http://www.newegg.com/Product/Product.aspx?item=N82E16822236344">3TB 3.5" Western Digital Red</a></td>
+                  <td style="font-weight: 400;">$109.00</td>
+                  </tr>
+                  <tr>
+                  <td></td>
+                  <td style="text-align: right;"><strong>Total Cost:</strong></td>
+                  <td>$1,285.87</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                      <p>Note: the list above assumes that you already have a modem. If not, pick up an ARRIS SURFboard which is a very good, very affordable modem.</p>
+                      <h2 class="section-heading">Hardware Breakdown</h2>
+                      <h3>Hypervisor</h3>
+                      <p>The heart of any virtualization homelab is the <a href="http://ryanheavican.com/server-2016-hyper-v-host">hypervisor</a>. A hypervisor is virtualization manager software that allows multiple virtual machines to run on a single hardware host. Our small form factor Intel Next Unit of Computing (NUC) with a 5th Generation i5-5250U processor will act as the host running our homelab’s hypervisor.</p>
+                      <figure>
+                        <img class="img-medium" src="img/nuc.jpg" alt="Intel NUC Computer">
+                        <figcaption>The Intel NUC</figcaption>
+                      </figure>
+                    <p>Since our hypervisor will be hosting all of our virtual servers, it’s important that our NUC is speedy. So our hypervisor’s main drive that will be hosting our virtual machines is a Samsung EVO 500GB M.2 SSD. Virtual Machines can use efficient thin provisioned storage, so a 500GB Solid State Drive will suffice. SSDs have no mechanical parts which makes them much faster than typical Hard Disk Drives.</p>
+                    <p>Speaking of HDDs, the NUC will have a 2.5″ 2TB Western Digital Blue HDD for storage. This internal storage space will be perfect for storing and streaming relatively large amounts of data, such as a TV/Movie collection streamed over Plex.</p>
+                    <p>We’ll also install 16GB of memory in our NUC. Memory is one of the biggest constraining factors of a hypervisor: less memory = fewer virtual machines. Fortunately, and although specified otherwise in official documentation, our NUC’s memory can be expanded to 32GB by purchasing 16GB memory modules if you run out of memory for your virtual machines in the future. Since NUC’s are comparably cheap, you could also just deploy another NUC for clustering if you run out of memory or storage.</p>
+                    <h3>Firewall/Router</h3>
+                    <p>There are plenty of great routers/firewalls out there than can be purchased cheaply, like the Ubiquiti Edgerouter. But what’s the fun in buying a router or firewall when you can make your own? Our firewall’s chassis is a barebone industrial PC with a Celeron Processor 3215U and, importantly, 4 RJ45 ports. It’ll also have a 16GB mSATA SSD and a 4GB stick of DDR3L memory.</p>
+                    <figure>
+                      <img class="img-medium" src="img/firewall.jpg" alt="Barebones Firewall PC">
+                      <figcaption>Barebones PC Firewall</figcaption>
+                    </figure>
+                    <h3>Access Point</h3>
+                    <p>For an access point we’ll use a Ubiquiti Networks Enterprise Unifi AP. The Unifi is an extremely speedy, and affordable, PoE Access Point with great management software.</p>
+                    <figure>
+                      <img class="img-small" src="img/uap.jpg" alt="Unifi Access Point">
+                      <figcaption>Ubiquiti Networks Enterprise AP Unifi – UAP</figcaption>
+                    </figure>
+                    <h3>Switch</h3>
+                    <p>To ensure that all of your network’s wired Ethernet devices can reach your firewall and thus the rest of your LAN/the Internet, it’s necessary to purchase a switch. These TP Link smart switches offer great functionality and, importantly, are VLAN compatible so you can set up multiple virtual networks in your homelab.</p>
+                    <h3>NAS</h3>
+                    <p>A Network Attached Storage server is used to back up and store data. Our NAS will be a Synology DS115 DiskStation with a 3TB Western Digital red HDD. This NAS will be used primarily for backing up the NUC and data from the network’s virtual machines via an SCSI drive or SMB network share.</p>
+                    <figure>
+                      <img class="img-small" src="img/synology.jpg" alt="Synology Network Attached Storage">
+                      <figcaption>Synology DS115 NAS</figcaption>
+                    </figure>
+                      <h2 class="section-heading">Software Breakdown</h2>
+                      <h3>XenServer</h3>
+                      <p>XenServer is an open source hypervisor that will be used as the Operating System in the NUC. There’s a ton of other virtualization software including VMware’s ESXi and Microsoft’s Hyper-V. Both of those are paid products even though discounted/free versions can be acquired through VMUG and Dreamspark, which I’ll discuss below. Importantly, XenServer is compatable with our NUC as demonstrated in this great installation tutorial.</p>
+                      <h3>pfSense</h3>
+                      <p>pfSense is the open source firewall/routing software that will be the OS of the lab’s firewall. pfSense has incredibly deep functionality and a very active online community and will be a great learning resource for anyone looking to get into networking or network security.</p>
+                      <h3>Dreamspark</h3>
+                      <p>The great majority of a homelab’s virtual machines will run Linux or Microsoft operating systems. Linux distros are usually open source and free whereas Microsoft’s operating systems and software is usually very expensive. Fortunately, you can gain access to a surprisingly large number of server operating systems and software programs for no cost whatsoever if you simply have a .edu email account. Thus, by just enrolling at a local community college, you gain access to tens of thousands of dollars worth of free software. Joining the VMUG VMware user group for $200 a year also gives free access to most of VMware’s software.</p>
+                    <figure>
+                      <img src="img/dreamspark.png" alt="Dreamspark's Offerings">
+                      <figcaption>Just a Taste of Microsoft’s Dreamspark Offerings</figcaption>
+                    </figure>
+                      <h2 class="section-heading">Now What?</h2>
+                      <p>What good are all these virtual machines if you have no services running on them? There are innumerable free services ranging from media streaming using Kodi all the way to network penetration testing using Kali. Check out r/homelab’s great wiki on homelab software to find a list of services to run in your lab.</p>
+                  </div>
+              </div>
+          </div>
+      </article>
+       <!-- Footer -->
+     <footer>
+         <div class="container">
+             <div class="row">
+               <p class="copyright text-muted">Copyright 2018 &copy; Ryan Heavican</p>
+             </div>
+         </div>
+       </footer>
+       <!-- jQuery -->
+       <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+       <!-- Bootstrap JavaScript -->
+       <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       <!-- Font Awesome icons -->
+       <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+       <script>
+       $(document).on('click.nav','.navbar-collapse.in',function(e) {
+          if( $(e.target).is('a') ) {
+              $(this).removeClass('in').addClass('collapse');
+            }
+         });
+       </script>
+     <script>
+       $(function(){$("body").on("input propertychange",".floating-label-form-group",function(o){$(this).toggleClass("floating-label-form-group-with-value",!!$(o.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),jQuery(document).ready(function(o){var s=1170;if(o(window).width()>s){var i=o(".navbar-custom").height();o(window).on("scroll",{previousTop:0},function(){var s=o(window).scrollTop();s<this.previousTop?s>0&&o(".navbar-custom").hasClass("is-fixed")?o(".navbar-custom").addClass("is-visible"):o(".navbar-custom").removeClass("is-visible is-fixed"):s>this.previousTop&&(o(".navbar-custom").removeClass("is-visible"),s>i&&!o(".navbar-custom").hasClass("is-fixed")&&o(".navbar-custom").addClass("is-fixed")),this.previousTop=s})}});
+     </script>
+   </body>

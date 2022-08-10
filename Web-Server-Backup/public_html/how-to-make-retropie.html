@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="robots" content="doindex, dofollow">
+  <meta charset="utf-8">
+  <title>Make a RetroPie Game Console | Ryan’s Techsploits</title>
+  <meta name="description" content="Learn how to make a cheap RetroPie emulation console so you can play Oregon Trail, Mario Kart, Zelda and other retro video games.">
+  <meta name="keywords" content="RetroPie,video game emulator,raspberry pi emulator,build RetroPie,RetroPie console">
+  <meta name="author" content="Ryan Heavican">
+  <link rel="author" href="https://plus.google.com/u/0/+RyanHeavican"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="alternate" href="http://www.ryanheavican.com" hreflang="en-US" />
+  <meta property="og:description" content="Learn how to make an affordable emulation console to play Mario Kart, Oregon Trail, Zelda and other great old games." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="css/posts.css">
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Rock+Salt" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" media="bogus">
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29114312-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-default  navbar-fixed-top">
+          <div class="container-fluid">
+              <!-- Nav Brand -->
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      MENU <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand" id="navbar-brand"href="/">&lt;TECH&gt; SPLOITS</a>
+              </div>
+              <!-- Nav Links -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right" id="navbar-nav">
+                      <li>
+                        <a href="/#blog">Blog</a>
+                      </li>
+                      <li>
+                          <a href="/#about">About</a>
+                      </li>
+                      <li>
+                          <a href="work">Work</a>
+                      </li>
+                      <!--
+                      <li>
+                          <a href="#">Play</a>
+                      </li>
+                      -->
+                      <li>
+                          <a href="/#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- Page Header -->
+      <header class="intro-header" style="background-image: url(img/video-game.jpg);background-repeat:no-repeat;background-position: center center;background-size:cover;">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                          <div class="post-heading">
+                              <h1>How to Make a RetroPie Video Game Emulator</h1>
+                              <h2 class="subheading">Build an Affordable Gaming Console to Play  Mario Kart, Zelda, Oregon Trail & Other Old School Games</h2>
+                              <div class="meta">Posted by <b>Ryan Heavican</b> on November 2, 2016</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </header>
+    <!-- Blog Article -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>Ever reminisce about the good old days when video gaming meant playing Zelda and Super Mario Bros on game systems like the original Nintendo Entertainment System?</p>
+                    <figure>
+                      <img class="img-small"src="img/people-dont-forget.jpg" alt="People Don't Forget">
+                      <figcaption>How could people forget?</figcaption>
+                    </figure>
+                    <p>You shouldn’t have forgotten because those old school games have a ton of fun and nostalgia to offer. What if there was a way that you could play those games old games on your computer? Better yet, what if you could play practically any video game built for practically any video game system on your TV?</p>
+                    <p>Not only is this all possible, but you can do it all for less than $100. To do so, you’ll need to assemble a few basic parts and work with some software tools that you may not have used before. But the process is straightforward and makes a fun weekend project.</p>
+                  <h2 class="section-heading">RetroPie Parts List</h2>
+                    <p>The first step in making a RetroPie is, obviously, to acquire all the parts you’ll need. And let me preface this parts list by first mentioning that there are a ton of RetroPie kits that are available for purchase. However you might save some cash and will be able to better customize your console if you choose to buy the parts individually.</p>
+                  <h3>Raspberry Pi</h3>
+                    <p>The Raspberry Pi will be the heart of your new video game console. Raspberry Pis are awesome tiny computer motherboards that can be used for a ton of different projects, like RetroPie.</p>
+                    <figure>
+                      <img class="img-medium"src="img/raspberry-pi.jpeg" alt="Raspberry Pi 3 Model B" style="border:none;">
+                      <figcaption>Raspberry Pi 3 Model B</figcaption>
+                    </figure>
+                    <p>The latest and greatest Raspberry Pi iteration is the Raspberry Pi 3 Model B. This little $35 computer comes with a 1.2Ghz quad core processor, a gig of RAM, WiFi, a Micro SD port along with the usual HDMI and USB ports, and is powered through a Micro USB port.  </p>
+                  <h3>Micro USB Charger</h3>
+                  <figure>
+                    <img class="img-small"src="img/charger.jpg" alt="Generic Micro USB Charger" style="border:none;">
+                    <figcaption>Generic Micro USB Charger</figcaption>
+                  </figure>
+                    <p>Your Raspberry Pi needs a Micro USB charger to get its power. Like most computers, Raspberry Pis don’t work without power so this is somewhat important.</p>
+                  <h3>Micro SD Card & Card Reader</h3>
+                    <figure>
+                      <img style="width:40%;border:none;" src="img/microsd.jpg" alt="32GB Micro SD Card">
+                      <figcaption>32GB Micro SD Card</figcaption>
+                    </figure>
+                    <p>Raspberry Pis get their storage from a Micro SD Card that goes into a slot on the Raspberry Pi board. You should get a card with at least 8 gigs of storage so that you can hoard and play a stupid large number of games. You’ll also need a Micro SD card reader to burn the RetroPie operating system software to your Micro SD card, but more on that later.</p>
+                  <h3>USB Video Game Controllers</h3>
+                    <figure>
+                      <img class="img-small" src="img/controller.jpg" alt="Retro Game Controller" style="border:none;">
+                      <figcaption>Retro USB Game Controller</figcaption>
+                    </figure>
+                    <p>You’ll need at least one USB game controller to play games on your RetroPie. The good news is that there are a ton of different types of USB game controllers including those for NES, SNES, Nintendo 64 and Playstation. It can be beneficial to have 2 of the same controller if you plan on playing multiplayer games like Mario Kart although this isn’t always the case.</p>
+                  <h3> HDMI Cable</h3>
+                    <figure>
+                      <img class="img-small" src="img/hdmi.jpg" alt="HDMI Cable" style="border:none;">
+                      <figcaption>Plain Old HDMI Cable</figcaption>
+                    </figure>
+                    <p>Nothing interesting to see here. You'll need an HDMI cable to link your RetroPie to your TV or monitor.</p>
+                  <h3>Raspberry Pi Case</h3>
+                    <figure>
+                      <img class="img-medium" src="img/case.jpg" alt="Raspberry Pi Case" style="border:none;">
+                      <figcaption>Raspberry Pi Case</figcaption>
+                    </figure>
+                    <p>Lastly, you’ll probably want a case for your Raspberry Pi, although this certainly isn’t requisite. There are a number of cool cases out there. Some people even 3D print cases that look like actual old consoles. Neat stuff. You should also get a few heat sinks to put on your Raspberry Pi’s processor to help reduce heat, although this isn’t requisite either.</p>
+                  <h2 class="section-heading">Raspberry Pi Assembly</h2>
+                    <p>Now that you've acquired all the parts your RetroPie will need, it’s time to start assembling your new console.</p>
+                    <figure>
+                      <img class="img-medium" src="img/assembly.jpg" alt="Raspberry Pi Assembly">
+                      <figcaption>RetroPie Assembly</figcaption>
+                    </figure>
+                    <p>Fortunately, assembling a RetroPie/Raspberry Pi is a piece of cake. You’ll simply need to apply the heat sinks to the processor using their adhesive and then place your Pi in whichever case you chose.</p>
+                    <figure>
+                      <img class="img-medium" src="img/heatsinks.jpg" alt="Raspberry Pi Heat Sinks">
+                      <figcaption>Applying the RetroPie Heat Sinks</figcaption>
+                    </figure>
+                    <figure>
+                      <img class="img-small" src="img/bramble.jpg" alt="Raspberry Pi Assembly">
+                      <figcaption>Placing the Pi in its case - I'm making a Raspberry Pi stack with multiple Pis that will each do something different on my network.</figcaption>
+                    </figure>
+                    <p>Finally, you'll simply need to plug all the cabling together, including HDMI cable, USB controller and the Micro USB power input. Don't power up your Pi or install the Micro SD card just yet, the RetroPie image must first be burned to that disk.</p>
+                  <h2 class="section-heading">RetroPie Installation</h2>
+                  <p>The RetroPie software setup is super simple because the RetroPie project is so awesome. First you’ll need to download the latest version of the RetroPie image from the project’s page. Once you’ve got that file downloaded, just unzip it using a program like 7zip if you’re on a PC. Then use a program like Win32DiskImager, again if you’re on a PC, to burn that unzipped image to your Micro SD card.</p>
+                  <figure>
+                    <img class="img-large" src="img/retropie-welcome.png" alt="Raspberry Pi Assembly">
+                    <figcaption>RetroPie Welcome Screen</figcaption>
+                  </figure>
+                  <p>Next just throw that Micro SD card into its slot on the Pi and power that thing up. On the initial setup you’ll be asked to configure your controllers which is made easier by using the <a href="https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation#installation">recommended settings on this page</a>. Then enter the RetroPie’s menu and either connect to your Wifi network or give your RetroPie a static IP if you’re using an Ethernet cable for your networking. Next it’s time to fill your Pi full of games.</p>
+                <h2 class="section-heading">RetroPie Games</h2>
+                  <p>What good is a RetroPie without any games? Video games are packaged in files called ROMs. These ROMs are all over the Internet. You can nearly always find a particular game by Googling 'ROM' along with the game's name. It's easy to infringe on copyright/intellectual property law by downloading content from the Internet so make sure that you only download games from reputable websites that respect copyright law.</p>
+                  <p>Lastly, you'll need to transfer your ROMs over to your RetroPie. There are three ways that you can do this, either by using a USB stick, SFTP client, or a file share. Using the USB method is stupid because why get up to insert a USB stick when you don't have to?</p>
+                  <figure>
+                    <img class="img-large" src="img/filezilla.png" alt="FileZilla FTP Client">
+                    <figcaption>FileZilla FTP Client</figcaption>
+                  </figure>
+                  <p>My preferred method for transferring ROMs is by using either SFTP or file shares. For the SFTP method, just download an FTP client like FileZilla, plug in the static IP address you assigned to your Pi along with the username ‘pi’ and password ‘raspberry’ and then connect to your RetroPie. Then just place your ROMs in the retropie/roms folder.</p>
+                  <p>If you don’t want to do all that then you can just plug your Pi’s static IP address into a windows explorer window, or use the connect to server function in Mac OSx, and navigate to the retropie/roms folder.</p>
+                <h2 class="section-heading">Make Your Own RetroPie</h2>
+                  <figure>
+                    <img class="img-large" src="img/oregon-trail.jpg" alt="Oregon Trail">
+                    <figcaption>If you die on the Oregon Trail while playing as an adult then you may need to rethink your decision making process</figcaption>
+                  </figure>
+                  <p>Now go download and play as many old school video games as possible. I'm not a huge gamer and have been surprised by how much nostalgia is conjured by playing these games from my childhood. Speaking of which, it's much easier to avoid Oregon Trail tragedy when playing as an adult.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Footer -->
+   <footer>
+       <div class="container">
+           <div class="row">
+             <p class="copyright text-muted">Copyright 2018 &copy; Ryan Heavican</p>
+           </div>
+       </div>
+     </footer>
+     <!-- jQuery -->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <!-- Bootstrap JavaScript -->
+     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <!-- Font Awesome icons -->
+     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+     <script>
+     $(document).on('click.nav','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') ) {
+            $(this).removeClass('in').addClass('collapse');
+          }
+       });
+     </script>
+   <script>
+     $(function(){$("body").on("input propertychange",".floating-label-form-group",function(o){$(this).toggleClass("floating-label-form-group-with-value",!!$(o.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),jQuery(document).ready(function(o){var s=1170;if(o(window).width()>s){var i=o(".navbar-custom").height();o(window).on("scroll",{previousTop:0},function(){var s=o(window).scrollTop();s<this.previousTop?s>0&&o(".navbar-custom").hasClass("is-fixed")?o(".navbar-custom").addClass("is-visible"):o(".navbar-custom").removeClass("is-visible is-fixed"):s>this.previousTop&&(o(".navbar-custom").removeClass("is-visible"),s>i&&!o(".navbar-custom").hasClass("is-fixed")&&o(".navbar-custom").addClass("is-fixed")),this.previousTop=s})}});
+   </script>
+ </body>

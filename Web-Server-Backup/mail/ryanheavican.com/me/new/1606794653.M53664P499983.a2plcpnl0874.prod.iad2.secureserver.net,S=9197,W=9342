@@ -1,0 +1,145 @@
+Return-Path: <bounces+3835996-005a-me=ryanheavican.com@em4146.paighambot.com>
+Delivered-To: me@ryanheavican.com
+Received: from a2plcpnl0874.prod.iad2.secureserver.net
+	by a2plcpnl0874.prod.iad2.secureserver.net with LMTP
+	id DPEFA529xV8PoQcAbgEAXw
+	(envelope-from <bounces+3835996-005a-me=ryanheavican.com@em4146.paighambot.com>)
+	for <me@ryanheavican.com>; Mon, 30 Nov 2020 20:50:53 -0700
+Return-path: <bounces+3835996-005a-me=ryanheavican.com@em4146.paighambot.com>
+Envelope-to: me@ryanheavican.com
+Delivery-date: Mon, 30 Nov 2020 20:50:53 -0700
+Received: from pnkfpfnc.outbound-mail.sendgrid.net ([50.31.63.44]:55437)
+	by a2plcpnl0874.prod.iad2.secureserver.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <bounces+3835996-005a-me=ryanheavican.com@em4146.paighambot.com>)
+	id 1kjwgm-0025SV-SS
+	for me@ryanheavican.com; Mon, 30 Nov 2020 20:50:52 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=paighambot.com;
+	h=mime-version:from:subject:content-type:content-transfer-encoding:to;
+	s=s1; bh=EbiL/vq/zpQxURe+674kosNfy4Cv56CW/Qx9OZfvmlQ=;
+	b=mW/PTOxa43YaSwm2CbiM9lIyDEPZFAyUvB1O0My2fMbbOpq6SNlG5srM52Ua44vkNoI6
+	Sf4vTWUJypJ7g0yOsNaUi9SxZNzAS/uwIpycV7EkaOpoZU7p/xbvs2hRg4WZdg0nLdQa79
+	ERY/bR05tAFOytFqfJEUywlIfKvcxjLT4=
+Received: by filterdrecv-p3las1-6665f6549b-p8jlg with SMTP id filterdrecv-p3las1-6665f6549b-p8jlg-18-5FC5BD73-35
+        2020-12-01 03:50:11.802981873 +0000 UTC m=+1235960.631159294
+Received: from WIN-OUIPN1NC171 (unknown)
+	by ismtpd0100p1mdw1.sendgrid.net (SG) with ESMTP id MAa-3rX6TJSfoUhlUjo84A
+	for <me@ryanheavican.com>; Tue, 01 Dec 2020 03:50:11.692 +0000 (UTC)
+MIME-Version: 1.0
+From: Paigham Bot <webmaster@paighambot.com>
+Date: Tue, 01 Dec 2020 03:50:11 +0000 (UTC)
+Subject: Don't Miss Our BIGGEST SALE In 8 Years- Let Your Cyber Monday Make
+ Money
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <MAa-3rX6TJSfoUhlUjo84A@ismtpd0100p1mdw1.sendgrid.net>
+X-SG-EID: 
+ =?us-ascii?Q?1nmH7Db2oE=2Fvd=2FrLlZihl7ef=2FSRF2pohW2SDB=2FhYvhMv3ggYGpUmGiKXLwMm3X?=
+ =?us-ascii?Q?VAvx4OTpZiXLH1wnYHSE5GVLscHiknZAdHw+INl?=
+ =?us-ascii?Q?qHTUKmTGPLlFwotyzijBVagI=2F0ptVlnuA5BubXF?=
+ =?us-ascii?Q?fTshOFulrBcludX97vgsx33DCgTu8+5rI9Zxz2A?=
+ =?us-ascii?Q?8BGoxml6Y+hMgZW5I95=2FzCDe6HnTYBnIWHD1YwX?=
+ =?us-ascii?Q?wStRoiqYxi1pjGFV6rFLfY1tfVALpw8An9cz9Pg?=
+ =?us-ascii?Q?PJizbZf3vCiCIXeOIqlWg=3D=3D?=
+To: me@ryanheavican.com
+X-Entity-ID: I0zeBewH4FlnzgZjI57fPA==
+
+<p style=3D"text-align: center;"><span style=3D"color: #ff0000; font-size: =
+18pt;"><strong>CYBER MONDAY HAS BEGUN!</strong></span><br /><span style=3D"=
+text-decoration: underline;"><strong>50% OFF ALL PAIGHAM BOT LICENSES</stro=
+ng></span><br /><br /><span><a href=3D"http://url4115.paighambot.com/ls/cli=
+ck?upn=3DKJLGY6Cq5yoNBYUnBm5xTI4VfgWy1NRa3ZrIc7ShwH-2BZtHsu8ymqa2FfIZv4EuC0=
+-2BbwuE9TiBBr-2F3eucpY-2F0dxt7ZSf9DCMJ1LwvV9bOZo0-3D5Ano_LGCSsFYxNCK6uwlWMg=
+mfaPVA8wAixKJLbfW9hp6BD08GKVGzU6ZM7KxOjcderSTuBvvhCLfs88BLUBrXSrwAa4A1KBZJs=
+syz8jZvx0OcltrSDVAC-2FoEBGzMaN7PwLejZUwdnxX1omhx1QRYO-2Fi-2Fad1s126bQc41Kh3=
+xaMB4-2F9jtAQmkOZUYlxjqckUjTjLaveSHqf9rYYSH0hOv18zPE28woophONrL30Te6lzvEmgk=
+-3D" target=3D"_blank" rel=3D"noopener noreferrer">Lifetime license</a> $60=
+0 (Normally $1200)</span><br /><span><a href=3D"http://url4115.paighambot.c=
+om/ls/click?upn=3DKJLGY6Cq5yoNBYUnBm5xTI4VfgWy1NRa3ZrIc7ShwH-2Fp9Q4ypakiU-2=
+BLisQ-2B4ChvKRw0jJylY-2BA8xQea86UNBbQ-3D-3DHjGi_LGCSsFYxNCK6uwlWMgmfaPVA8wA=
+ixKJLbfW9hp6BD08GKVGzU6ZM7KxOjcderSTulJxs2PjFb9G7XJX2nlD18-2FQgPZ8Ah9QFQN-2=
+FULwR9tVFAV-2FuG0nUslJ1DI727RpHzmSuPSCAuWObk-2Ft2UatI7wCFFpMTZK7WQ7BzgWnS-2=
+BVf9v35Ix0ptCCEIEGzMlKlk5WLWi5W8nCGKoqzFEiqS5mcts-2FNPDDtUY4lJ-2Frzw-2B67U-=
+3D" target=3D"_blank" rel=3D"noopener noreferrer">Yearly license</a> $350 (=
+Normally $700)</span><br /><span><a href=3D"http://url4115.paighambot.com/l=
+s/click?upn=3DKJLGY6Cq5yoNBYUnBm5xTI4VfgWy1NRa3ZrIc7ShwH-2B8Yn2wwuiZYbvib9p=
+qNW9F4slatWY1cNM-2FNRtpfJpWWw-3D-3DMCY6_LGCSsFYxNCK6uwlWMgmfaPVA8wAixKJLbfW=
+9hp6BD08GKVGzU6ZM7KxOjcderSTur-2B9R9EiQVHB-2BH2BEtvdW9S1i9QY8xxTpE5PP7xWdZ7=
+NtPzX1CS1tXiGjtz27JVHjxivXgD5kuQoRNTIQnD5pxpERcxkemwpNeVXlOLlwBiaswG1xLsBjT=
+a6-2FdBGmkLZSF3JsdVbhvyEtof5gtWjzDZxcVmYupuL35jEQ3vRzPUg-3D" target=3D"_bla=
+nk" rel=3D"noopener noreferrer">Quarterly License</a> $100 (Normally $200)<=
+/span><br /><span><a href=3D"http://url4115.paighambot.com/ls/click?upn=3DK=
+JLGY6Cq5yoNBYUnBm5xTI4VfgWy1NRa3ZrIc7ShwH8XXDH5vUxypQwRF5zWlk8TTd0Mi8GZdR8c=
+GwzuSW43GA-3D-3DOHt9_LGCSsFYxNCK6uwlWMgmfaPVA8wAixKJLbfW9hp6BD08GKVGzU6ZM7K=
+xOjcderSTuPla90lRPA7vut0dOUPH-2Fl6q0GK51rwU2XRgfnLcgfycYX3BwY70e907P57znktF=
+q6oDvoYxWAnCG-2BoNS-2FpDNPVb-2FGqOhMTZzeSVStD3yhVrNitnxHRc9Fh0v3d21rKjjr0iK=
+Qn3elvjAa6dxuJXXdUISlAfQ-2BjhB3242zvnDMg8-3D" target=3D"_blank" rel=3D"noop=
+ener noreferrer">Monthly License</a> $50 (Normally $100)</span></p>
+<p style=3D"text-align: center;"><span>This is the BIGGEST SALE that we've =
+done in over 8 years and now is your chance to get your hands on one of the=
+ hottest marketing products around. Paigham Bot is used by marketing agenci=
+es, web developers, internet marketers and more around the world to boost t=
+heir sales, gather unlimted data on businesses and also manage and promote =
+your customers businesses/service.&nbsp;</span></p>
+<p style=3D"text-align: center;"><span style=3D"font-size: 12pt;"><strong>W=
+hat can Paigham Bot Do? Features include:</strong></span></p>
+<p style=3D"text-align: center;"><span>*Harvests data from all major search=
+ engines.*</span></p>
+<p style=3D"text-align: center;"><span>*Harvests data from several social m=
+edia sites.*</span></p>
+<p style=3D"text-align: center;"><span>*Automated contact form posting.*</s=
+pan></p>
+<p style=3D"text-align: center;"><span>*Automated social media messaging an=
+d posting.*</span></p>
+<p style=3D"text-align: center;"><span>*SMS sending panel.*</span></p>
+<p style=3D"text-align: center;"><span>*SMTP email sending panel.*</span></=
+p>
+<p style=3D"text-align: center;"><span>*All modules support spintax and bla=
+ck lists.*</span></p>
+<p style=3D"text-align: center;"><strong>What are you waiting for? This Cyb=
+er Monday deal is perhaps the only deal that will make you money!</strong><=
+/p>
+<p style=3D"text-align: center;"><span style=3D"color: #ff0000;"><strong>GE=
+T IT TODAY BEFORE IT'S TOO LATE!</strong></span></p>
+<p style=3D"text-align: center;">&nbsp;</p>
+<p style=3D"text-align: center;"><span style=3D"color: #000000; font-size: =
+14pt;"><strong>OTHER CYBER MONDAY DEALS INCLUDE:</strong></span></p>
+<p style=3D"text-align: center;"><a href=3D"http://url4115.paighambot.com/l=
+s/click?upn=3DKJLGY6Cq5yoNBYUnBm5xTI4VfgWy1NRa3ZrIc7ShwH8Ay4ktYubX9qiGVvxds=
+mzbCpTUvo9Is9D5fT-2B-2BMeoS050FRjFNzdtX191KCCVeQoA-3DHtYI_LGCSsFYxNCK6uwlWM=
+gmfaPVA8wAixKJLbfW9hp6BD08GKVGzU6ZM7KxOjcderSTuhWlqdPsQACJxgcrGo7ZCCyNOnJff=
+Vcss-2FIRmDRCbgxfcpwtqpxAgktu-2BQCVx58w2laphz1ZDVURUy2MVy7-2BIh503AtojGNmRG=
+-2FhbSHxDvln45MP6OCPEpWo-2BlCcmqqYWeEzdB5PVc5kd-2BujQmZlw69T60S-2BFqsBotOob=
+bPh0IUw-3D" target=3D"_blank" rel=3D"noopener noreferrer">BULK EMAIL SMTP S=
+erver $50 Off</a></p>
+<p style=3D"text-align: center;"><a href=3D"http://url4115.paighambot.com/l=
+s/click?upn=3DKJLGY6Cq5yoNBYUnBm5xTI4VfgWy1NRa3ZrIc7ShwH-2B3OdSEu26-2BHCEjl=
+N2fRmGJztakOV1pu1IZT-2BoDb-2FkYfW-2FGqV-2BkgfnnPQbzo7k29mU-3DWiCb_LGCSsFYxN=
+CK6uwlWMgmfaPVA8wAixKJLbfW9hp6BD08GKVGzU6ZM7KxOjcderSTuBCl-2BeyhmKRe0U-2Fre=
+SkS8fD6i3gjloD5yP5F0SDXlHgYpqqNfgPLcv1AHFWgaDOb7Nj5eWZF1TO9ki3Gzc5HHBLRotK6=
+-2BEL-2BZP-2BFqCf70Ogjb9rXXzbhBTdxZQVV7hhHj0luhaGZFE1vQdhioUAN1I6LdkhJD8036=
+qva1a5xFtn8-3D" target=3D"_blank" rel=3D"noopener noreferrer">SMS Sending S=
+erver $100 Off</a></p>
+<p style=3D"text-align: center;"><span style=3D"font-size: 10pt;"><strong><=
+span style=3D"color: #000000;">Be sure to tell your friends and associates =
+about these deals before they are gone. Last time we had deals this BIG was=
+ 8 years ago.</span></strong></span></p>
+<p style=3D"text-align: center;">&nbsp;</p>
+<p style=3D"text-align: center;"><a href=3D"http://url4115.paighambot.com/l=
+s/click?upn=3DSbeIWAsomT6csYpxFZ1-2FLEF4QtDnnc7l4KD-2FJ9BwfS48KHhRcMkS8OH0U=
+56dvRPAm5Z6_LGCSsFYxNCK6uwlWMgmfaPVA8wAixKJLbfW9hp6BD08GKVGzU6ZM7KxOjcderST=
+ueuj9i43tBKisQDg7EiEuKYYYQT5k4hjS781gsjMjP0u2VzGClN3XXhC3Q1aXzicgGqQAlxFcIQ=
+VE0SDr5eu3M5JPepem9YK-2BOs53S5cNhUQeMHASsYWzu-2BokGeCsLUGtLfMZEy6-2FNQ-2F2D=
+YqMT50fxB-2BGZpyM2s2Coq5xhcfEuvQ-3D" target=3D"_blank" rel=3D"noopener nore=
+ferrer">Don't Like This Email?</a></p>
+<div id=3D"_rc_sig">&nbsp;</div>
+
+<img src=3D"http://url4115.paighambot.com/wf/open?upn=3D9WQnLUUlb5vs3I-2FPo=
+UYLDIcNCXucmFGxuWmkkU-2Bux-2Bbac0T4aQha4-2FM-2Bm2T5q-2Fh6Jk-2Ft4cphWDfGty8Y=
+zrNKb46Dz5WFKVOmBGqtvyD01SYkwkWTMps-2FJxrTTT9WrrC10P-2BayqOR5Fyf8fDQnwCaZC7=
+KiaU4LEHKjcglu6yectlYsrE06OW8lRNraWR-2B5bgWaN-2F0Rs9qaDDcPAkwZL4pN0IQCEP64F=
+ECJNFrp7xDDug-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"h=
+eight:1px !important;width:1px !important;border-width:0 !important;margin-=
+top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margi=
+n-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;pa=
+dding-right:0 !important;padding-left:0 !important;"/>

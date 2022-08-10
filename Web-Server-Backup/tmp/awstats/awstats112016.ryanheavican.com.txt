@@ -1,0 +1,707 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201611 will be lost/reset.
+# Last config file used to build this data file was /home/evolvtion3654l/tmp/awstats/awstats.ryanheavican.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2689                
+POS_VISITOR 15854               
+POS_DAY 21419               
+POS_DOMAIN 3576                
+POS_LOGIN 4188                
+POS_ROBOT 4343                
+POS_WORMS 5027                
+POS_EMAILSENDER 5158                
+POS_EMAILRECEIVER 5301                
+POS_SESSION 22218               
+POS_SIDER 22425               
+POS_FILETYPES 5436                
+POS_DOWNLOADS 5743                
+POS_OS 5835                
+POS_BROWSER 6144                
+POS_SCREENSIZE 7163                
+POS_UNKNOWNREFERER 7237                
+POS_UNKNOWNREFERERBROWSER 7700                
+POS_ORIGIN 8037                
+POS_SEREFERRALS 8179                
+POS_PAGEREFS 8347                
+POS_SEARCHWORDS 8600                
+POS_KEYWORDS 8752                
+POS_MISC 2351                
+POS_ERRORS 8811                
+POS_CLUSTER 4044                
+POS_SIDER_404 8942                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20161201000122 197 40343 9590813961313
+FirstTime 0
+LastTime 20161130235643
+LastUpdate 20161201050914 197 0 196 0 0
+TotalVisits 206                 
+TotalUnique 133                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 143                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 382 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 32 6516167 105 135 526456
+1 8 12 263041 50 75 634439
+2 9 16 302482 84 113 183228
+3 3 4 18508 60 85 2132366
+4 7 31 1345360 81 95 264617
+5 2 2 13840 81 96 1384729
+6 10 28 1878098 72 99 262239
+7 8 28 6170279 115 131 4529057
+8 8 26 5841674 101 167 2673336
+9 63 117 10048208 159 213 2471188
+10 31 56 2558633 103 173 574704
+11 24 103 16637126 116 167 1140510
+12 27 82 9766363 123 191 2412652
+13 24 121 26559918 100 187 602459
+14 89 122 8866355 112 277 8639486
+15 128 185 5880786 121 390 586516
+16 69 218 22620778 117 154 1263041
+17 92 267 33881216 117 219 898523
+18 102 195 14537025 102 220 19091345
+19 482 1078 38959715 128 253 1285526
+20 18 74 12151217 73 104 195565
+21 15 53 8926159 70 103 585655
+22 12 29 1026150 77 120 1132874
+23 3 12 506917 49 75 1055862
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 28
+us 1126 2600 195629197
+gb 41 44 458336
+fr 12 12 84339
+nl 10 18 588068
+ru 7 15 347226
+ee 7 31 1345360
+de 6 24 5955866
+se 4 4 27678
+ch 4 4 46121
+lu 3 19 5766351
+ro 3 3 39201
+ua 3 3 40304
+lr 2 2 14487
+is 2 2 13840
+no 2 3 83361
+ca 2 18 5759432
+es 2 38 7204208
+in 1 1 6919
+co 1 1 7566
+bg 1 1 6919
+sk 1 1 6921
+it 1 1 6919
+pl 1 1 6921
+ie 1 17 5772055
+br 1 17 5732968
+au 0 1 124841
+dk 1 8 191799
+cn 0 2 8812
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+googlebot 771 5008291 20161130235618 28
+spider 322 10104457 20161130223012 193
+bot[\s_+:,\.\;\/\\-] 237 3412045 20161130172729 66
+php 54 20875693 20161130191839 0
+googlebot\-image 30 8121819 20161126130256 0
+unknown 21 504 20161130154500 21
+slurp 19 68086 20161122220737 4
+google[_+\s]web[_+\s]preview 12 481307 20161123014307 0
+no_user_agent 8 127145 20161130084920 3
+ia_archiver 7 241063 20161109100901 3
+bingpreview 5 332533 20161104174353 0
+robot 4 96 20161125023301 4
+crawl 3 21404 20161126141850 0
+[\s_+:,\.\;\/\\-]bot 2 157074 20161125055525 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+html 435 2259757 0 0
+woff 14 1370782 0 0
+jpg 831 174791395 0 0
+eot 17 196972 0 0
+woff2 116 6558766 0 0
+pdf 20 12163596 0 0
+Unknown 649 1197745 0 0
+ttf 11 1082367 0 0
+png 306 29055296 0 0
+jpeg 33 5424624 0 0
+xml 3 1794 0 0
+css 456 1172921 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/img/Ryan-Heavican-Resume.pdf 34 0 25504157
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+winunknown 4 4
+winxp 1 1
+win8.1 8 8
+linuxubuntu 1 1
+macosx 45 8
+macosx9 1 1
+ios_ipad 17 1
+linuxandroid 268 70
+Unknown 89 76
+ios_iphone 139 26
+win2003 11 9
+win7 148 44
+linux 63 57
+winnt 2081 932
+win16 4 0
+macosx7 3 1
+winlong 6 4
+blackberry 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 48
+safari 49 11
+chrome54.0.2840.98 1 0
+safari10.0 50 9
+chrome55.0.2883.52 9 1
+firefox49.0 17 1
+firefox40.1 1 1
+chrome54.0.2840.87 222 106
+chrome14.0.814.0 1 1
+netscape 25 25
+mozilla 66 45
+chrome43.0.2357.124 1 1
+chrome34.0.1847.118 19 3
+safari9.0 49 7
+msie7.0 16 12
+chrome48.0.2564.23 123 37
+chrome49.0.2623.75 44 44
+msie11.0 173 44
+chrome52.0.2743.116 38 38
+chrome12.0.742.100 1 1
+firefox46.0 1 1
+chrome27.0.1453.90 3 3
+chrome46.0.2490.76 19 3
+firefox50.0 17 1
+safari6.1.6 3 1
+chrome54.0.2840.99 411 165
+chrome34.0.1847.116 1 1
+msie8.0 2 1
+chrome53.0.2785.124 1 1
+chrome54.0.2840.71 1064 540
+firefox3.6.3 3 3
+firefox14.0.1 10 10
+safari8.0 1 1
+opera36.0.2130.32 1 1
+chrome51.0.2704.90 97 23
+blackberry 2 2
+firefox48.0 163 33
+chrome46.0.2486.0 17 1
+chrome51.0.2704.79 35 6
+chrome46.0.2490.86 1 1
+firefox43.0 62 11
+Unknown 14 10
+chrome17.0.1025.133 1 1
+chrome39.0.2171.95 25 25
+chrome31.0.1650.63 9 2
+msie6.0 1 1
+chrome45.0.2454.93 1 1
+firefox28.0 5 5
+chrome27.0.1453 16 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+bhcBot 20161103003249
+WWW-Mechanize/1.73 20161129015108
+Mozilla 20161117191803
+Mozilla/5.0_(compatible;_Google-Structured-Data-Testing-Tool__https://search.google.com/structured-data/testing-tool) 20161102093900
+Sideqik__http://www.sideqik.com 20161120022414
+Mozilla/5.0_(compatible;_XML_Sitemaps_Generator;_https://www.xml-sitemaps.com)_Gecko_XML-Sitemaps/1.0 20161123142016
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+bhcBot 20161103003249
+WWW-Mechanize/1.73 20161129015108
+Sideqik__http://www.sideqik.com 20161120022414
+Microsoft_Office_Word_2013 20161102175116
+EvernoteShare/346906_CFNetwork/808.1.4_Darwin/16.1.0 20161127172442
+Microsoft_Office_Word_2014 20161102175020
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 559 571
+From1 1 1
+From2 28 33
+From3 4 31
+From4 653 2255
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+yandex 3 3
+google 25 30
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://m.facebook.com 2 2
+http://webcache.googleusercontent.com/search 1 28
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 838 0
+500 161 105860
+206 56 5156661
+301 910 223444
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 139
+/wp-content/plugins/ninja-forms/assets/js/lib/jquery.maskedinput.min.js 1 -
+/wp-content/uploads/2016/08/Homelab-Wide-1024x768.jpg 5 -
+/apple-touch-icon-152x152-precomposed.png 2 -
+/xmlrpc.php 62 -
+/wp-content/themes/lovecraft/genericons/genericons.css 4 -
+/category/homelab/ 1 -
+/web/wp-login.php 1 -
+/wp-includes/css/buttons.min.css 1 -
+/wp-content/uploads/2016/08/hyper-v-vm.png 4 -
+/sharemydock.com/ 1 -
+/feed/ 10 -
+/wp-content/uploads/2016/08/ftp.png 1 https://www.google.co.in/
+/wp-content/plugins/revslider/release_log.txt 1 -
+/wp-content/plugins/ninja-forms/assets/js/lib/codemirror.min.js 1 -
+/google-analytics-certification-2/ 1 -
+/wp-content/plugins/ninja-forms/assets/js/lib/codemirror-xml.min.js 1 -
+/css/work-header.jpg 69 -
+/wp-content/plugins/ninja-forms/assets/css/monokai-theme.css 1 -
+/wp-includes/js/mediaelement/wp-mediaelement.min.css 1 -
+/common/js/elfinder_2.0/elfinder.html 1 -
+/author/thescientist/ 4 -
+/wp-includes/js/media-views.min.js 1 -
+/cropped-background-2-1-jpg/ 2 -
+/wp-includes/css/dashicons.min.css 1 -
+/cms/wp-login.php 2 -
+/category/analytics/ 2 -
+/deploying-vmware-lamp-server/selecting-iso/ 1 -
+/wp-content/plugins/ninja-forms/assets/js/lib/math.min.js 1 -
+/saddleback.jpg 51 http://www.ryanheavican.com/work
+/wp-content/themes/lovecraft/js/doubletaptogo.js 3 -
+/wp-content/plugins/ninja-forms/assets/js/lib/pikaday-responsive.min.js 1 -
+/author/thescientist/feed/ 1 -
+/wp-content/uploads/2016/08/php-installation.png 1 https://www.google.co.in/
+/admin 29 -
+/category/wordpress-development/ 1 -
+/heatsinks.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/blog/ 2 -
+/main/wp-login.php 2 -
+/wp-includes/js/media-editor.min.js 1 -
+/wp-content/plugins/ninja-forms/assets/js/lib/bootstrap.min.js 1 -
+/img/iepngfix.htc 1 -
+/wp-includes/js/mediaelement/mediaelementplayer.min.css 1 -
+/wp-content/uploads/2016/08/apache-installed.png 1 https://www.google.co.in/
+/wp-includes/js/utils.min.js 1 -
+/wp-content/plugins/ninja-forms/assets/js/lib/jBox.min.js 1 -
+/wp-content/uploads/2016/08/server-with-gui.png 1 https://www.google.co.in/
+/home/wp-login.php 2 -
+/sqlibak.php 1 -
+/wp-content/uploads/2016/09/Ryan-Heavican-Pic.jpg 6 http://s.codepen.io/ryanheavican/fullcpgrid/ZpZWYw
+/new-techsploits-blog-layout 14 -
+/images34/ 1 -
+/wp-includes/js/media-audiovideo.min.js 1 -
+/about/embed/ 1 -
+/hdmi.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/microsd.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/wp-content/uploads/2016/08/server-16-running.png 3 -
+/administrator/index.php 32 -
+/wp/wp-login.php 2 -
+/wp-json/oembed/1.0/embed 3 -
+/wp-content/plugins/ninja-forms/assets/js/lib/summernote.min.js 1 -
+/wp-content/themes/lovecraft/js/global.js 3 -
+/wp-content/uploads/2016/08/cropped-Background-2-1.jpg 7 http://s.codepen.io/ryanheavican/fullcpgrid/ZpZWYw
+/feed2js/magpie_debug.php 1 http://ryanheavican.com/feed2js/magpie_debug.php
+/apple-touch-icon.png 4 -
+/wp-content/plugins/ninja-forms/assets/js/lib/codemirror-formatting.min.js 1 -
+/wp-includes/js/wp-embed.min.js 3 -
+/wordpress/ 1 -
+/wp-content/plugins/ninja-forms/assets/js/lib/backbone.radio.min.js 1 -
+/wp-content/plugins/ninja-forms/assets/js/min/global.js 1 -
+/_core/utils/elfinder/elfinder.html 1 -
+/site/wp-login.php 2 -
+/wp-admin/ 31 http://www.ryanheavican.com/wp-login.php
+/test/wp-login.php 1 -
+/blog/robots.txt 1 -
+/how-to-make-retropie 1 http://www.ryanheavican.com/
+/sitemap.xml 1 -
+/wp-content/plugins/ninja-forms/assets/js/lib/backbone.marionette.min.js 1 -
+/wp-content/plugins/ninja-forms/assets/css/codemirror.css 1 -
+/wp/ 1 -
+/wp-includes/css/media-views.min.css 1 -
+/wp-content/uploads/2016/08/macbook-cost-2.png 10 -
+/raspberry-pi.jpeg 1 http://www.ryanheavican.com/how-to-make-retropie
+/wp-includes/js/wp-util.min.js 1 -
+/wordpress/wp-login.php 1 -
+/charger.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/people-dont-forget.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/wp-content/plugins/ninja-forms/assets/js/lib/pikaday.min.js 1 -
+/new/wp-login.php 2 -
+/filezilla.png 1 http://www.ryanheavican.com/how-to-make-retropie
+/wp-content/uploads/2016/08/selecting-iso.png 5 https://www.google.co.in/
+/admin.php 30 -
+/wp-content/plugins/ninja-forms/assets/css/display-structure.css 1 -
+/retropie-welcome.png 1 http://www.ryanheavican.com/how-to-make-retropie
+/ryan-heavican.jpg 3 http://www.ryanheavican.com/work
+/wp-content/plugins/ninja-forms/assets/css/rating.css 1 -
+/wp-includes/js/shortcode.min.js 1 -
+/assembly.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/blog/wp-login.php 1 -
+/controller.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/apple-touch-icon-152x152.png 2 -
+/wp-includes/js/wp-emoji-release.min.js 4 http://www.ryanheavican.com/deploying-vmware-lamp-server/selecting-iso/
+/wp-login.php 193 -
+/wp-content/plugins/ninja-forms/assets/js/min/front-end.js 1 -
+/oregon-trail.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/category/css-javascript/ 3 -
+/modules/tadtools/ckeditor/elFinder/elfinder.html 1 -
+/bramble.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/packages/ahmadazimi/laravel-media-manager/elfinder.html 1 -
+/wp-content/plugins/ninja-forms/assets/css/jBox.css 1 -
+/img/filezilla.png 3 http://www.ryanheavican.com/how-to-make-retropie
+/functions.php 1 -
+/wp-includes/js/plupload/wp-plupload.min.js 1 -
+/wp-content/plugins/ninja-forms/assets/js/lib/rating.min.js 1 -
+/wp-content/uploads/2016/08/Homelab-Narrow-1024x768.jpg 3 -
+/administrator/ 33 -
+/wp-content/themes/lovecraft/style.css 5 -
+/ing/case.jpg 2 http://www.ryanheavican.com/how-to-make-retropie
+/wp-content/plugins/ninja-forms/assets/js/lib/moment-with-locales.min.js 1 -
+/case.jpg 1 http://www.ryanheavican.com/how-to-make-retropie
+/wp-includes/js/imgareaselect/imgareaselect.css 1 -
+/en/wp-login.php 2 -
+/blogs/wp-login.php 2 -
+/wp-includes/js/media-models.min.js 1 -
+/m/ 1 -
+/wp-includes/js/wp-backbone.min.js 1 -
+/wp-content/plugins/ninja-forms/assets/css/summernote.css 1 -
+/work 11 -
+/news/wp-login.php 2 -
+/berkeley.png 52 http://www.ryanheavican.com/work
+/wp-includes/js/comment-reply.min.js 2 http://www.ryanheavican.com/deploying-vmware-lamp-server/selecting-iso/
+/wp-content/uploads/2016/08/hyper-v-service.png 6 -
+/wp-includes/js/mediaelement/wp-mediaelement.min.js 1 -
+/work.css 1 http://www.ryanheavican.com/work
+/wp-content/plugins/contact-widgets/assets/css/style.min.css 1 -
+/~daycare/assets/elfinder/elfinder.html 1 -
+/wp-content/plugins/ninja-forms/assets/css/pikaday-package.css 1 -
+/wp-content/uploads/2016/08/hyper-v-iso.png 1 -
+/wp-content/plugins/ninja-forms/assets/js/lib/modernizr.min.js 1 -
+/cgi-bin/ 10 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 143
+74.10.124.2 654 1524 71362399 20161130115032
+70.212.128.61 60 65 429878 20161123142622
+64.79.100.13 50 50 236274 20161117191803
+70.212.134.201 46 145 8615036 20161124170135
+70.211.155.117 42 42 10530 20161109154649
+81.19.188.229 41 44 458336 20161123142016
+68.4.158.17 40 185 36550803 20161119210507
+70.211.131.99 25 33 281427 20161109155444
+70.211.131.50 17 23 14360 20161109180213
+64.129.13.2 16 42 1866617 20161126011401
+69.58.178.57 12 12 174817 20161120190112
+66.102.6.90 11 11 76832 20161126024344
+66.102.6.88 10 10 65182 20161128083447
+38.100.21.68 9 11 166109 20161117090034
+70.211.132.181 8 9 27505 20161109153925
+70.212.128.181 8 38 7758946 20161124112539
+80.235.51.150 7 31 1345360 20161123044731
+66.249.80.14 7 7 43152 20161128101943
+70.197.70.173 7 7 10432 20161109180828
+70.211.136.144 7 22 1739869 20161109155730
+70.211.184.5 6 23 5825103 20161109142512
+66.249.80.10 6 6 36851 20161119160057
+68.4.162.58 4 28 6232832 20161130135014
+70.197.82.236 4 20 5815743 20161102175131
+66.102.6.89 4 4 24274 20161116100533
+71.206.119.218 1 6 286039 20161117181231
+93.174.93.133 1 1 7566 20161128165940
+84.53.232.154 1 1 6921 20161106090609
+66.102.8.202 1 1 4238 20161101154632
+106.38.241.101 0 2 8812 
+65.19.167.132 1 1 6921 20161107012931
+68.4.130.52 3 12 506917 20161130235643
+178.137.83.166 1 1 26464 20161128094713
+80.187.115.135 3 19 5929278 20161113000553
+94.23.75.242 1 1 6919 20161112134052
+66.249.88.20 1 1 3527 20161130115049
+54.159.116.49 1 1 23055 20161101225918
+94.142.242.84 1 1 7566 20161130032804
+171.25.193.77 1 1 6919 20161111162518
+95.27.228.2 1 2 4012 20161109135218
+66.102.6.83 1 1 6262 20161101091122
+70.211.184.182 0 1 193903 
+66.249.88.17 1 1 3527 20161130115049
+174.79.30.7 0 1 944205 
+193.90.12.87 1 1 6919 20161123010830
+177.40.130.34 1 17 5732968 20161117122053
+95.84.233.6 1 7 293080 20161112200055
+195.154.146.225 2 2 13840 20161122203330
+70.197.66.0 2 6 220233 20161108102404
+86.47.219.243 1 17 5772055 20161111082820
+79.229.208.68 1 3 12750 20161127085012
+94.23.169.94 1 1 6921 20161108003908
+107.3.208.144 2 6 220231 20161117155803
+188.43.30.36 1 1 24716 20161105092033
+181.60.59.235 1 1 7566 20161130102725
+66.249.88.136 1 4 188723 20161102093900
+81.191.119.29 0 1 69521 
+37.187.129.166 2 2 14485 20161128063149
+46.166.148.143 1 1 6919 20161120061819
+66.249.83.204 2 9 611746 20161130115050
+52.71.155.178 1 1 2442 20161101143052
+79.124.59.202 1 1 6919 20161120221200
+62.243.38.198 1 8 191799 20161102021953
+176.10.104.240 2 2 14487 20161124134005
+103.248.117.65 1 1 6919 20161119114210
+66.249.88.140 1 3 94314 20161102093805
+109.163.234.5 1 1 6919 20161116214409
+109.63.142.134 1 2 4012 20161107034349
+70.211.9.157 1 6 285957 20161109160431
+171.25.193.78 2 2 13840 20161110053353
+54.191.42.3 2 2 15132 20161124144130
+82.221.139.25 2 2 13840 20161112185508
+73.82.107.111 3 14 718114 20161108222339
+65.96.149.40 1 9 504934 20161114161248
+72.192.35.81 1 17 5732968 20161118205639
+176.126.252.12 1 1 7566 20161130134951
+81.39.19.57 1 21 1471240 20161127172145
+212.117.180.130 1 1 26464 20161124065923
+70.212.135.229 2 17 5732834 20161123132143
+176.10.104.243 2 2 31634 20161117082212
+35.162.78.72 1 1 6919 20161114130330
+5.196.66.162 1 1 6919 20161113211548
+70.211.139.192 2 6 220233 20161108125402
+46.166.148.152 1 1 6921 20161105003214
+35.164.204.3 1 1 7566 20161129015108
+77.247.181.165 1 1 6919 20161114180954
+23.20.237.80 1 1 24715 20161116024614
+70.197.71.248 3 24 5827609 20161109131101
+171.25.193.131 1 1 6919 20161110013330
+109.163.234.4 1 1 24716 20161103180248
+207.30.43.2 1 17 5732968 20161116171355
+35.163.4.251 1 1 6919 20161113123958
+66.249.88.14 1 1 6919 20161118095237
+2.155.170.60 1 17 5732968 20161122164821
+178.217.187.39 1 1 6921 20161103190405
+5.135.158.101 1 1 6930 20161103030223
+94.242.246.24 1 1 6919 20161113161212
+172.56.31.241 1 1 5637 20161103183357
+66.249.88.138 1 4 772539 20161102093840
+158.69.225.33 1 1 26464 20161129123239
+54.159.90.118 1 1 26464 20161123191016
+72.52.75.27 1 1 6921 20161105114311
+94.26.128.34 1 1 6919 20161115191646
+158.169.40.7 1 17 5732968 20161123073302
+73.71.127.194 0 1 69521 
+154.20.11.163 1 17 5732968 20161120164523
+128.153.145.125 1 1 7566 20161126100418
+86.84.142.8 1 1 26464 20161128111637
+70.209.200.4 4 24 5950144 20161102180536
+52.87.154.150 2 2 49430 20161120022414
+109.201.133.100 1 1 6919 20161110191253
+68.108.29.117 1 17 5732968 20161121205120
+188.163.77.16 1 1 6919 20161117213338
+149.56.24.220 1 1 24746 20161103003249
+37.48.80.101 2 2 13860 20161103061308
+70.211.138.59 3 8 1042523 20161109173143
+178.32.24.196 1 1 6919 20161117025912
+66.249.83.202 0 3 46241 
+216.100.95.91 1 2 4015 20161101134721
+66.102.8.204 0 2 8305 
+70.211.129.138 0 1 1252 
+124.179.96.153 0 1 124841 
+67.240.54.234 1 17 5732968 20161117194921
+72.214.202.46 0 1 37262 
+94.208.128.63 1 9 504934 20161127064643
+151.80.201.184 1 1 6919 20161123122102
+149.202.127.215 2 2 14485 20161128084259
+66.249.83.200 1 3 123888 20161130115050
+87.118.92.43 1 1 6919 20161112121436
+197.231.221.211 2 2 14487 20161124225458
+188.94.114.26 1 1 6919 20161118000807
+193.90.12.89 1 1 6921 20161109091304
+185.129.62.62 1 1 7566 20161126200644
+66.249.80.12 3 3 22051 20161130104029
+134.249.159.113 1 1 6921 20161107155615
+70.212.128.136 1 1 7566 20161124104915
+70.212.130.184 3 7 409622 20161123191839
+75.149.221.170 1 1 24716 20161104220527
+70.212.130.13 1 1 4445 20161127080027
+178.32.53.124 1 1 6921 20161104053130
+70.211.130.218 3 4 8921 20161109152832
+85.248.227.165 1 1 6921 20161108164111
+70.212.134.77 2 4 4445 20161124170052
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20161101 42 71 3411544 8
+20161102 103 284 32146872 14
+20161103 67 147 10704662 13
+20161104 7 11 453836 5
+20161105 5 5 51135 5
+20161106 15 65 13911465 4
+20161107 8 9 51194 8
+20161108 12 31 1193185 8
+20161109 612 1303 51220404 17
+20161110 9 13 1128765 8
+20161111 11 68 17757566 6
+20161112 5 11 320756 5
+20161113 7 23 5956954 5
+20161114 11 43 6694547 5
+20161115 2 2 13838 2
+20161116 10 34 7101712 7
+20161117 73 124 12929724 12
+20161118 5 24 7646914 5
+20161119 4 8 234069 3
+20161120 17 33 5971053 5
+20161121 1 17 5732968 1
+20161122 2 18 5739887 2
+20161123 95 165 14160308 13
+20161124 63 194 16450287 9
+20161125 14 37 1715907 5
+20161126 4 4 30264 4
+20161127 4 34 1993369 4
+20161128 14 28 1012994 8
+20161129 6 16 673354 4
+20161130 17 69 8866482 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 6
+1h+ 1
+5mn-15mn 7
+0s-30s 175
+30s-2mn 5
+15mn-30mn 5
+30mn-1h 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/work 443 300325 16 15
+/ 239 1791859 136 107
+/work.html 118 151224 12 14
+/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2 116 6558766 5 13
+/how-to-make-retropie 70 351097 18 23
+/dave-eggers-circle 57 132284 3 3
+/archives 18 54235 2 0
+/font-awesome-4.7.0/fonts/fontawesome-webfont.eot 17 196972 0 0
+/new-techsploits-blog-layout 14 77475 1 1
+/font-awesome-4.7.0/fonts/fontawesome-webfont.woff 14 1370782 2 3
+/virtualization-homelab-cheaper-macbook 11 89304 4 6
+/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf 11 1082367 0 6
+/html-css-jury-duty 11 51871 0 0
+/google-analytics-certification.html 11 24371 0 0
+/new-techsploits-blog-layout.html 11 35139 0 1
+/html-css-jury-duty.html 10 49083 1 1
+/wordpress-google-analytics-plugin.html 10 50508 2 3
+/server-2016-hyper-v-host.html 8 30226 1 2
+/deploying-vmware-lamp-server.html 8 36751 1 2
+/archives.html 8 20262 1 0
+/google-analytics-certification 7 43326 0 0
+/server-2016-hyper-v-host 6 36932 0 0
+/my-continually-evolving-homelab.html 6 35710 0 2
+/my-continually-evolving-homelab 5 29785 0 2
+/virtualization-homelab-cheaper-macbook.html 5 28955 1 1
+/deploying-vmware-lamp-server 4 18412 0 0
+/how-to-make-retropie.html 1 5669 0 1
+/sitemap.xml 3 1794 0 0
+/wordpress-google-analytics-plugin 3 12699 0 0
+END_SIDER

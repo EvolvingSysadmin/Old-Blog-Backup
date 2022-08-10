@@ -1,0 +1,1011 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202201 will be lost/reset.
+# Last config file used to build this data file was /home/evolvtion3654l/tmp/awstats/ssl/awstats.ryanheavican.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2706                
+POS_VISITOR 21225               
+POS_DAY 29985               
+POS_DOMAIN 3541                
+POS_LOGIN 4214                
+POS_ROBOT 4369                
+POS_WORMS 5489                
+POS_EMAILSENDER 5620                
+POS_EMAILRECEIVER 5763                
+POS_SESSION 30780               
+POS_SIDER 30958               
+POS_FILETYPES 5898                
+POS_DOWNLOADS 6174                
+POS_OS 6264                
+POS_BROWSER 6542                
+POS_SCREENSIZE 8907                
+POS_UNKNOWNREFERER 8981                
+POS_UNKNOWNREFERERBROWSER 10015               
+POS_ORIGIN 10710               
+POS_SEREFERRALS 10852               
+POS_PAGEREFS 11152               
+POS_SEARCHWORDS 11703               
+POS_KEYWORDS 11855               
+POS_MISC 2369                
+POS_ERRORS 11914               
+POS_CLUSTER 4070                
+POS_SIDER_404 12023               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220201002730 103 20803 15803947575884
+FirstTime 20220101000632
+LastTime 20220131214258
+LastUpdate 20220201052111 103 0 102 0 0
+TotalVisits 228                 
+TotalUnique 200                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 241                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 21 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 43 44 419863 59 85 1285817
+1 47 47 241562 52 84 4232350
+2 6 10 2472873 43 70 272725
+3 7 16 418022 90 122 1607120
+4 22 22 177223 97 121 1850661
+5 32 155 12462654 61 90 3251628
+6 15 19 374540 44 85 1270871
+7 18 18 128124 34 78 594875
+8 28 37 2966986 77 114 358222
+9 26 48 1486137 51 88 361990
+10 23 31 654494 40 81 790630
+11 12 14 304891 40 66 268351
+12 8 8 54418 73 107 1481819
+13 32 40 642457 38 82 10731539
+14 26 27 374903 32 63 3637396
+15 26 35 826305 58 123 645484
+16 23 27 588496 31 71 4895466
+17 44 102 9917174 38 65 612534
+18 4 6 112665 86 121 3763049
+19 6 6 72182 106 132 930823
+20 7 17 495436 75 124 1069673
+21 9 13 2975790 41 74 4708452
+22 20 26 496971 90 120 1455516
+23 31 36 490421 58 94 877736
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 33
+us 231 469 31509639
+ru 110 122 1138564
+cn 44 47 386014
+ca 27 29 318872
+in 22 29 584060
+fr 15 16 319937
+gr 13 13 349895
+ro 8 8 46504
+hn 8 8 40196
+th 8 12 325389
+de 7 8 160024
+se 6 6 72795
+nl 3 4 114144
+bd 2 6 276641
+ir 2 2 11340
+jp 1 1 9176
+ua 1 1 9176
+ch 1 3 161548
+il 1 1 9176
+mu 1 1 9176
+kr 1 1 11496
+hk 1 1 2868
+gb 1 3 183021
+ar 1 1 9176
+no 0 1 78053
+br 0 2 2315230
+pt 0 3 234159
+sg 0 1 78053
+zz 0 1 78053
+tw 0 1 78053
+id 0 1 78053
+it 0 1 78053
+es 0 1 78053
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 25
+bot[\s_+:,\.\;\/\\-] 237 6662747 20220131232630 111
+Sogou[\x20]web[\x20]spider/ 198 1789392 20220131200622 3
+bingbot/ 181 33754536 20220131130842 94
+AhrefsBot/ 159 1856452 20220131152953 67
+SeznamBot/ 109 2436074 20220131201819 52
+SemrushBot/ 98 195728 20220131164902 55
+Googlebot/ 91 332491 20220131112155 17
+BLEXBot/ 57 191300 20220131193759 12
+DotBot/ 48 507149 20220131164457 31
+YandexBot/ 42 168428 20220131185443 22
+Mail\.RU_Bot/ 32 2223286 20220131003853 16
+MJ12bot/ 25 140086 20220130022734 7
+crawl 25 12477 20220127074555 7
+unknown 18 432 20220131185240 18
+oBot/ 16 65246 20220120160908 2
+Dalvik/ 12 110112 20220129110835 0
+Applebot/ 11 56240 20220130025018 5
+CCBot/ 10 37400 20220116184411 3
+no_user_agent 6 118855 20220125211638 0
+DuckDuckGo\-Favicons\-Bot/ 6 55056 20220123190323 0
+Python\-urllib/ 2 46 20220127135254 0
+java 2 18352 20220130125142 0
+baidu 1 9176 20220131144730 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 26915 20220121102536 0
+YandexImages/ 1 77192 20220127121034 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+sample 18 29740 0 0
+css 80 321482 0 0
+woff 3 294072 0 0
+jpg 124 23042430 0 0
+xml 1 3146 0 0
+html 262 3054325 0 0
+jpeg 3 561168 0 0
+ttf 3 496644 0 0
+Unknown 217 1005558 0 0
+png 82 9497262 0 0
+woff2 11 848760 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/img/Ryan-Heavican-Resume.pdf 5 0 5310530
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+winxp 3 2
+macosx12 6 6
+macosx8 1 1
+linux 44 26
+Unknown 66 62
+macosx 99 44
+ios_iphone 31 21
+macosx9 12 12
+win10 417 250
+macosx11 44 44
+win8.1 17 13
+ios_ipad 1 0
+win8 1 1
+win7 38 20
+linuxandroid 22 11
+macosx10 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 113
+chrome45.0.2454.94 1 1
+chrome43.0.2343.0 1 0
+chrome45.0.2454.93 1 0
+chrome60.0.3112.107 1 1
+firefox65.0 2 2
+chrome89.0.4389.114 1 0
+chrome66.0.3359.106 2 2
+chrome68.0.3440.106 7 2
+firefox28.0 1 1
+chrome91.0.4472.164 6 2
+opera11.00 4 3
+firefox81.0 19 19
+firefox95.0 1 0
+chrome47.0.2526.106 4 4
+chrome89.0.4389.128 2 0
+chrome96.0.4664.104 1 0
+chrome81.0.4044.92 1 0
+chrome42.0.2311.90 2 2
+firefox74.0 2 0
+opera10.10 2 0
+chrome70.0.3538.102 32 6
+chrome81.0.4044.129 1 1
+firefox72.0 1 0
+chrome90.0.4430.93 4 0
+chrome91.0.4472.114 8 8
+edge17 45 8
+chrome96.0.4664.110 28 7
+chrome79.0.3945.88 1 1
+chrome26.0.1410.65 1 1
+firefox68.0 1 1
+chrome97.0.4692.99 7 0
+opera11.11 4 2
+chrome77.0.3865.120 8 8
+chrome74.0.3729.157 1 1
+msie6.0 1 1
+firefox77.0 2 1
+Unknown 45 45
+chrome36.0.1985.143 18 6
+chrome74.0.3694.0 6 2
+safari12.0.3 1 1
+chrome90.0.4430.72 6 3
+chrome66.0.3359.181 54 54
+chrome79.0.3945.74 3 0
+safari 11 9
+safari15.1 1 0
+chrome58.0.3029.114 1 1
+chrome72.0.3626.109 1 1
+firefox73.0 2 0
+firefox50.0 6 6
+chrome80.0.3987.87 2 0
+chrome78.0.2024.34 1 1
+chrome84.0.4147.125 1 1
+firefox85.0 1 0
+chrome97.0.4692.87 12 3
+firefox78.0 34 34
+firefox87.0 1 0
+chrome36.0.1985.125 1 1
+android 4 4
+chrome71.0.1572.101 1 1
+chrome87.0.4280.141 1 0
+chrome73.0.3683.90 1 1
+safari11.0 2 2
+chrome83.0.4103.116 2 1
+mozilla 23 19
+firefox45.0 1 1
+opera11.50 3 2
+chrome88.0.4324.190 3 3
+chrome90.0.4430.85 3 3
+chrome73.0.3683.86 3 0
+chrome74.0.3729.169 94 94
+chrome35.0.1916.47 11 11
+chrome92.0.4515.107 1 1
+chrome22.0.1207.1 1 1
+safari15.0 1 0
+chrome86.0.4240.198 1 1
+firefox86.0 1 0
+firefox75.0 2 0
+chrome53.0.2785.113 1 0
+chrome80.0.3987.116 1 1
+iphone 1 0
+safari10.0 5 5
+chrome39.0.2171.95 2 2
+firefox94.0 1 1
+chrome81.0.4044.122 1 0
+chrome60.0.3112.90 12 12
+firefox66.0 1 1
+chrome84.0.4147.105 5 4
+chrome72.0.1663.106 1 1
+chrome55.0.2883.87 1 0
+chrome85.0.4183.121 24 24
+chrome90.0.4430.86 1 1
+chrome83.0.4103.97 12 11
+firefox63.0 62 11
+opera10.00 2 0
+safari14.0 1 1
+chrome71.0.3578.98 2 2
+chrome96.0.4664.45 1 0
+firefox84.0 6 4
+firefox96.0 6 0
+opera10.54 3 0
+chrome80.0.3987.132 1 1
+firefox82.0 2 0
+chrome92.0.4515.159 1 1
+chrome86.0.4240.75 2 0
+chrome95.0.4638.69 1 1
+opera61.0.2254.59937 1 0
+firefox89.0 1 1
+chrome97.0.4692.71 25 4
+chrome85.0.4183.83 20 19
+chrome72.0.3356.115 1 1
+safari15.2 22 7
+firefox80.0 1 1
+chrome2.0.172.8 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 15
+Go_http_package 20220131203600
+Go-http-client/1.1 20220108130027
+Python/3.9_aiohttp/3.8.1 20220129115030
+Embarcadero_URI_Client/1.0 20220126235016
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20220130100229
+python-requests/2.25.1 20220106044008
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220124191137
+Mozilla/5.0_(compatible;_Dataprovider.com) 20220131172944
+python-requests/2.27.1 20220131214258
+python-requests/2.26.0 20220129190840
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220125101825
+ia_archiver 20220129082935
+Mozilla/5.0_(compatible;_U;_AnyEvent-HTTP/2.22;__http://software.schmorp.de/pkg/AnyEvent) 20220117111428
+GRequests/0.10 20220107195135
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220127063814
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+python-requests/2.26.0 20220129190840
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220125101825
+Python/3.9_aiohttp/3.8.1 20220129115030
+Embarcadero_URI_Client/1.0 20220126235016
+python-requests/2.27.1 20220131214258
+Go_http_package 20220131203600
+Go-http-client/1.1 20220108130027
+GRequests/0.10 20220107195135
+python-requests/2.25.1 20220106044008
+ia_archiver 20220129082935
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220124191137
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 327 378
+From1 2 2
+From2 14 50
+From3 36 37
+From4 136 337
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 8
+bing 0 4
+www_google_com_hk 2 2
+www_google_ca 0 1
+www_google_pt 0 1
+www_google_com_br 0 1
+in_images_search_yahoo_com 0 2
+www_google_com 12 35
+google_com 0 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://107.180.48.200 18 18
+http://107.180.48.200:80 3 3
+https://semalt.net/serp/keywords/ 3 3
+http://www.essaytags.com 2 2
+https://www.essaytags.com 2 2
+http://www.gzth.net 2 2
+http://107.180.48.200 1 1
+http://mail.ryanheavican.com 1 1
+https://www.gzth.net 1 1
+https://webtechsurvey.com/website/www.ryanheavican.com 1 1
+https://github.com 1 1
+https://www.ryanhandmade.com 1 1
+https://app.mural.co 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+401 1 35
+404 485 0
+301 365 88083
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 230
+/.gitignore 2 -
+/BACKUP 2 http://www.ryanheavican.com/BACKUP
+/searchrep.php 1 -
+/wp-content/plugins/emails-verification-for-woocommerce/readme.txt 2 -
+/wp-content/plugins/e-signature/page-template/default/style.css 2 -
+/400.shtml 1 -
+/wpindex.php 2 anonymousfox.co
+/BLOG 2 http://www.ryanheavican.com/BLOG
+/wp-content/plugins/image-hover-effects-ultimate/readme.txt 2 -
+/SITE 1 http://www.ryanheavican.com/SITE
+/oldsite 1 http://www.ryanheavican.com/oldsite
+/cgi/mt-atom.cgi 1 yahoo.com
+/.git/refs/stash 1 -
+/reset.php 1 -
+/alfindex.php 2 anonymousfox.co
+/themes/assets/plugins/jquery-file-upload/server/php/index.php 1 -
+/2018 3 http://www.ryanheavican.com/2018
+/config.php 2 anonymousfox.co
+/FORUM 1 www.google.com
+/Old 1 http://www.ryanheavican.com/Old
+/DEMO 1 www.google.com
+/tmp 1 https://www.ryanheavican.com/tmp/
+/wp-1ogin_bak.php 2 anonymousfox.co
+/feed 1 http://ryanheavican.com/feed/
+/wp-includes/wpconfig.bak.php 2 anonymousfox.co
+/elfinder/php/connector.minimal.php 1 -
+/upload.php 2 anonymousfox.co
+/apple-touch-icon.png 3 -
+/wp-content/plugins/capabilities-pro/readme.txt 2 -
+/haders.php 2 anonymousfox.co
+/wp-content/plugins/superlogoshowcase-wp/css/sls-wp-admin.css 2 -
+/wp-content/plugins/wp-pinterest-automatic/changelog 2 -
+/wp-includes/css/wp-config.php 2 anonymousfox.co
+/NEW 2 http://www.ryanheavican.com/NEW
+/Www 1 http://www.ryanheavican.com/Www
+/.git/ORIG_HEAD 1 -
+/wp-includes/css/css.php 2 anonymousfox.co
+/blog 3 http://www.ryanheavican.com/blog
+/images 3 binance.com
+/.env 38 -
+/main 2 http://www.ryanheavican.com/main
+/www 1 http://www.ryanheavican.com/www
+/web 1 https://www.ryanheavican.com/web/
+/2013 1 www.google.com
+/wp-content/uploads/2016/09/Ryan-Heavican-Pic.jpg 1 -
+/2009 1 www.google.com
+/wp-content/config.bak.php 2 anonymousfox.co
+/wp-content/wp-1ogin_bak.php 2 anonymousfox.co
+/Backup 2 http://www.ryanheavican.com/Backup
+/shop 2 http://www.ryanheavican.com/shop
+/var/www/html/.git/HEAD 1 -
+/wp-content/plugins/shortcode-addons/assets/backend/js/admin-notice.js 1 -
+/forum 1 www.google.com
+/Site 1 http://www.ryanheavican.com/Site
+/wp-admin/setup-config.php 1 -
+/.git/refs/wip/index/refs/heads/master 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 2 anonymousfox.co
+/admin/includes/general.js 1 -
+/.git/info/refs 1 -
+/wp-content/plugins/angwp/__%20UPDATES.txt 2 -
+/2020 3 http://www.ryanheavican.com/2020
+/wordpress 3 http://www.ryanheavican.com/wordpress
+/dev 1 https://www.ryanheavican.com/dev/
+/ac9cd21.html 1 https://www.ryanheavican.com/
+/oldsite/wp-admin/install.php 2 -
+/humans.txt 5 http://www.ryanheavican.com/humans.txt
+/v1 1 https://www.ryanheavican.com/v1/
+/old-site 2 http://www.ryanheavican.com/old-site
+/backup 3 http://www.ryanheavican.com/backup
+/xmlrp.php 2 anonymousfox.co
+/old/wp-admin/install.php 2 -
+/larva.php 2 anonymousfox.co
+/alfa.php 2 anonymousfox.co
+/Demo 1 www.google.com
+/wp-content/plugins/config.bak.php 2 anonymousfox.co
+/Blog 2 http://www.ryanheavican.com/Blog
+/wp-content/plugins/super-interactive-maps/css/sim-wp-admin.css 2 -
+/old 3 http://www.ryanheavican.com/old
+/assets/vendor/server/php/index.php 1 -
+/2019 3 http://www.ryanheavican.com/2019
+/index.php 2 anonymousfox.co
+/test.php 2 anonymousfox.co
+/Wordpress 1 http://www.ryanheavican.com/Wordpress
+/uploads 3 binance.com
+/TEST 1 http://www.ryanheavican.com/TEST
+/wp/wp-admin/install.php 2 -
+/SHOP 2 http://www.ryanheavican.com/SHOP
+/wp-content/plugins/wpconfig.bak.php 2 anonymousfox.co
+/WP 2 http://www.ryanheavican.com/WP
+/WWW 1 http://www.ryanheavican.com/WWW
+/server/php/index.php 1 -
+/alfacgiapi/perl.alfa 3 www.google.com
+/style.php 4 -
+/install 1 https://www.ryanheavican.com/install/
+/wp-admin/install.php 6 -
+/demo 3 http://www.ryanheavican.com/demo
+/searchreplacedb2.php 1 -
+/sites/default/files 3 binance.com
+/wp-old 1 http://www.ryanheavican.com/wp-old
+/boom.php 2 anonymousfox.co
+/site/wp-admin/install.php 2 -
+/up.php 2 anonymousfox.co
+/wp-content/plugins/themegrill-demo-importer/readme.txt 2 -
+/wp-content/plugins/advanced-import/readme.txt 2 -
+/admin 1 -
+/new/wp-admin/install.php 2 -
+/wp-content/plugins/wp-file-manager/readme.txt 2 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/wp-content/plugins/backup_index.php 2 anonymousfox.co
+/wp-content/plugins/superstorefinder-wp/css/ssf-wp-admin.css 2 -
+/store 1 www.google.com
+/WordPress 2 http://www.ryanheavican.com/WordPress
+/wp-content 13 -
+/test 3 http://www.ryanheavican.com/test
+/wp2 1 https://www.ryanheavican.com/wp2/
+/.git/refs/wip/wtree/refs/heads/master 1 -
+/wp-includes/lfx.php 2 anonymousfox.co
+/.git/packed-refs 1 -
+/Ryanheavican 1 www.google.com
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 2 anonymousfox.co
+/images/editor/separator.gif 1 -
+/bk 2 http://www.ryanheavican.com/bk
+/wp-admin/css 3 binance.com
+/elfinder/php/connector.php 1 -
+/legion.php 2 anonymousfox.co
+/apple-touch-icon-precomposed.png 3 -
+/wp-content/plugins/wp-automatic/changelog 2 -
+/MT/mt-atom.cgi 1 yahoo.com
+/wp-content/plugins/iwp-client/readme.txt 2 -
+/wp-booking.php 2 anonymousfox.co
+/sitio 1 http://www.ryanheavican.com/sitio
+/mt/mt-atom.cgi 1 yahoo.com
+/.git/hooks/post-commit.sample 2 -
+/wp-content/plugins/woocommerce-jetpack/readme.txt 2 -
+/sito 1 http://www.ryanheavican.com/sito
+/wp-includes/fonts/css.php 2 anonymousfox.co
+/temp 1 https://www.ryanheavican.com/temp/
+/wp-content/plugins/capability-manager-enhanced/readme.txt 2 -
+/2010 1 www.google.com
+/cgi-bin/mt-atom.cgi 1 yahoo.com
+/wp-includes/config.bak.php 2 anonymousfox.co
+/wp-login.php 32 -
+/wp-content/plugins/dzs-zoomsounds/admin/admin.css 2 -
+/admin/controller/extension/extension 3 binance.com
+/wp-content/plugins/wp-user-extra-fields/js/wpuef-configurator.js 2 -
+/web/wp-admin/install.php 2 -
+/ALFA_DATA/alfacgiapi/perl.alfa 3 www.google.com
+/searchreplacedb.php 1 -
+/new-site 1 https://www.ryanheavican.com/new-site/
+/old-wp 1 https://www.ryanheavican.com/old-wp/
+/cms 1 https://www.ryanheavican.com/cms/
+/.git/hooks/post-receive.sample 2 -
+/wp-content/plugins/woocommerce-upload-files/js/wcuf-admin-menu.js 2 -
+/wp1 1 https://www.ryanheavican.com/wp1/
+/2012 1 www.google.com
+/moduless.php 2 anonymousfox.co
+/wp-includes/small.php 2 anonymousfox.co
+/elfinder/elfinder.html 1 -
+/wp-content/plugins/ubh/up.php 2 anonymousfox.co
+/.git/FETCH_HEAD 1 -
+/bac 1 http://www.ryanheavican.com/bac
+/cgi-bin/MT/mt-atom.cgi 1 yahoo.com
+/apple-touch-icon-120x120.png 1 -
+/v2 1 https://www.ryanheavican.com/v2/
+/cindex.php 2 anonymousfox.co
+/user/login 1 -
+/test_404_page 1 -
+/new 3 http://www.ryanheavican.com/new
+/asset-manifest.json 1 https://www.ryanheavican.com/
+/cgi-bin/mt/mt-atom.cgi 1 yahoo.com
+/login.php 1 http://www.ryanheavican.com/login.php
+/backup/wp-admin/install.php 2 -
+/wp-content/plugins/t_file_wp/t_file_wp.php 2 anonymousfox.co
+/wp-content/plugins/shortcode-addons/readme.txt 2 -
+/cms/wp-admin/install.php 2 -
+/wp 3 http://www.ryanheavican.com/wp
+/STORE 1 www.google.com
+/wp-admin/config.bak.php 2 anonymousfox.co
+/wp-content/themes/config.bak.php 2 anonymousfox.co
+/.git/objects/info/packs 2 -
+/Test 1 http://www.ryanheavican.com/Test
+/home 2 https://www.ryanheavican.com/home/
+/mt-atom.cgi 1 yahoo.com
+/old-index.php 2 anonymousfox.co
+/wp-content/plugins/wp-time-capsule/readme.txt 2 -
+/2017 1 www.google.com
+/blog/wp-admin/install.php 2 -
+/administrator/index.php 1 -
+/test/wp-admin/install.php 2 -
+/wp-content/db_cache.php 2 anonymousfox.co
+/config.bak.php 2 anonymousfox.co
+/.git/logs/refs/stash 1 -
+/mtos/mt-atom.cgi 1 yahoo.com
+/New 2 http://www.ryanheavican.com/New
+/bc 1 http://www.ryanheavican.com/bc
+/wp-content/plugins/mstore-api/readme.txt 2 -
+/wp-content/wp-old-index.php 2 anonymousfox.co
+/wp-content/plugins/vc-tabs/readme.txt 2 -
+/File-Upload/server/php/index.php 2 -
+/bak 2 http://www.ryanheavican.com/bak
+/2016 1 www.google.com
+/Wp 1 http://www.ryanheavican.com/Wp
+/WORDPRESS 2 http://www.ryanheavican.com/WORDPRESS
+/wp-content/plugins/ait-csv-import-export/changelog.txt 2 -
+/ads.txt 7 http://www.ryanheavican.com/ads.txt
+/mailto:ryanheavican.com 1 -
+/2014 1 www.google.com
+/wp-content/plugins/wpdiscuz/themes/default/style-rtl.css 2 anonymousfox.co
+/wp-admin 1 -
+/wp-content/mu-plugins/db-safe-mode.php 2 anonymousfox.co
+/2021 1 http://www.ryanheavican.com/2021
+/blog/mt-atom.cgi 1 yahoo.com
+/wp-content/plugins/ulisting/readme.txt 2 -
+/ryanheavican 1 www.google.com
+/cache.php 1 -
+/files 3 binance.com
+/th3_err0r.php 2 anonymousfox.co
+/admin.php 3 http://www.ryanheavican.com/admin.php
+/2015 1 www.google.com
+/OLD 1 http://www.ryanheavican.com/OLD
+/cms/mt-atom.cgi 1 yahoo.com
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 9 -
+/site 3 http://www.ryanheavican.com/site
+/wp-content/plugins/wp-automatic/css/wp-automatic.css 2 -
+/.git/logs/refs/remotes/origin/HEAD 1 -
+/wp-content/langar.php 2 anonymousfox.co
+/wordpress/wp-admin/install.php 2 -
+/vendor/phpunit/phpunit/LICENSE 3 -
+/.git/refs/remotes/origin/HEAD 1 -
+/Shop 1 http://www.ryanheavican.com/Shop
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 241
+185.119.81.98 88 88 428068 20220124014209
+44.202.41.64 25 139 12017579 20220129051122
+44.201.175.149 22 22 23529 20220108173614
+158.69.24.50 18 18 92726 20220124150238
+54.198.3.80 15 59 9129938 20220102171552
+149.56.150.224 13 13 190832 20220131160748
+100.26.206.15 12 12 15284 20220107224407
+89.136.38.194 8 8 46504 20220121001936
+192.99.18.122 8 8 43125 20220127105431
+172.12.204.62 8 8 46504 20220112045045
+153.37.224.86 8 8 80262 20220129082935
+185.230.126.11 8 8 46504 20220128093827
+190.123.212.225 7 7 37328 20220117080803
+182.117.30.195 6 6 48748 20220119073015
+171.97.128.215 6 6 48748 20220127094838
+116.202.209.244 6 6 28152 20220113073307
+152.136.29.104 6 6 48748 20220112162941
+218.21.73.71 6 6 48748 20220122043344
+42.83.147.34 5 5 45880 20220124235352
+72.196.78.46 5 18 515715 20220107205451
+137.226.113.44 4 4 36704 20220127095445
+221.6.38.170 4 4 36704 20220129111111
+114.119.150.149 4 4 18352 20220127021418
+62.210.178.249 3 3 80745 20220108150205
+93.28.24.89 3 3 17871 20220122074001
+40.78.143.70 0 1 2239270 
+8.209.77.44 0 1 93733 
+157.33.86.86 0 1 44475 
+69.57.194.234 0 1 78053 
+45.129.18.86 1 1 0 20220120025420
+5.39.20.38 2 2 34917 20220123000347
+34.240.69.190 1 1 9176 20220125141057
+74.98.249.129 2 15 688267 20220107093012
+45.129.18.91 1 1 0 20220106074631
+162.142.125.42 2 2 18352 20220101091208
+46.101.63.152 1 1 0 20220116193744
+45.129.18.82 1 1 0 20220127080030
+209.127.28.234 1 1 2868 20220111082606
+92.118.160.13 2 2 53830 20220131203600
+58.182.136.250 0 1 78053 
+8.209.69.157 0 1 100491 
+34.221.253.91 2 2 18352 20220120133104
+40.89.246.101 1 1 4446 20220129115024
+54.37.75.187 2 2 53830 20220125200147
+65.21.206.44 1 1 9176 20220122082250
+34.86.35.22 1 1 26915 20220120213922
+23.224.42.11 1 1 9176 20220109003305
+157.26.68.252 0 1 27531 
+88.6.42.246 0 1 78053 
+5.9.143.215 1 1 9176 20220111120124
+34.244.70.252 1 1 9176 20220119143112
+18.202.22.96 1 1 9176 20220112142336
+3.249.251.222 1 1 9176 20220106144315
+34.87.0.105 1 1 9176 20220112042921
+52.12.193.196 1 1 9176 20220127133528
+85.159.237.75 1 1 26915 20220103072048
+20.127.100.248 2 2 18352 20220125100943
+34.215.97.177 1 1 9176 20220127134412
+46.161.11.6 2 2 8930 20220101000637
+8.209.115.206 0 1 44475 
+20.124.83.78 1 1 9176 20220114091344
+185.181.60.189 1 1 9176 20220114060515
+167.248.133.59 2 2 18352 20220113063825
+34.219.146.78 1 1 9176 20220128133422
+178.195.165.207 0 1 124841 
+23.155.176.11 0 1 78053 
+35.86.165.19 2 2 18352 20220118133904
+144.217.135.224 2 6 188253 20220131172944
+150.129.113.95 0 1 93733 
+63.35.221.49 1 1 9176 20220107144229
+1.202.249.94 1 1 0 20220124170709
+93.158.92.207 1 1 9176 20220106064705
+45.129.18.43 1 1 0 20220126041514
+35.84.39.125 1 1 9176 20220119012625
+73.165.101.252 0 1 78053 
+18.236.248.180 2 6 188253 20220106132344
+65.21.206.42 1 1 9176 20220129075130
+20.112.120.195 0 1 5563 
+194.163.151.123 1 1 9176 20220125184558
+92.118.160.5 1 1 26915 20220115225132
+5.39.20.39 1 1 26915 20220123000346
+54.155.80.196 1 1 9176 20220126140917
+175.44.42.212 1 1 9176 20220131044134
+18.222.142.254 1 1 26915 20220110045915
+175.44.42.173 1 1 9176 20220116150723
+54.200.224.63 2 2 18352 20220117133905
+104.149.159.205 1 1 2868 20220118220030
+34.229.139.183 2 6 188253 20220129051305
+54.154.138.38 1 1 9176 20220104162912
+45.151.144.12 1 1 26915 20220117212423
+31.7.56.74 1 1 9176 20220111145508
+102.23.98.21 0 1 78053 
+77.74.177.119 1 1 9176 20220126223843
+54.185.144.108 1 1 9176 20220128133609
+123.125.109.46 0 2 14106 
+89.151.211.155 0 1 78053 
+45.152.199.202 1 1 9176 20220121123453
+63.32.91.237 1 1 9176 20220131144505
+45.129.18.225 1 1 0 20220116060155
+156.96.156.9 1 1 9176 20220116164908
+54.149.44.100 1 1 9176 20220129131823
+45.129.18.21 1 1 0 20220103181811
+162.142.125.43 2 2 18352 20220118082515
+63.33.69.20 1 1 9176 20220104141549
+107.12.152.68 0 1 78053 
+168.119.59.186 1 1 9176 20220128063806
+85.242.43.48 0 2 156106 
+93.159.230.88 1 1 9176 20220112223834
+77.61.21.239 0 1 78053 
+45.129.18.96 1 1 0 20220110022053
+167.99.48.249 1 1 9176 20220107012823
+38.76.104.210 2 6 188253 20220118154627
+77.37.141.165 3 11 420929 20220130100336
+154.16.16.242 1 1 9176 20220111082551
+198.50.226.12 1 1 26915 20220111141557
+54.217.75.7 1 1 9176 20220118142450
+52.185.105.37 1 1 5670 20220129115030
+3.249.22.114 1 1 9176 20220110144336
+18.232.62.178 1 1 26915 20220104085733
+35.85.51.147 1 1 9176 20220118142952
+92.118.160.17 2 2 53830 20220124213843
+177.12.41.18 0 1 78053 
+167.94.138.42 2 2 18352 20220126100825
+74.197.111.45 0 1 78053 
+52.185.105.242 1 1 2868 20220129115023
+34.242.81.192 1 1 9176 20220127145007
+62.210.88.24 1 1 9176 20220102214948
+170.83.176.12 1 1 9176 20220118220029
+103.149.162.113 0 1 78053 
+45.32.89.174 0 4 2839989 
+175.44.42.131 1 1 9176 20220116040146
+95.90.90.3 0 1 78053 
+34.245.212.216 1 1 9176 20220113142944
+35.165.109.61 1 1 9176 20220131131932
+34.241.186.100 1 1 9176 20220117142951
+175.198.191.99 1 1 11496 20220101091127
+54.187.21.95 2 2 18352 20220119135103
+5.39.20.34 1 1 9309 20220123000348
+175.44.42.18 1 1 9176 20220123113335
+93.158.90.68 1 1 9176 20220121215627
+144.126.143.62 1 1 26915 20220112155237
+37.0.11.64 1 1 9176 20220101233032
+2.121.62.23 0 1 78053 
+52.33.65.33 1 1 9176 20220129132829
+167.248.133.60 2 2 18352 20220127063814
+43.135.167.149 1 1 9176 20220104100347
+69.197.185.43 1 1 9176 20220116045513
+54.240.197.231 0 1 78053 
+109.150.23.172 0 1 78053 
+93.158.91.187 1 1 9176 20220115122034
+52.12.198.202 2 6 188253 20220131131937
+199.249.230.123 1 1 460 20220108130027
+175.44.42.204 1 1 9176 20220123013936
+54.201.100.186 1 1 9176 20220130132226
+124.120.116.195 2 6 276641 20220120233012
+45.129.18.213 1 1 0 20220117025714
+213.178.155.129 1 1 26915 20220126235016
+138.219.176.109 0 1 78053 
+54.202.187.180 1 1 9176 20220127131258
+58.33.94.134 1 1 9176 20220124025310
+35.87.131.243 1 1 9176 20220128133533
+34.77.162.3 1 1 26915 20220117201320
+194.110.115.8 1 1 26915 20220129032554
+45.129.18.216 1 1 0 20220108184001
+183.253.80.100 1 1 9176 20220130212123
+45.143.138.246 1 1 26915 20220103100456
+223.29.254.75 1 1 2868 20220130105952
+185.158.115.77 1 1 9176 20220103102320
+20.195.50.15 0 1 44475 
+92.118.160.41 1 1 26915 20220116132516
+34.77.162.5 1 1 26915 20220125101825
+92.118.160.9 1 1 26915 20220116064539
+5.39.20.33 1 1 17100 20220123000350
+188.255.45.54 2 6 188253 20220104054841
+164.90.157.94 1 1 26915 20220109141727
+176.74.192.85 1 1 9176 20220109023449
+123.125.109.130 0 1 1454 
+34.219.180.39 1 1 9176 20220128133535
+34.96.130.18 1 1 26915 20220104052747
+54.75.120.48 1 1 9176 20220111143157
+45.129.18.171 1 1 0 20220113072603
+175.44.42.223 1 1 9176 20220108134306
+39.106.98.188 1 1 9176 20220102122127
+168.227.140.168 1 1 9176 20220117080800
+116.75.233.167 2 6 276641 20220107170248
+24.42.238.222 0 1 78053 
+3.249.197.129 1 1 9176 20220114145104
+177.128.175.25 0 1 2237177 
+20.121.12.182 1 1 9176 20220128034244
+94.63.186.5 0 1 78053 
+204.12.198.243 1 1 9176 20220121104132
+40.125.127.63 0 1 69521 
+92.118.160.1 2 2 53830 20220123105242
+62.182.157.252 1 1 9176 20220117171303
+172.58.30.246 3 11 301365 20220122035232
+91.241.19.243 1 1 9176 20220114082032
+45.129.18.249 1 1 0 20220109121714
+92.118.160.37 3 3 80745 20220109190119
+2.58.149.194 1 1 9176 20220113215843
+3.97.14.192 1 1 9176 20220131214258
+20.119.40.211 1 1 9176 20220123070223
+23.94.5.84 1 1 9176 20220130105947
+59.175.144.15 1 1 9176 20220107195135
+94.140.8.230 0 1 78053 
+8.209.107.205 0 1 100491 
+106.223.102.104 0 1 44475 
+34.220.18.212 1 1 9176 20220129131830
+167.71.245.148 1 1 26915 20220130100229
+92.118.160.57 1 1 26915 20220108065428
+114.32.64.164 0 1 78053 
+27.147.202.147 2 6 276641 20220109091455
+67.227.43.24 1 1 9176 20220113152704
+198.37.112.248 3 3 80745 20220117111428
+95.252.44.47 0 1 78053 
+143.198.23.244 1 1 26915 20220107220538
+138.128.118.130 2 2 18352 20220117235946
+186.179.6.162 1 1 2868 20220121123455
+44.230.202.245 1 1 9176 20220127005129
+71.121.162.176 3 10 292293 20220122225029
+34.216.96.250 1 1 9176 20220130131634
+23.229.104.2 1 1 9176 20220123214026
+34.208.229.41 1 1 9176 20220129132148
+52.237.174.133 1 1 9176 20220117160901
+34.247.167.92 1 1 9176 20220120145427
+5.161.66.112 1 1 5670 20220113124516
+35.88.164.180 1 1 9176 20220130131525
+148.251.123.46 1 1 26915 20220113180722
+198.16.136.178 0 1 78053 
+130.255.166.82 1 1 9176 20220128113031
+5.39.20.32 1 1 7722 20220123000351
+54.77.137.26 1 1 9176 20220124143804
+18.237.73.121 1 1 9176 20220131131615
+20.77.49.95 2 2 18352 20220106044008
+5.161.66.122 1 1 5670 20220129140308
+35.160.82.162 1 1 9176 20220131131909
+184.94.240.92 2 2 53830 20220129033803
+129.211.167.128 1 1 9176 20220129190840
+34.244.28.104 1 1 9176 20220128141009
+185.191.34.215 2 2 0 20220123143816
+5.39.20.37 2 2 38129 20220123000349
+20.124.91.57 2 2 18352 20220120054650
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20220101 7 7 47954 5
+20220102 19 64 9280173 5
+20220103 5 7 265900 5
+20220104 8 15 2638492 7
+20220105 2 7 266306 1
+20220106 30 36 2658473 7
+20220107 24 50 1389012 9
+20220108 29 30 218878 6
+20220109 9 13 384914 8
+20220110 3 3 36091 3
+20220111 8 10 164346 8
+20220112 19 20 177226 7
+20220113 16 17 132022 10
+20220114 4 6 215248 4
+20220115 3 5 201373 3
+20220116 10 14 2984353 10
+20220117 41 43 454604 12
+20220118 12 21 453675 9
+20220119 32 33 270522 5
+20220120 10 15 454404 8
+20220121 14 19 293479 6
+20220122 13 25 624499 5
+20220123 14 15 275764 12
+20220124 46 48 475325 8
+20220125 6 8 264379 6
+20220126 6 7 141672 5
+20220127 24 25 268190 11
+20220128 16 17 164387 9
+20220129 51 170 12528391 16
+20220130 10 21 697173 8
+20220131 24 33 727362 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30mn-1h 1
+0s-30s 214
+30s-2mn 9
+2mn-5mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 39
+/ 262 3054325 206 178
+/graphic-design-portfolio 25 86262 6 7
+/how-to-make-retropie 19 142020 4 8
+/work 19 74134 1 4
+/dave-eggers-circle 17 95886 1 2
+/archives 16 65094 1 3
+/my-continually-evolving-homelab 16 95312 3 3
+/virtualization-homelab-cheaper-macbook 16 105525 2 5
+/google-analytics-certification 14 71808 1 2
+/html-css-jury-duty 13 61622 0 0
+/server-2016-hyper-v-host 13 49179 0 1
+/wordpress-google-analytics-plugin 12 50808 0 0
+/deploying-vmware-lamp-server 12 55236 0 0
+/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2 11 848760 0 9
+/new-techsploits-blog-layout 8 43139 0 0
+/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf 3 496644 0 3
+/.git/HEAD 3 69 2 0
+/font-awesome-4.7.0/fonts/fontawesome-webfont.woff 3 294072 0 0
+/.git/index 2 1058 0 0
+/.git/description 2 146 0 0
+/.git/config 2 920 1 1
+/.git/hooks/post-update.sample 2 378 0 0
+/.git/hooks/pre-receive.sample 2 1088 0 0
+/.git/hooks/commit-msg.sample 2 1792 0 0
+/.git/info/exclude 2 480 0 0
+/.git/hooks/applypatch-msg.sample 1 478 0 0
+/.git/COMMIT_EDITMSG 1 26 0 0
+/.git/logs/refs/remotes/origin/master 1 1520 0 0
+/.git/refs/remotes/origin/master 1 41 0 1
+/.git/logs/refs/heads/master 1 2616 0 0
+/.git/refs/heads/master 1 41 0 0
+/.git/hooks/pre-applypatch.sample 1 424 0 0
+/.git/hooks/pre-push.sample 2 2696 0 0
+/.git/logs/HEAD 1 2616 0 0
+/.git/hooks/prepare-commit-msg.sample 2 2478 0 0
+/.git/hooks/update.sample 2 7220 0 0
+/.git/hooks/pre-rebase.sample 2 9902 0 1
+/.git/hooks/pre-commit.sample 2 3284 0 0
+/sitemap.xml 1 3146 0 0
+END_SIDER

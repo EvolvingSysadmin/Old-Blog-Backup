@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="robots" content="doindex, dofollow">
+  <meta charset="utf-8">
+  <title>Google Analytics Plugin | Ryan's Techsploits</title>
+  <meta name="description" content="Google Analytics is a crucial tool for any website. Learn how to make a Google Analytics WordPress plugin in this technology blog post.">
+  <meta name="keywords" content="Google analytics,wordpress analytics plugin,Google analytics wordpress">
+  <meta name="author" content="Ryan Heavican">
+  <link rel="author" href="https://plus.google.com/u/0/+RyanHeavican"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="alternate" href="http://www.ryanheavican.com" hreflang="en-US" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="css/posts.css">
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Rock+Salt" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" media="bogus">
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29114312-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-default  navbar-fixed-top">
+          <div class="container-fluid">
+              <!-- Nav Brand -->
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      MENU <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand" id="navbar-brand"href="/">&lt;TECH&gt; SPLOITS</a>
+              </div>
+              <!-- Nav Links -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right" id="navbar-nav">
+                      <li>
+                        <a href="/#blog">Blog</a>
+                      </li>
+                      <li>
+                          <a href="/#about">About</a>
+                      </li>
+                      <li>
+                          <a href="work">Work</a>
+                      </li>
+                      <!--
+                      <li>
+                          <a href="#">Play</a>
+                      </li>
+                      -->
+                      <li>
+                          <a href="/#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- Page Header -->
+    <header class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Creating a Google Analytics Plugin for WordPress</h1>
+                        <h2 class="subheading">Learn how to use some basic PHP to create a Google Analytics Wordpress plugin</h2>
+                        <div class="meta">Posted by <b>Ryan Heavican</b> on August 18, 2016</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Article -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>WordPress development is an invaluable skill. After all, WordPress is the most widely used Content Management System on the web, with some sources reporting that WordPress occupies a 37% share of all CMSs on the web.</p>
+
+                    <p>Becoming familiar with WordPress’s dashboard is a pretty easy task. The dashboard allows users to easily create and manage their site’s content. The dashboard is very intuitive to use with its WYSIWYG GUIs</p>
+                  <h2 class="section-heading">Google Analytics</h2>
+
+                    <p>One of the first tasks that any competent content or web manager publishing a new site should tackle is to ensure that analytics data on all traffic is being accurately captured.</p>
+
+                    <p><a href="http://ryanheavican.com/google-analytics-certification">Google Analytics</a> is a great platform for tracking such traffic and site user engagement data. Google Analytics tracks this data via a small piece of JavaScript code that should be placed in the header of every page of the website being analyzed.</p>
+
+                    <h2 class="section-heading">WordPress Plugins</h2>
+
+                    <p>There are innumerable Google Analytics plugins for WordPress. Plugins enable further customization of WordPress sites by installing files made by the WordPress community to one’s site.</p>
+
+                    <p>The Google Analytics plugins allow a user to very easily have WordPress automatically append the Google Analytics code to the header section of every site page. However, one of the primary reasons why I deployed my own WordPress blog was to become more familiar with WordPress under the hood.</p>
+                    <h2 class="section-heading">Creating a Google Analytics WordPress Plugin</h2>
+
+                    <p>Disclaimer: I’d never created a WordPress plugin before this and I relied entirely on this awesome blog post to add my own Google Analytics plugin to WordPress. By relying on that very helpful post I was able to get my own plugin up and working by tackling the following steps.</p>
+                    <h2 class="section-heading">Review Your Theme’s header.php Page</h2>
+                    <p>You must first review your theme’s header.php file to ensure that you can create this plugin by using the wp_head php hook. Simply go to the theme editor in your dashboard by going to Appearance -> Editor and open your site’s header.php file. Then just make sure that wp_head is in the header section of your site between the &lt;head&gt;&lt;/head&gt; tags.</p>
+
+                    <h2 class="section-heading">Find Your Google Analytics Code</h2>
+
+                    <p>Next you must grab the Google Analytics code for your site by going to your Google Analytics account. Ensure that your site is added as a Google Analytics property and then fine your code by going to Admin -> Property -> Tracking Info -> Tracking Code.</p>
+                    <h2 class="section-heading">Create the Plugin’s PHP File</h2>
+                    <p>Next you need to FTP into your site by using an FTP client like FileZilla and the FTP credentials given by your hosting company. Then navigate to wp-content/plugins and create a new file with a name like google-analytics.php. Use a text editor like Notepad++ to add the following PHP code to the top of the new plugin file:<br><br>
+                    <code>&lt;?php</code><br>
+                    <code>/*</code><br>
+                    <code>Plugin Name: Google Analytics Plugin</code><br>
+                    <code>Plugin URI: http://WhatEverWebsiteYouLike.com</code><br>
+                    <code>Description: Whatever description you want.</code><br>
+                    <code>Author: Any author’s name you want</code><br>
+                    <code>Version: 1.0</code><br>
+                    <code>*/</code>
+                    </p>
+                    <p>This code gives WordPress the basic information for this plugin that will display in the Plugins section of your WordPress dashboard.</p>
+                    <p>Next we need to add the actual PHP function by adding this code beneath the existing code:<br><br>
+                    <code>function google_analytics() { ?></code><br>
+                    <code><strong>Copy and paste your Google Analytics code here!!!</strong></code><br>
+                    <code>&lt;?php }</code><br>
+                    <code>add_action( ‘wp_head’, ‘google_analytics’, 10 )</code>
+                    </p>
+                    <p>Notice that you’ll need to copy and paste your Google Analytics code from your Analytics page into the code above.</p>
+                    <h2 class="section-heading">Activating and Testing Your Analytics Plugin</h2>
+                    <p>Next you need to activate the plugin that you created by going to you Dashboard and then Plugins -> Installed Plugins and look for Google Analytics Plugin. Then activate the plugin by clicking the activate link below its name.</p>
+                    <p>Then you need to verify that your plugin works properly. First, review the page source of any page on your site by right clicking and selecting view source. Then lensure that your Google Analytics JavaScript code is at the end of the page’s header section near the closing &lt;/head&gt; tag.</p>
+                    <p>Lastly, you need to verify that Google Analytics is receiving data from your site. Go back to the Tracking Code section of your site in Google Analytics. Check the status of your Tracking ID and click the send test traffic button to verify that traffic info is being collected.</p>
+                    <h2 class="section-heading">YAYYY You’re Done!</h2>
+                    <p>Great job on installing a plugin that you created from scratch! Although this exercise used some borrowed PHP code, it helps you understand the process of creating and activating your very own plugins and enables one to become familiar with Google Analytics.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+   <!-- Footer -->
+   <footer>
+       <div class="container">
+           <div class="row">
+             <p class="copyright text-muted">Copyright 2018 &copy; Ryan Heavican</p>
+           </div>
+       </div>
+     </footer>
+       <!-- jQuery -->
+       <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+       <!-- Bootstrap JavaScript -->
+       <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       <!-- Font Awesome icons -->
+       <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+       <script>
+       $(document).on('click.nav','.navbar-collapse.in',function(e) {
+          if( $(e.target).is('a') ) {
+              $(this).removeClass('in').addClass('collapse');
+            }
+         });
+       </script>
+     <script>
+       $(function(){$("body").on("input propertychange",".floating-label-form-group",function(o){$(this).toggleClass("floating-label-form-group-with-value",!!$(o.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),jQuery(document).ready(function(o){var s=1170;if(o(window).width()>s){var i=o(".navbar-custom").height();o(window).on("scroll",{previousTop:0},function(){var s=o(window).scrollTop();s<this.previousTop?s>0&&o(".navbar-custom").hasClass("is-fixed")?o(".navbar-custom").addClass("is-visible"):o(".navbar-custom").removeClass("is-visible is-fixed"):s>this.previousTop&&(o(".navbar-custom").removeClass("is-visible"),s>i&&!o(".navbar-custom").hasClass("is-fixed")&&o(".navbar-custom").addClass("is-fixed")),this.previousTop=s})}});
+     </script>
+   </body>

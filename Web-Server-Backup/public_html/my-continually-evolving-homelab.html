@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="robots" content="doindex, dofollow">
+  <meta charset="utf-8">
+  <title>Computer Homelab | Ryan's TechSploits</title>
+  <meta name="description" content="Interested in building a homelab? Learn about Ryan Heavican's computer homelab in this Techsploit's post.">
+  <meta name="keywords" content="computer homelab,homelab,evolutionlab,networking,Ryan Heavican homelab">
+  <meta name="author" content="Ryan Heavican">
+  <link rel="author" href="https://plus.google.com/u/0/+RyanHeavican"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="alternate" href="http://www.ryanheavican.com" hreflang="en-US" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="css/posts.css">
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Rock+Salt" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" media="bogus">
+  <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29114312-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-default  navbar-fixed-top">
+          <div class="container-fluid">
+              <!-- Nav Brand -->
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      MENU <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand" id="navbar-brand"href="/">&lt;TECH&gt; SPLOITS</a>
+              </div>
+              <!-- Nav Links -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right" id="navbar-nav">
+                      <li>
+                        <a href="/#blog">Blog</a>
+                      </li>
+                      <li>
+                          <a href="/#about">About</a>
+                      </li>
+                      <li>
+                          <a href="work">Work</a>
+                      </li>
+                      <!--
+                      <li>
+                          <a href="#">Play</a>
+                      </li>
+                      -->
+                      <li>
+                          <a href="/#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- Page Header -->
+      <header class="intro-header">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                      <div class="post-heading">
+                          <h1>The Continually Evolving Homelab</h1>
+                          <h2 class="subheading">Learn about my everchanging computer homelab setup</h2>
+                          <div class="meta">Posted by <b>Ryan Heavican</b> on August 27, 2016 </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+
+
+      <!-- Blog Article -->
+      <article>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                      <p>I faced a big challenge when I made the transition from managing web development to managing an entire IT department.</p>
+                      <p>I had plenty of experience setting up routers, managing web servers, and running cool services like Plex on my home network so I thought the task of single-handedly running a small business network would be no sweat.</p>
+                      <figure>
+                        <img class="img-medium" src="img/homelab.jpg" alt="Ryan Heavican's Homelab">
+                        <figcaption>Close up of the homelab. The networking devices live in the 4U black networking cabinet on the lower left side of the image. So sexy. Don’t deny it.</figcaption>
+                      </figure>
+                      <p>The first few projects such as transitioning the company’s email platform and deploying a new website with a modern CMS were seamless. However, it soon became evident that I needed to expand my knowledge of computer networking to make much needed upgrades to the company’s aging network.</p>
+
+                      <p>Community college courses and online resources like Coursera, Udacity, and even YouTube greatly broadened my computer networking knowledge. But hands on experience is necessary for one to fully understand networking protocols, services, operating systems and devices.</p>
+
+                      <p>An environment where one can safely test, break and fix services is absolutely crucial. Thus, EvolutionLab.net was born.</p>
+
+                      <h2 class="section-heading">Networking Devices</h2>
+                      <p>The following networking devices provide the physical infrastructure for my network.</p>
+                      <h3>Keystone Patch Panel</h3>
+                      <p>My 16 port keystone patch panel keeps my network tidy. The Ethernet cables from all network devices connect into the patch panel, making it very organized and easy to make routing changes. Unlike a typical Cat5/Cat6 patch panel, keystone patch panels use couplers so cables don’t have to be hard wired and different types of couplers can be used (eg USB, Cat 6, HDMI, etc…).</p>
+                      <h3>Modem</h3>
+                      <p>My MOTOROLA SB6141 SURFboard cable modem enables the transmission of IPv4 and IPv6 data over my ISP’s coaxial cable lines. It runs DOCSIS 3.0 & supports 343 Mbps download speeds. Nothing fancy to see here.</p>
+                      <h3>Router</h3>
+                      <p>For my router, I bought a used Watchguard Firebox Core X1250e that lacked Watchguard licensing. I then flashed pfSense to the device, which is an absolutely amazing open source firewall platform. The router has 1.5 Gbps throughout and very deep functionality; I’m currently running OpenVPN and Snort IDS. I love my router. A lot.</p>
+                      <h3>Switch</h3>
+                      <p>I use a TP-Link TL-SG2424 24 port smart switch. The switch does what it’s supposed to do and is much cheaper than most managed switches. However, TP-Link smart switches use their own nomenclature for VLAN configuration which has caused me a fair amount of frustration.</p>
+                      <h3>Access Point</h3>
+                      <p>My Ubiquiti UniFI UAP-3 is a rock solid PoE  802.11 b/g/n, 2.4 GHz access point that is capable of 300 Mbps throughput. The coolest thing about UniFi access points is their software, which is very polished and has great functionality.</p>
+                      <h2 class="section-heading">Physical Machines</h2>
+                      <p>What good would a computer network be without computers? I use cheap refurbished PC laptops as my primary personal computing devices as I’m not a gamer and don’t need anything with blazing fast specs. Rather, my data and services live on the following group of servers.</p>
+                      <figure>
+                        <img class="img-medium" src="img/homelab-group.jpg" alt="Ryan's Entire Homelab">
+                        <figcaption>Group family photo of my entire homelab. Sagan and Swartz are on the right and Darwin, Boole, and Gates all live under the TV. Sweet.</figcaption>
+                      </figure>
+                      <p>What good would a computer network be without computers? I use cheap refurbished PC laptops as my primary personal computing devices as I’m not a gamer and don’t need anything with blazing fast specs. Rather, my data and services live on the following group of servers.</p>
+                      <h3>Sagan</h3>
+                      <p>Sagan is a mid 2010 Mac Mini with a 2.4 GHz Intel Core 2 Duo processor, 8 GB of upgraded memory and an upgraded 2 TB HDD. Sagan runs OSX and acts as a media streaming server, running a Plex server, Spotify, and iTunes. I’ll soon be migrating my ~1TB Plex collection of movies and TV shows to Swartz for increased performance and storage capacity.</p>
+                      <h3>Swartz</h3>
+                      <p>Swartz is a Gen8 HP Microserver with a 2 core 2.3 GHz Intel Xeon E3-1220L v2 processor, 16 GB ECC RAM, and 4 3TB Western Digital Red HDDs in RAID Z2. The device runs FreeNAS off a flash drive. FreeNAS is an open source Network Attached Storage operating system that enables Swartz to provide all network storage and is primarily used for storing backups. Swartz will also soon function as my primary Plex server.</p>
+                      <h3>Darwin</h3>
+                      <p>Darwin is the heart of my network. Darwin is a Lenovo ThinkServer TS140 with a 4 core Intel Quad Core Xeon E3-1225v3 processor, 28 GB of memory (that will soon be maxed to 32GB), an IBM LSI 9260-8i RAID card, and 2 850 EVO SSDs in RAID1. Darwin boots VMware ESXi Version 6.0.0 off an old laptop SSD. My VMware lab running VMware vSphere with Operations Management 6 Enterprise Plus lives on Darwin and enables me to host <a href="http://ryanheavican.com/virtualization-homelab-cheaper-macbook">Virtual Machines</a>.</p>
+                      <h3>Boole</h3>
+                      <p>Boole is a Synology RS812 with 2 3TB HDDs in no current RAID configuration although this will change once I acquire 2 more 3TB HDDs. This device runs Synology’s NAS software and will back up Swartz via rsync once that server becomes my primary Plex host.</p>
+                      <h3>Gates</h3>
+                      <p>Gates is a Dell PowerEdge T20 Mini-tower Server with a dual core Intel Pentium G3220 3.0GHz processor, 8 GB of memory, 2 120GB SSDs in RAID 1 and 2 1TB Western Digital Red HDDs also in RAID 1. Gates runs Windows Server 2012 R2 Data Center and serves as a <a href="http://ryanheavican.com/server-2016-hyper-v-host">Hyper-V host</a> that will run an all Microsoft test environment, including a technical preview of Server 2016. Fully configuring Hyper-V on Gates is one of my immediate homelab projects and eventually Gates will live on its own VLAN and have much more memory than it currently has.</p>
+                      <h2 class="section-heading">Virtual Machines</h2>
+                      <p>What good are hypervisors like VMware vSphere or Hyper-V if no virtual machines are spinning on the network? Here’s a list of the VMs I currently have running in my homelab.</p>
+                      <h3>Aristotle</h3>
+                      <p>Aristotle is a Microsoft Windows Server 2012 R2 VM that serves as my primary Domain Controller running Active Directory, DNS and DHCP. Aristotle also hosts PRTG, which is network monitoring software.</p>
+                      <h3>Hemingway</h3>
+                      <p>Hemingway is a Microsoft Windows Server 2012 Standard VM that serves as a backup Domain Controller. Hemingway also manages my ebook library using Calibre, runs my Unifi controller for my access point, and runs VEEAM which is an awesome backup tool.</p>
+                      <h3>Rousseau</h3>
+                      <p>Rousseau is an Ubuntu 14.04.4 VM that runs Apache and DokuWiki. DokuWiki is open source wiki software that I use for documenting homelab configurations and other data.</p>
+                      <h3>Snowden</h3>
+                      <p>Snowden is a Security Onion 14 VM. Snowden runs a Private Internet Access VPN and uTorrent and is used to safely torrent legal(!!!) content.</p>
+                      <h3>Kleinrock</h3>
+                      <p>Kleinrock is an instance of Sophos UTM which is a Unified Threat Management system used for network security.</p>
+                      <h3>Descartes</h3>
+                      <p>Descartes is an instance of VMware vCenter Server Appliance 6.0.0.20000. Descartes is a crucial part of my VMware lab and enables me to access my lab via a browser using the vSphere Web Client UI.</p>
+                      <h2 class="section-heading">Homelab Evolution</h2>
+                      <p>My homelab is in a state of constant evolution. My Trello lists are filled with projects that I’ve been tackling over the course of the last year or so. My immediate tasks are to fully deploy Gates, migrate my Plex server to Swartz, setup rsync between Swartz and Boole, and to better configure my network’s VLANs.</p>
+                      <p>My more distant goals are to completely max out the memory across my network so that I can run more VMs & to launch a virtual web server that can be used for web/wordpress development. I’m also going to buy and configure 4 raspberry pis; one will run KALI Linux for network penetration testing, one will run Nagios for network monitoring, one will run BRO IDS for network security and the last one will run RetroPi for playing a crapton of games from old video game consoles.</p>
+                      <p>I’ll provide plenty of posts about my homelab and will specifically be posting about hyper-v and my network topology in the near future.</p>
+                  </div>
+              </div>
+          </div>
+      </article>
+       <!-- Footer -->
+      <footer>
+          <div class="container">
+              <div class="row">
+                <p class="copyright text-muted">Copyright 2018 &copy; Ryan Heavican</p>
+              </div>
+          </div>
+        </footer>
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Font Awesome icons -->
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <script>
+        $(document).on('click.nav','.navbar-collapse.in',function(e) {
+           if( $(e.target).is('a') ) {
+               $(this).removeClass('in').addClass('collapse');
+             }
+          });
+        </script>
+      <script>
+        $(function(){$("body").on("input propertychange",".floating-label-form-group",function(o){$(this).toggleClass("floating-label-form-group-with-value",!!$(o.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),jQuery(document).ready(function(o){var s=1170;if(o(window).width()>s){var i=o(".navbar-custom").height();o(window).on("scroll",{previousTop:0},function(){var s=o(window).scrollTop();s<this.previousTop?s>0&&o(".navbar-custom").hasClass("is-fixed")?o(".navbar-custom").addClass("is-visible"):o(".navbar-custom").removeClass("is-visible is-fixed"):s>this.previousTop&&(o(".navbar-custom").removeClass("is-visible"),s>i&&!o(".navbar-custom").hasClass("is-fixed")&&o(".navbar-custom").addClass("is-fixed")),this.previousTop=s})}});
+      </script>
+    </body>

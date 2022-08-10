@@ -1,0 +1,6 @@
+--- 
+"gem": '--remote --gen-rdoc --run-tests'
+"gemhome": '/home/evolvtion3654l/ruby/gems'
+"gempath": []
+
+"rdoc": '--inline-source --line-numbers'

@@ -1,0 +1,945 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202012 will be lost/reset.
+# Last config file used to build this data file was /home/evolvtion3654l/tmp/awstats/ssl/awstats.ryanheavican.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2703                
+POS_VISITOR 17509               
+POS_DAY 25906               
+POS_DOMAIN 3530                
+POS_LOGIN 4321                
+POS_ROBOT 4476                
+POS_WORMS 5713                
+POS_EMAILSENDER 5844                
+POS_EMAILRECEIVER 5987                
+POS_SESSION 26700               
+POS_SIDER 26890               
+POS_FILETYPES 6122                
+POS_DOWNLOADS 6380                
+POS_OS 6470                
+POS_BROWSER 6790                
+POS_SCREENSIZE 8433                
+POS_UNKNOWNREFERER 8507                
+POS_UNKNOWNREFERERBROWSER 9063                
+POS_ORIGIN 9322                
+POS_SEREFERRALS 9461                
+POS_PAGEREFS 9798                
+POS_SEARCHWORDS 9969                
+POS_KEYWORDS 10121               
+POS_MISC 2366                
+POS_ERRORS 10180               
+POS_CLUSTER 4177                
+POS_SIDER_404 10291               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210101004951 62 12412 12245926785091
+FirstTime 20201201020209
+LastTime 20201231164552
+LastUpdate 20210101052711 62 0 61 0 0
+TotalVisits 202                 
+TotalUnique 166                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 239                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 23 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 20 394388 40 80 796453
+1 5 10 376576 45 93 3705026
+2 15 20 429031 52 95 741548
+3 5 12 306219 25 63 828654
+4 3 14 1069992 50 88 2582660
+5 12 36 6238944 40 83 576156
+6 17 40 1126088 104 171 1153796
+7 7 14 833155 29 60 374055
+8 5 13 262043 33 66 177585
+9 7 13 1199103 38 76 1053368
+10 4 8 127384 27 45 466905
+11 11 28 1033806 25 51 2815619
+12 81 87 641316 157 185 913972
+13 90 100 1405526 75 104 1437682
+14 18 27 446921 102 135 909013
+15 30 46 1410909 67 115 1934186
+16 8 17 750813 34 64 427679
+17 22 25 331600 23 57 736416
+18 6 13 486064 45 76 564738
+19 25 31 847081 96 141 3254998
+20 13 27 810238 46 97 526285
+21 7 20 852432 26 64 2703503
+22 8 11 274658 89 117 323869
+23 7 9 160769 30 62 2725016
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 42
+us 250 319 7633272
+gb 39 59 1680161
+se 32 32 191110
+de 27 30 459897
+ru 22 41 6430638
+fr 6 13 405884
+hk 6 7 126801
+ro 6 7 126801
+hr 5 18 565935
+cn 5 45 362966
+th 3 3 61552
+pl 2 7 423137
+ca 2 4 209936
+sc 2 2 9090
+hu 2 14 814412
+cl 2 6 188255
+dk 2 3 131883
+es 1 1 26915
+kr 1 2 87229
+ua 1 1 9176
+hn 1 1 9176
+md 1 1 26915
+ch 1 2 78346
+eu 1 1 9176
+in 1 1 9176
+si 0 1 78053
+cz 0 1 78053
+pr 0 1 78053
+pt 0 1 78053
+qa 0 1 78053
+ph 0 1 187056
+tr 0 3 234159
+br 0 1 78053
+nl 0 3 234159
+it 0 1 18102
+tw 0 1 78053
+jp 0 1 18102
+ba 0 1 187056
+fi 0 1 78053
+be 0 1 78053
+gr 0 1 78053
+mx 0 1 78053
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 28
+bot[\s_+:,\.\;\/\\-] 323 1163384 20201231162530 234
+Sogou[\x20]web[\x20]spider/ 252 2284896 20201231204846 3
+bingbot/ 152 17459726 20201231232131 47
+crawl 149 515850 20201228005957 45
+SeznamBot/ 110 1097986 20201231234704 58
+YandexBot/ 91 2288143 20201226170351 55
+Googlebot/ 87 1364038 20201228232153 17
+AhrefsBot/ 52 105504 20201231225627 33
+SemrushBot/ 51 96031 20201214192228 32
+baidu 48 1241172 20201216060204 0
+BLEXBot/ 28 108325 20201210190809 4
+Mail\.RU_Bot/ 24 76120 20201228180818 12
+Apache\-HttpClient/ 20 183520 20201230185640 0
+Applebot/ 18 87312 20201231103842 7
+MegaIndex\.ru/ 15 65222 20201220151247 1
+unknown 14 336 20201229215251 14
+MJ12bot/ 9 20332 20201206235937 3
+Googlebot\-Image/ 6 3050014 20201227015426 0
+spider 6 17731 20201211202649 2
+Python\-urllib/ 3 27398 20201217030345 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3 27528 20201225131043 0
+curl 2 36091 20201229125224 0
+DotBot/ 2 13640 20201230232010 1
+bingpreview 2 108160 20201206110745 0
+AdIdxBot/ 1 78053 20201229092652 0
+Konqueror/ 1 9176 20201222034047 0
+no_user_agent 1 0 20201201180032 0
+YandexImages/ 1 93733 20201219194226 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+woff2 11 848778 0 0
+xml 2 3752 0 0
+jpeg 10 1870560 0 0
+css 77 406339 0 0
+sample 10 7107 0 0
+png 13 1545901 0 0
+Unknown 144 544944 0 0
+jpg 119 11997929 0 0
+pdf 1 944205 0 0
+html 254 3645541 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/img/Ryan-Heavican-Resume.pdf 6 0 4810091
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+win7 15 13
+ios_iphone 27 13
+macosx9 3 3
+linuxgentoo 1 1
+macosx10 1 0
+macosx8 1 1
+Unknown 139 135
+macosx11 23 23
+linuxandroid 14 6
+win8.1 6 6
+macosx5 1 1
+winxp 16 11
+win10 244 159
+winlong 42 3
+linux 39 22
+win8 3 2
+macosx12 10 8
+macintosh 1 1
+macosx 55 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 80
+chrome45.0.2454.94 1 1
+safari13.1.2 19 6
+chrome64.0.3282.119 1 1
+opera73.0.3856.284 1 0
+firefox15.0.1 1 1
+msie6.0 2 2
+chrome86.0.4240.198 9 2
+chrome75.0.3765.0 2 1
+chrome70.0.3538.77 7 7
+msie7.0 40 1
+chrome66.0.3359.181 85 85
+msie10.6 1 1
+chrome44.0.2403.155 1 0
+chrome83.0.4086.0 1 1
+firefox68.0 4 4
+msie5.15 1 1
+safari12.1.2 4 1
+chrome61.0.3163.100 1 1
+chrome71.0.3578.98 2 2
+safari14.0 6 6
+chrome87.0.4280.107 1 0
+chrome32.0.1664.3 1 1
+firefox80.0 16 4
+chrome67.0.3396.99 7 3
+chrome81.0.4044.138 1 1
+chrome43.0.2357.124 1 1
+safari13.1 1 1
+msie11.0 3 3
+safari14.0.1 13 3
+chrome70.0.3538.102 1 1
+firefox83.0 8 2
+chrome40.0.2214.85 5 5
+chrome86.0.4240.183 1 0
+chrome80.0.3987.122 1 1
+chrome74.0.3694.0 6 2
+chrome58.0.3029.110 5 5
+chrome35.0.1916.47 2 2
+chrome74.0.3729.169 15 15
+chrome79.0.3945.88 1 1
+firefox28.0 1 1
+firefox42.0 1 1
+chrome73.0.3683.90 3 3
+safari11.1.1 2 2
+chrome87.0.4280.66 3 1
+chrome56.0.2924.87 1 1
+chrome83.0.4087.0 2 2
+firefox82.0 1 1
+opera72.0.3815.400 1 0
+firefox57.0 3 3
+chrome87.0.4280.101 5 0
+msie8.0 2 2
+chrome80.0.3987 1 1
+Unknown 94 94
+chrome85.0.4183.121 24 24
+chrome76.0.3809.71 3 3
+firefox11.0 5 0
+chrome72.0.3626.119 2 2
+safari 1 0
+chrome84.0.4147.105 2 2
+chrome85.0.4183.102 1 0
+chrome86.0.4240.193 1 0
+chrome87.0.4280.88 95 16
+mozilla 53 49
+firefox12.0 1 1
+chrome75.0.3729.169 12 12
+chrome87.0.4280.67 1 0
+chrome83.0.4103.97 1 1
+firefox45.0 2 2
+chrome83.0.4093.3 1 1
+arora 1 1
+netscape5.0 1 1
+chrome86.0.4240.75 1 1
+galeon 1 1
+edge18 1 1
+wap 1 1
+opera35.0.2066.37 3 3
+chrome83.0.4103.61 6 6
+chrome26.0.1410.65 1 1
+chrome75.0.3770.100 2 2
+firefox84.0 20 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+python-requests/2.24.0 20201210023540
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20201231135721
+Embarcadero_URI_Client/1.0 20201214153548
+Mozilla/5.0_(compatible;_Dataprovider.com) 20201228154114
+Mozilla/5.0_(compatible) 20201214191849
+Go-http-client/1.1 20201229093207
+Wappalyzer 20201216042926
+Mozilla/5.0_(compatible;_evc-batch/2.0) 20201230173737
+panscient.com 20201211195430
+Go-http-client/2.0 20201229062442
+Mozilla/5.0 20201230181055
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Embarcadero_URI_Client/1.0 20201214153548
+panscient.com 20201211195430
+python-requests/2.24.0 20201210023540
+Go-http-client/2.0 20201229062442
+Go-http-client/1.1 20201229093207
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 241 287
+From1 1 1
+From2 8 77
+From3 1 1
+From4 170 275
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 11
+www_google_es 0 1
+bing 0 1
+www_google_com_hk 0 1
+duckduckgo 1 1
+www_google_com 7 67
+www_google_gr 0 1
+www_google_be 0 1
+www_google_nl 0 1
+www_google_de 0 1
+www_google_pl 0 1
+www_google_dk 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://github.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+421 1 322
+301 410 101349
+404 283 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 160
+/master/.env 1 https://www.google.com/
+/beta/.env 1 https://www.google.com/
+/public/.env 1 https://www.google.com/
+/bk 3 https://www.ryanheavican.com/bk/
+/cron/.env 1 https://www.google.com/
+/travis/.env 1 https://www.google.com/
+/web 3 https://www.ryanheavican.com/web/
+/wp-content/plugins/easy-wp-smtp 1 -
+/shared/.env 1 https://www.google.com/
+/private/.env 1 https://www.google.com/
+/engine/.env 1 https://www.google.com/
+/new 3 https://www.ryanheavican.com/new/
+/search/.env 1 https://www.google.com/
+/cms 3 https://www.ryanheavican.com/cms/
+/.git/refs/stash 1 http://www.ryanheavican.com/.git/refs/stash
+/wp-content/themes/wp-update.php 1 www.google.com
+/en/wp-includes/wlwmanifest.xml 1 -
+/plugins/system/debug/debug.xml 1 -
+/new-site 3 https://www.ryanheavican.com/new-site/
+/a/.env 1 https://www.google.com/
+/administrator/language/en-GB/install.xml 1 -
+/live/.env 1 https://www.google.com/
+/wp 3 https://www.ryanheavican.com/wp/
+/.git/logs/refs/remotes/origin/HEAD 1 http://www.ryanheavican.com/.git/logs/refs/remotes/origin/HEAD
+/.env 2 https://www.google.com/
+/routes/.env 1 https://www.google.com/
+/ironment/.env 1 https://www.google.com/
+/development/.env 1 https://www.google.com/
+/wp2 3 https://www.ryanheavican.com/wp2/
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/portal/wp-includes/wlwmanifest.xml 1 -
+/%23about 2 -
+/.git/logs/refs/stash 1 http://www.ryanheavican.com/.git/logs/refs/stash
+/v1/wp-includes/wlwmanifest.xml 1 -
+/cli/.env 1 https://www.google.com/
+/composer/.env 1 https://www.google.com/
+/emergency.php 1 www.google.com
+/.git/hooks/post-commit.sample 1 http://www.ryanheavican.com/.git/hooks/post-commit.sample
+/test/.env 1 https://www.google.com/
+/.git/ORIG_HEAD 1 http://www.ryanheavican.com/.git/ORIG_HEAD
+/auth/.env 1 https://www.google.com/
+/src/.env 1 https://www.google.com/
+/old 3 https://www.ryanheavican.com/old/
+/apple-touch-icon.png 1 -
+/.git/FETCH_HEAD 1 http://www.ryanheavican.com/.git/FETCH_HEAD
+/ads.txt 10 -
+/artisan/.env 1 https://www.google.com/
+/back/.env 1 https://www.google.com/
+/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/css/dnd-upload-cf7.css 1 www.google.com
+/apple-touch-icon-precomposed.png 1 -
+/blog 3 https://www.ryanheavican.com/blog/
+/developer/.env 1 https://www.google.com/
+/2019/wp-includes/wlwmanifest.xml 1 -
+/wordpress 3 https://www.ryanheavican.com/wordpress/
+/.git/hooks/post-receive.sample 1 http://www.ryanheavican.com/.git/hooks/post-receive.sample
+/asset-manifest.json 1 https://www.ryanheavican.com/
+/old-wp 3 https://www.ryanheavican.com/old-wp/
+/2018/wp-includes/wlwmanifest.xml 1 -
+/apple-touch-icon-120x120.png 1 -
+/%23contact 2 -
+/administrator/help/en-GB/toc.json 1 -
+/~dev/.env 1 https://www.google.com/
+/api/.env 1 https://www.google.com/
+/admin/view/javascript/common.js 1 -
+/demo/.env 1 https://www.google.com/
+/dev/.env 1 https://www.google.com/
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/laravel/.env 1 https://www.google.com/
+/2020 3 https://www.ryanheavican.com/2020/
+/site/.env 1 https://www.google.com/
+/.git/packed-refs 1 http://www.ryanheavican.com/.git/packed-refs
+/protected/.env 1 https://www.google.com/
+/data/.env 1 https://www.google.com/
+/core/.env 1 https://www.google.com/
+/wp-login.php 17 http://www.ryanheavican.com/wp-login.php
+/humans.txt 6 http://www.ryanheavican.com/humans.txt
+/inc/.env 1 https://www.google.com/
+/wp-content/uploads/2016/09/Ryan-Heavican-Pic.jpg 29 -
+/.git/objects/info/packs 1 http://www.ryanheavican.com/.git/objects/info/packs
+/mods/.env 1 https://www.google.com/
+/project/.env 1 https://www.google.com/
+/old-site 3 https://www.ryanheavican.com/old-site/
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/dependencies/.env 1 https://www.google.com/
+/admin/index.php 1 -
+/application/.env 1 https://www.google.com/
+/.git/info/refs 1 http://www.ryanheavican.com/.git/info/refs
+/qa/.env 1 https://www.google.com/
+/.git/objects/00/00000000000000000000000000000000000000 1 http://www.ryanheavican.com/.git/objects/00/00000000000000000000000000000000000000
+/wp-includes/wlwmanifest.xml 1 -
+/main/wp-includes/wlwmanifest.xml 1 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/document/.env 1 https://www.google.com/
+/admin/.env 1 https://www.google.com/
+/wp-includes/css/css.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 2 -
+/demo/wp-includes/wlwmanifest.xml 1 -
+/php/.env 1 https://www.google.com/
+/dev 3 https://www.ryanheavican.com/dev/
+/main 3 https://www.ryanheavican.com/main/
+/v1 3 https://www.ryanheavican.com/v1/
+/.git/refs/remotes/origin/HEAD 1 http://www.ryanheavican.com/.git/refs/remotes/origin/HEAD
+/sources/.env 1 https://www.google.com/
+/fedex/.env 1 https://www.google.com/
+/docker/.env 1 https://www.google.com/
+/frontend/.env 1 https://www.google.com/
+/2018 3 https://www.ryanheavican.com/2018/
+/app/.env 1 https://www.google.com/
+/login/.env 1 https://www.google.com/
+/Chitoge.php 1 -
+/wp-includes/fonts/css.php 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/bak 3 https://www.ryanheavican.com/bak/
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/vod_installer/.env 1 https://www.google.com/
+/server/.env 1 https://www.google.com/
+/v2 3 https://www.ryanheavican.com/v2/
+/store/.env 1 https://www.google.com/
+/home/wp-includes/wlwmanifest.xml 1 -
+/tmp 3 https://www.ryanheavican.com/tmp/
+/.git/logs/refs/tags 1 http://www.ryanheavican.com/.git/logs/refs/tags
+/backend/.env 1 https://www.google.com/
+/shop/.env 1 https://www.google.com/
+/react/.env 1 https://www.google.com/
+/phpversion.php 1 -
+/local/.env 1 https://www.google.com/
+/cms/wp-includes/wlwmanifest.xml 1 -
+/personal/.env 1 https://www.google.com/
+/apps/.env 1 https://www.google.com/
+/staging/.env 1 https://www.google.com/
+/config.bak.php 3 -
+/demo 3 https://www.ryanheavican.com/demo/
+/admin 1 https://www.ryanheavican.com/admin/
+/rest/.env 1 https://www.google.com/
+/install 3 https://www.ryanheavican.com/install/
+/site 3 https://www.ryanheavican.com/site/
+/m/.env 1 https://www.google.com/
+/administrator 1 -
+/new/.env 1 https://www.google.com/
+/laravel-artisan/.env 1 https://www.google.com/
+/system/.env 1 https://www.google.com/
+/scripts/.env 1 https://www.google.com/
+/cms/.env 1 https://www.google.com/
+/config/.env 1 https://www.google.com/
+/blog/wp-includes/wlwmanifest.xml 1 -
+/2019 3 https://www.ryanheavican.com/2019/
+/wp-admin/admin-ajax.php 2 -
+/temp 3 https://www.ryanheavican.com/temp/
+/home 3 https://www.ryanheavican.com/home/
+/framework/.env 1 https://www.google.com/
+/web/.env 1 https://www.google.com/
+/test 3 https://www.ryanheavican.com/test/
+/deployment/.env 1 https://www.google.com/
+/.git/objects/85/f3a8cd34e43e6f0a7e849fb15668cb9aa76b81 1 http://www.ryanheavican.com/.git/objects/85/f3a8cd34e43e6f0a7e849fb15668cb9aa76b81
+/cp/.env 1 https://www.google.com/
+/backup 3 https://www.ryanheavican.com/backup/
+/admin-app/.env 1 https://www.google.com/
+/wp1 3 https://www.ryanheavican.com/wp1/
+/blog/.env 1 https://www.google.com/
+/contact 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 239
+150.136.137.13 65 65 36416 20201201123535
+64.71.131.244 21 21 565215 20201230173737
+72.79.58.112 17 17 80292 20201211195430
+93.158.90.17 17 17 82912 20201231164552
+51.222.43.142 13 13 194197 20201228153806
+138.201.220.92 8 8 46504 20201205003905
+144.76.25.174 7 7 43371 20201212132322
+67.183.58.150 6 6 48748 20201225200240
+3.127.40.205 6 6 28152 20201220130408
+37.203.166.156 6 6 48748 20201201020210
+182.152.95.171 6 6 48748 20201210140459
+78.97.160.30 6 6 48748 20201217021254
+98.164.193.254 5 18 515719 20201222200122
+138.246.253.24 5 5 0 20201231002219
+35.222.37.109 4 4 36704 20201214145612
+194.72.238.97 4 4 107660 20201207130516
+114.100.1.193 4 4 88467 20201221153715
+31.217.0.236 4 16 482085 20201227063418
+176.106.242.148 4 4 86384 20201227121234
+1.10.154.140 3 3 61552 20201215122148
+35.185.78.131 3 3 9176 20201222060426
+130.255.162.169 3 3 17714 20201230144711
+93.158.90.102 3 3 17714 20201230074140
+93.28.24.89 3 10 342878 20201227115821
+93.158.90.94 3 3 17714 20201231110401
+13.59.46.94 1 1 26915 20201217200040
+174.98.180.237 0 1 78053 
+107.175.129.125 1 1 9176 20201229220504
+54.198.55.229 1 1 26915 20201214191849
+35.206.149.86 1 1 9176 20201216042926
+31.145.106.114 0 1 78053 
+34.217.49.192 2 2 18352 20201208131843
+35.160.191.219 2 2 18352 20201230132851
+52.33.78.41 2 2 18352 20201225132029
+195.181.175.122 2 2 53830 20201207130516
+119.236.184.148 0 1 78053 
+52.34.81.43 2 2 18352 20201211131103
+67.215.106.230 0 1 78053 
+35.165.247.138 2 2 18352 20201212132327
+54.38.190.109 2 2 53830 20201216061208
+73.243.36.131 0 1 78053 
+34.214.107.91 2 2 18352 20201223132041
+167.71.90.216 1 1 26915 20201206195401
+185.220.101.11 1 1 9176 20201205234251
+143.208.15.60 0 1 78053 
+75.73.60.196 0 1 30665 
+95.89.11.156 0 1 78053 
+168.119.122.168 1 1 9176 20201208101738
+178.192.61.135 0 1 78053 
+75.118.173.238 1 9 504775 20201213114620
+34.246.84.242 1 1 26915 20201208082548
+51.77.246.76 2 6 188255 20201228154114
+134.209.214.202 1 1 9176 20201222231829
+185.188.212.109 0 1 187056 
+68.196.44.49 0 1 187056 
+18.188.21.207 1 1 26915 20201217200334
+18.236.226.8 2 2 18352 20201215132023
+217.138.252.205 1 9 504775 20201220213830
+92.240.129.223 1 1 16277 20201221134515
+94.103.95.137 1 1 26915 20201220215251
+104.144.112.254 2 2 18352 20201222034051
+74.81.88.66 1 1 26915 20201207121125
+5.188.84.95 1 1 26915 20201219093345
+72.74.65.198 0 1 44475 
+5.188.48.16 1 1 18570 20201209000820
+73.225.214.141 0 1 78053 
+107.172.52.150 1 1 9176 20201218125629
+54.184.40.37 2 2 18352 20201219132225
+94.23.183.169 1 1 9176 20201230075804
+18.188.110.48 1 1 9176 20201210023540
+191.102.162.246 1 1 9176 20201201102050
+18.236.214.113 2 2 18352 20201227132403
+185.229.58.129 0 1 78053 
+66.249.84.125 0 1 93733 
+206.255.207.7 0 1 78053 
+185.253.218.243 1 1 9176 20201204195224
+34.216.143.181 2 2 18352 20201224130300
+54.187.113.113 2 2 18352 20201204131637
+54.187.171.223 2 2 18352 20201217131223
+54.170.51.246 1 1 9176 20201211054501
+176.194.59.207 1 1 26915 20201205221339
+148.251.50.77 2 2 53830 20201229050201
+80.44.174.117 2 2 53830 20201207121937
+34.220.53.47 2 2 18352 20201218132024
+34.222.184.37 2 6 188255 20201204064841
+5.182.124.162 1 1 9176 20201220053833
+47.217.28.225 0 1 78053 
+84.82.22.224 0 1 78053 
+177.12.49.44 0 1 78053 
+192.71.38.71 1 1 9176 20201201093151
+66.102.8.167 0 1 187056 
+23.250.118.36 1 1 2868 20201219232944
+94.158.245.19 1 1 26915 20201214153548
+178.62.91.140 1 1 9176 20201228084837
+34.220.239.28 1 1 9176 20201209134831
+165.225.120.245 0 2 156106 
+167.172.0.155 2 2 53830 20201207130516
+203.217.252.64 1 1 9176 20201217015218
+46.160.6.118 0 1 78053 
+104.168.56.156 1 1 9176 20201225131028
+66.249.93.75 0 1 187056 
+192.36.70.176 1 1 9176 20201213061037
+213.166.69.250 1 1 9176 20201228155010
+8.210.239.61 1 1 9176 20201204165536
+73.172.106.185 0 1 78053 
+158.69.228.209 1 1 26915 20201221094724
+87.202.171.153 0 1 78053 
+73.144.32.98 0 1 69521 
+34.211.166.108 2 2 18352 20201207140513
+192.36.71.133 1 1 9176 20201218183039
+37.9.151.52 1 1 16277 20201220192656
+168.11.166.27 0 1 187056 
+34.67.85.50 2 2 18352 20201228192047
+79.154.220.75 1 1 26915 20201230181055
+108.18.102.148 0 1 78053 
+171.13.14.76 1 2 10630 20201214171957
+181.215.81.145 2 6 188255 20201208135405
+46.97.145.182 0 1 78053 
+76.221.138.123 1 1 9176 20201222164040
+185.104.148.157 1 1 9176 20201213030334
+192.71.42.108 2 2 18352 20201229093207
+34.222.31.43 2 2 18352 20201205130249
+119.149.244.77 0 1 78053 
+98.215.126.23 0 1 78053 
+23.250.118.48 1 1 9176 20201219232938
+217.138.252.52 2 5 181200 20201220214401
+54.186.18.99 2 2 18352 20201226131517
+54.188.57.252 2 2 18352 20201231130731
+70.181.74.122 2 6 188255 20201221002604
+18.237.188.236 2 2 18352 20201206131910
+52.36.131.209 2 2 18352 20201203130535
+192.210.166.249 1 1 2868 20201218125633
+91.212.206.22 0 1 69521 
+34.223.103.209 1 1 9176 20201228130251
+196.245.254.224 2 2 9090 20201215144318
+87.115.231.207 2 2 53830 20201207130515
+34.223.255.229 2 2 18352 20201228131004
+148.251.123.46 1 1 26915 20201209223605
+212.180.226.143 0 1 78053 
+69.206.248.95 1 4 43780 20201208095248
+135.181.3.124 1 1 26915 20201210092013
+52.35.61.176 2 2 18352 20201213131835
+52.37.175.130 2 2 18352 20201221130802
+18.237.225.166 2 2 18352 20201220132606
+62.163.94.206 0 1 78053 
+189.252.164.65 0 1 78053 
+167.172.10.45 2 6 188255 20201207124406
+54.185.113.122 1 1 9176 20201230233258
+188.165.206.173 2 2 53830 20201219191856
+81.6.43.167 1 1 293 20201224151409
+109.95.126.197 1 1 5957 20201208220913
+172.56.21.17 0 1 78053 
+35.245.188.175 1 1 26915 20201217153706
+194.126.214.172 0 1 78053 
+104.236.56.8 1 1 26915 20201231135721
+185.183.97.13 1 1 9176 20201217104859
+185.222.57.164 1 1 9176 20201227172716
+68.6.75.190 0 1 78053 
+81.175.251.12 0 1 78053 
+34.215.119.112 2 2 18352 20201202131657
+54.202.168.93 1 1 9176 20201210131131
+49.145.147.230 0 1 187056 
+98.183.38.128 0 1 78053 
+174.81.147.78 0 1 78053 
+86.101.60.120 0 1 78053 
+73.211.194.32 0 1 69521 
+77.20.210.12 0 1 69521 
+83.11.65.181 0 1 78053 
+192.71.225.127 1 1 9176 20201224014313
+107.175.6.12 1 1 9176 20201225131040
+38.18.60.137 1 1 9176 20201204113900
+93.159.230.28 1 1 9176 20201211165419
+111.202.100.139 0 1 7053 
+35.185.241.102 2 2 53830 20201206153854
+173.44.223.94 1 1 2868 20201207011147
+220.130.175.235 0 1 78053 
+50.92.178.103 0 1 78053 
+78.157.127.132 0 1 78053 
+94.138.121.9 0 1 78053 
+82.192.44.128 0 1 78053 
+46.165.245.154 1 1 9176 20201231085100
+18.223.168.89 1 1 9176 20201214100407
+185.179.65.105 1 1 9176 20201228002853
+123.183.224.133 0 1 7053 
+85.148.8.162 0 1 78053 
+68.8.47.188 2 7 264220 20201231154526
+207.154.214.226 1 1 606 20201229215256
+89.64.105.20 0 1 78053 
+52.43.46.234 2 2 18352 20201206131910
+18.234.16.132 1 1 9176 20201229062442
+52.34.61.205 2 2 18352 20201216132213
+95.217.207.28 1 1 9176 20201211064038
+116.203.76.87 1 1 9176 20201228022107
+108.128.21.232 1 1 26915 20201222070815
+109.234.37.227 2 2 53830 20201207065703
+34.217.93.82 2 2 18352 20201222133350
+77.74.177.114 1 1 9176 20201225165424
+104.131.85.198 1 1 26915 20201201063333
+54.212.26.182 2 2 18352 20201201143832
+46.148.144.222 0 2 156106 
+5.9.145.132 1 1 26915 20201229050254
+132.232.81.163 2 2 18352 20201208082747
+66.42.106.74 1 1 26915 20201211023049
+107.175.237.215 1 1 9176 20201225131050
+34.217.85.183 2 2 18352 20201229132837
+54.39.106.173 0 1 944205 
+144.91.95.177 1 1 9176 20201223181330
+23.94.182.156 1 1 9176 20201222034040
+185.197.111.234 1 17 5732809 20201209053856
+168.245.155.31 0 1 78053 
+23.95.204.17 1 1 2868 20201229220506
+173.219.167.170 0 1 78053 
+78.131.87.199 2 12 658306 20201214045730
+168.119.11.187 1 1 26915 20201229050157
+66.102.8.171 0 1 187056 
+86.3.128.58 0 1 78053 
+199.244.88.132 2 2 18352 20201225230156
+58.157.45.207 0 1 18102 
+73.2.93.67 0 1 78053 
+188.143.48.15 0 1 78053 
+89.28.14.239 1 1 26915 20201221173406
+88.198.90.9 1 1 26915 20201229050258
+78.22.41.248 0 1 78053 
+54.212.70.131 1 1 9176 20201225154503
+91.191.62.226 0 1 187056 
+24.21.109.79 0 1 78053 
+18.236.210.124 2 2 18352 20201214132731
+174.105.25.124 1 3 12591 20201212143716
+93.138.119.179 1 1 5797 20201226074615
+107.150.84.139 1 1 9176 20201207011145
+159.65.210.36 2 2 53830 20201207130516
+123.183.224.131 0 37 249763 
+178.249.200.17 0 1 18102 
+66.102.8.169 0 1 187056 
+46.196.5.3 0 2 156106 
+89.211.145.177 0 1 78053 
+104.168.91.143 1 1 9176 20201225131047
+178.171.18.221 1 1 9176 20201208114312
+85.243.99.203 0 1 78053 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20201201 76 77 335839 6
+20201202 2 6 251032 1
+20201203 4 7 208426 3
+20201204 21 28 391492 6
+20201205 14 15 232830 6
+20201206 8 17 500907 5
+20201207 22 28 914400 12
+20201208 11 21 412122 8
+20201209 5 23 5899491 5
+20201210 10 11 172068 5
+20201211 23 30 557458 6
+20201212 11 14 108282 4
+20201213 9 20 759081 8
+20201214 14 34 1187996 12
+20201215 7 10 432156 3
+20201216 7 10 1155967 5
+20201217 16 19 383186 10
+20201218 8 11 405453 6
+20201219 6 10 396438 5
+20201220 14 28 959055 7
+20201221 11 20 471446 6
+20201222 15 27 562541 9
+20201223 5 9 360573 4
+20201224 5 14 1013222 4
+20201225 15 18 305540 9
+20201226 5 5 51064 4
+20201227 13 37 1312863 6
+20201228 25 35 809737 11
+20201229 14 18 336971 12
+20201230 12 15 209589 7
+20201231 13 24 717831 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 1
+0s-30s 187
+5mn-15mn 2
+2mn-5mn 1
+30s-2mn 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 82
+/ 253 3640938 178 164
+/graphic-design-portfolio 20 71922 5 4
+/my-continually-evolving-homelab 14 134998 9 5
+/how-to-make-retropie 12 79470 1 7
+/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2 11 848778 0 8
+/archives 7 26463 0 1
+/work 7 26800 0 3
+/dave-eggers-circle 7 37890 1 1
+/virtualization-homelab-cheaper-macbook 7 66125 5 5
+/html-css-jury-duty 4 23813 0 0
+/server-2016-hyper-v-host 4 22251 0 0
+/.git/config 2 586 1 1
+/google-analytics-certification 2 8136 0 1
+/sitemap.xml 2 3752 1 1
+/wordpress-google-analytics-plugin 2 8468 0 0
+/.git/COMMIT_EDITMSG 1 26 0 0
+/.git/info/exclude 1 191 0 0
+/.git/HEAD 1 23 0 0
+/.git/hooks/update.sample 1 1159 0 0
+/.git/refs/remotes/origin/master 1 41 0 0
+/.git/objects/e0/363fdac212d988ff013ac2ee1cb079bcada5d2 1 1421 0 0
+/.git/objects/49/60001c61a4e603c76f4c91ff87ee6e16c13188 1 171 0 0
+/.git/objects/72/bcbe6f5a382f2baab56027a642aa03672aea3c 1 190 0 0
+/.git/objects/c7/971703c3829227c2bbe914f7039f8aa408813b 1 6399 0 0
+/.git/objects/4d/1b8ef82396b4187d61b705a8883dae2fd6969c 1 45 0 0
+/.git/index 1 380 1 0
+/.git/refs/heads/master 1 41 0 0
+/.git/logs/HEAD 1 832 0 0
+/.git/objects/ea/0114ac163dd5c7018899d26443b1585bf5c340 1 55 0 0
+/.git/objects/12/417f587a837b3a96b31474579f28165d272d5c 1 189 0 0
+/.git/objects/90/12ad5fc73dae14670d7f3791922559b48a8b48 1 186 0 0
+/.git/objects/7a/089bf6ec6df3615d812e4c964053bb75563dd4 1 2609 0 0
+/.git/objects/d5/44c6f3c77ca85c7c78a4141351a7676f04e0ab 1 98 0 0
+/.git/objects/0f/d12d58e198de118de5c18de3924d4d29e63edd 1 101 0 0
+/.git/objects/66/5a3f4709240ed3e5bc928ee91ebbf1f4bf1852 1 24 0 0
+/.git/hooks/commit-msg.sample 1 521 0 0
+/.git/objects/d8/c6498a8b74b8382f9d42661c225661dcb37c90 1 188 0 0
+/.git/hooks/pre-rebase.sample 1 2027 0 0
+/.git/hooks/pre-applypatch.sample 1 283 0 0
+/.git/objects/e3/d60f56e4b91ab5f56130ac631442255cbf8dbd 1 210 0 0
+/.git/objects/3e/d1b6d4cb34274349b9d2a77e405c106c45f045 1 182 0 0
+/.git/objects/a4/e85ddceb8740ef95fefc84c95f362e6bfcbb94 1 111 0 0
+/.git/hooks/pre-receive.sample 1 347 0 0
+/.git/objects/e9/35c6800f09ddd0759e055eac238802fa72a151 1 1535 0 0
+/.git/objects/cf/1137f4117a384cc1a5cb2b1ec65a03c2985cfc 1 189 0 0
+/.git/objects/a6/01fd9057c874f34d63f1980ac1ecba2aa0c58a 1 100 0 1
+/deploying-vmware-lamp-server.html 1 4603 0 0
+/.git/objects/3f/b9ba7776b9c9e936be064de42ce90518c227e9 1 6027 0 0
+/.git/objects/c0/a185c02a115950ff4a60c8137bde8495498960 1 111 0 0
+/.git/logs/refs/heads/master 1 832 0 0
+/.git/hooks/pre-commit.sample 1 949 0 0
+/.git/objects/b8/199253ecb071823ab431159d95802f9cde9ffb 1 197 0 0
+/.git/objects/2d/ff47985c5d14c9e1fdb86cd9c6b3daee2578f1 1 100 0 0
+/.git/objects/0b/5ebd086812e745d1563483e68224deb70f3f94 1 184 0 0
+/.git/objects/8c/81de6381a06699111ae5e21bbcfbbc2a0224de 1 151 0 0
+/.git/objects/85/f3a8cd34e43e6f0a7e849fb15668cb9aa761b4 1 180 0 0
+/.git/logs/refs/remotes/origin/master 1 421 0 0
+/.git/description 1 81 0 0
+/.git/objects/b2/6f013fbe771cce22b7bddff9aa2292adfebd39 1 159 0 0
+/.git/objects/4a/af09c91ba784b01711221f28e377460cbce0dd 1 212 0 0
+/.git/objects/b4/85400adab1199186840303b044098ec3d7eb7b 1 49 0 0
+/.git/objects/d2/c3b6f77770a39a363e7c92b7be2eda3e525845 1 44 0 0
+/.git/objects/02/5fd3bf81306c4c0cd44d9a64c0b4fe0292d422 1 192 0 0
+/.git/objects/a6/0a03d8638d8d8ee8dc229973d36af2436a8baf 1 183 0 0
+/.git/hooks/applypatch-msg.sample 1 297 0 0
+/.git/objects/4a/701a238efe2f833c3ae9e6852694bc5f275730 1 182 0 0
+/new-techsploits-blog-layout 1 4403 0 0
+/.git/objects/90/f15dc57c4666644bc67e37d7807a7de2b955f7 1 191 0 0
+/.git/objects/82/c3b6d7dcb40909b6928d8d1b90cc4cd9c6e894 1 182 0 0
+/.git/objects/15/db68359711940c7fc13dc0549c4d1b7c5c2f5a 1 195 0 0
+/.git/objects/cf/645b56933ef7e85e38d374cc6d757c472fcc47 1 129 0 0
+/.git/objects/57/57ebd7e1b2b6fb0581299983f2b473230de395 1 99 0 0
+/deploying-vmware-lamp-server 1 4603 0 0
+/.git/objects/30/575e179f06573883e796bd9a76bbc9993d4097 1 100 0 0
+/.git/hooks/prepare-commit-msg.sample 1 681 0 0
+/.git/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904 1 15 0 0
+/.git/objects/1a/e83c229b2143a3529d0919d2b2d711d09d4c4a 1 2854 0 0
+/.git/objects/5f/05ae9feba865ddb4cb3023a4a3be0bd055201e 1 199 0 0
+/.git/hooks/post-update.sample 1 156 0 0
+/.git/objects/72/6e0efc88f2e33385d117b149e2b2319d11090b 1 101 0 0
+/.git/objects/31/69af145925c4bd5efcaa351faa133c91b8b325 1 109 0 0
+/.git/hooks/pre-push.sample 1 687 0 0
+END_SIDER

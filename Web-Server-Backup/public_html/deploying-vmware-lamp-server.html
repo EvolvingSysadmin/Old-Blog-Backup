@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="robots" content="doindex, dofollow">
+  <meta charset="utf-8">
+  <title>Deploying a LAMP Server | Ryan's Techsploits</title>
+  <meta name="description" content="Learn how deploying a LAMP server on my home network has been a great way to improve my web development skills in this blog post by Ryan Heavican.">
+  <meta name="keywords" content="LAMP server, LAMP stack,VMware server,LAMP development">
+  <meta name="author" content="Ryan Heavican">
+  <link rel="author" href="https://plus.google.com/u/0/+RyanHeavican"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="alternate" href="http://www.ryanheavican.com" hreflang="en-US" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="css/posts.css">
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Rock+Salt" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" media="bogus">
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29114312-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-default  navbar-fixed-top">
+          <div class="container-fluid">
+              <!-- Nav Brand -->
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      MENU <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand" id="navbar-brand"href="/">&lt;TECH&gt; SPLOITS</a>
+              </div>
+              <!-- Nav Links -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right" id="navbar-nav">
+                      <li>
+                        <a href="/#blog">Blog</a>
+                      </li>
+                      <li>
+                          <a href="/#about">About</a>
+                      </li>
+                      <li>
+                          <a href="work">Work</a>
+                      </li>
+                      <!--
+                      <li>
+                          <a href="#">Play</a>
+                      </li>
+                      -->
+                      <li>
+                          <a href="/#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- Page Header -->
+      <header class="intro-header">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                          <div class="post-heading">
+                              <h1>Deploying a LAMP Server in VMware vSphere</h1>
+                              <h2 class="subheading">Learn How I Deployed a LAMP Server Virtual Machine on my Network</h2>
+                              <div class="meta">Posted by <b>Ryan Heavican</b> on August 22, 2016</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </header>
+    <!-- Blog Article -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>I’ve been <a href="http://ryanheavican.com/html-css-jury-duty">honing my HTML & CSS recently</a> by utilizing a host of mostly free online resources. Using the online editors that these resources have is a very easy way to view how HTML pages are rendered.</p>
+                    <p>However, creating your own <a href="http://ryanheavican.com/my-continually-evolving-homelab">lab environment</a> that allows you to build web pages in your own directories on your own server will lead to greater familiarity with actual production environments.</p>
+                    <p>LAMP is an open source software stack/bundle that provides developers with the tools needed to create dynamic web pages. These tools are Linux, Apache, MySql, and PHP (LAMP). In this project I’ll be installing the LAMP stack on an Ubuntu 16 Server running in VMware vSphere that will be given the hostname of Torvalds in homage to the creator of Linux.</p>
+                    <h2 class="section-heading">Virtual Machine Creation</h2>
+                    <p>First, I downloaded the most up to date Ubuntu Server 16 ISO from the Ubuntu website. Then I created a new virtual machine in vSphere with 2 CPUs, 2 GB of memory, 40 GB of thin provisioned storage, and my downloaded ISO file as the CD/DVD drive file that would be connected at power up. Then I spun up the VM to configure Ubuntu.</p>
+                    <figure>
+                      <img class="img-medium"src="img/selecting-iso.png" alt="Creating a Virtual Machine">
+                      <figcaption>Editing the Virtual Machine settings</figcaption>
+                    </figure>
+                    <h2 class="section-heading">Ubuntu Configuration</h2>
+                    <p>I chose the default options when configuring Ubuntu and logged into the server for the first time once it’d rebooted at the end of the configuration process. I then installed Ubuntu desktop because I’m a sucker for having GUIs on my servers. I installed the GUI through apt-get by using the simple following commands and then rebooting:<br><br><code>sudo apt-get update</code><br><code>sudo apt-get install ubuntu-desktop</code></p>
+                    <figure>
+                      <img class="img-medium"src="img/server-gui.png" alt="Ubuntu Server 16 Login Screen">
+                      <figcaption>Linux Server 16 Ubuntu Desktop GUI</figcaption>
+                    </figure>
+                    <p>Then I gave my server a static IP address so that I could find it on my network. This is done by editing the /etc/network/interfaces file. First I had to give my user permission to edit this file by using the following, substituting in my username:<br><br>
+                      <code>sudo chown username /etc/network/interfaces</code><br>
+                      <code>sudo chmod ug+rwx /etc/network/interfaces</code></p>
+                    <p>Then I found my network adapter listed within the file and changed it to ‘static’ and appended the following network information, substituting my network info for the capital letters, and saved the doc:<br><br>
+                      <code>address SERVER_IP</code><br>
+                      <code>netmask NETWORK_NETMASK</code><br>
+                      <code>network NETWORK_IP</code><br>
+                      <code>gateway GATEWAY_IP</code><br>
+                      <code>dns-nameservers NAMESERVER_IP</code></p>
+                    <h2 class="section-heading">LAMP Installation</h2>
+                    <p>Next, Apache, MySQL, and PHP need to be installed on the Ubuntu Server. This can be accomplished by using these simple apt-get commands:<br><br>
+                      <code>sudo apt-get install apache2</code><br>
+                      <code>sudo apt-get install mysql-server</code><br>
+                      <code>sudo apt-get install php7 libapache2-mod-php7</code><br></p>
+                    <p>MySQL will run you through additional basic configuration steps, such as setting a user password. To verify that apache had successfully installed, I just needed to plug the host IP address into a browser window to make sure I got this:</p>
+                    <figure>
+                      <img class="img-medium"src="img/apache-installed.png" alt="Ubuntu Apache2 Default Welcome Page">
+                      <figcaption>Apache is Installed! Here's the Apache2 Ubuntu Page.</figcaption>
+                    </figure>
+                    <p>Next, I verified that PHP was up and working by creating a simple PHP file called /var/www/info.php with the following bit of code in the file:<br><br>
+                      <code>&lt;?php</code><br>
+                      <code>phpinfo();</code><br>
+                      <code>?&gt;</code><br></p>
+                    <p>Then I restarted the apache service by entering ‘sudo service apache2 restart’ and then navigated to HOSTNAME/info.php in a browser to verify that everything was kosher.</p>
+                    <figure>
+                      <img class="img-medium"src="img/php-installation.png" alt="">
+                      <figcaption>PHP now installed!</figcaption>
+                    </figure>
+                    <h2 class="section-heading">FTP Configuration</h2>
+                    <p>I wanted to set up LAN FTP access to my new LAMP server to mimic development on a production web server. To accomplish this, I installed vsftpd which is a lightweight FTP server. I did this with the following command:<br><br>
+                      <code>sudo apt-get install vsftpd</code><br></p>
+                    <p>Then I edited the /etc/vsftpd.conf file to ensure proper access for my user. I uncommented out the following commands within the doc to do so:<br><br>
+                      <code>write_enable=YES</code><br>
+                      <code>local_umask=022</code><br></p>
+                    <p>And appended these commands to the end of the document:<br><br>
+                      <code>pasv_enable=Yes</code><br>
+                      <code>pasv_min_port=40000</code><br>
+                      <code>pasv_max_port=40100</code>
+                    </p>
+                    <p>Next, I ensured that my user had access to the directory where the HTML and PHP files will live, so I entered the following commands:<br><br>
+                      <code>sudo chmod -R ugo+rw /var/www</code><br>
+                    </p>
+                    <p>Then I plugged in the host and username info and selected port 21 in my FTP client and was able to connect to the LAMP server. Yay!!</p>
+                    <figure>
+                      <img class="img-medium"src="img/ftp.png">
+                      <figcaption>FileZilla FTP Client connected to the LAMP VM</figcaption>
+                    </figure>
+                    <p>I then added an A record and PTR record in my network’s DNS server to associate my new LAMP server’s hostname with it’s IP on my network (and vice versa). Torvalds is a very insecure apache server as it is only meant for internal LAN hosting and isn’t accessible to the internet. However,  I may install encryption/SSH onto the server in the future to give added security and for learning purposes.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Footer -->
+   <footer>
+       <div class="container">
+           <div class="row">
+             <p class="copyright text-muted">Copyright 2018 &copy; Ryan Heavican</p>
+           </div>
+       </div>
+     </footer>
+     <!-- jQuery -->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <!-- Bootstrap JavaScript -->
+     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <!-- Font Awesome icons -->
+     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+     <script>
+     $(document).on('click.nav','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') ) {
+            $(this).removeClass('in').addClass('collapse');
+          }
+       });
+     </script>
+   <script>
+     $(function(){$("body").on("input propertychange",".floating-label-form-group",function(o){$(this).toggleClass("floating-label-form-group-with-value",!!$(o.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),jQuery(document).ready(function(o){var s=1170;if(o(window).width()>s){var i=o(".navbar-custom").height();o(window).on("scroll",{previousTop:0},function(){var s=o(window).scrollTop();s<this.previousTop?s>0&&o(".navbar-custom").hasClass("is-fixed")?o(".navbar-custom").addClass("is-visible"):o(".navbar-custom").removeClass("is-visible is-fixed"):s>this.previousTop&&(o(".navbar-custom").removeClass("is-visible"),s>i&&!o(".navbar-custom").hasClass("is-fixed")&&o(".navbar-custom").addClass("is-fixed")),this.previousTop=s})}});
+   </script>
+ </body>

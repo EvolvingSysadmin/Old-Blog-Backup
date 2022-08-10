@@ -1,0 +1,265 @@
+Return-Path: <yourdomainguru.eve01@outlook.com>
+Delivered-To: me@ryanheavican.com
+Received: from a2plcpnl0874.prod.iad2.secureserver.net
+	by a2plcpnl0874.prod.iad2.secureserver.net with LMTP
+	id 4PSzMPZh/F6kAyYAbgEAXw
+	(envelope-from <yourdomainguru.eve01@outlook.com>)
+	for <me@ryanheavican.com>; Wed, 01 Jul 2020 03:14:14 -0700
+Return-path: <yourdomainguru.eve01@outlook.com>
+Envelope-to: me@ryanheavican.com
+Delivery-date: Wed, 01 Jul 2020 03:14:14 -0700
+Received: from mail-oln040092253091.outbound.protection.outlook.com ([40.92.253.91]:42009 helo=APC01-SG2-obe.outbound.protection.outlook.com)
+	by a2plcpnl0874.prod.iad2.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <yourdomainguru.eve01@outlook.com>)
+	id 1jqZks-00ASrw-N9
+	for me@ryanheavican.com; Wed, 01 Jul 2020 03:14:14 -0700
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=dLKV1bDWfym1lmBpI9lq+2F789lSZ5WPExOJ1rbbaGvLUq5LEi8iPpC7ajXSX3S1qTkz/cmerCx4lZKy7JqGUqUHjMQl63XKiAWiJ2LrkJzddEY5bIm8jFTGdoinEwoD17rtwPQ4zoZI74GGfkQLYDVRiKaDMTOMOGPWVRwfyWn9buAP9h6ocNr02DeXpD9egihFOL0KD8QWcqaN+xtu6NSJv8/R6RJZp7FjY3CuID9tOfVJJv5vPYWHTAnMxdDYQUMWP0UlANrMC2XFz5BFnm/snzLcRh4Hlx0VzKwnnQu/UD93n/jOu4fFOFglITtDVLIN1fVbN+Z4tle58tEBnw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=yZ0Bo6I1Edg+57hAKHT0PZ58xdSDvVHn2wjslXbHzAs=;
+ b=ECnNN4lRsIAlZvW/MHBYi8qJXTzpZn7cWNI/cqtPKHkH/IMoKYvSdABWaLblNLsrUpB/kXU7bkYOZoQjJfbAd83dk/M2oesNidaDvgFHsOMKxzsh2y+hxUwCDexjE9yYCYjAnrWiCuFU4ALYB3HyvqUc5u91QoKlJmNzuV/i40TSoN6XS2NEier3feic7MFRIb4O7WY4yvkSVLSrJT1LiRkhd9hqYS+y4xtGNQvfQTKXPI/txKLKpK1DJLPQ6lrk2Dc0dEr2rNULnZ0WUxO0IkdP1NtRct0Y7LFROmXoG0QMUkYbYZCW/wE5LSMPu95gJ8wFll45QWmKV6gCztHQSA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=yZ0Bo6I1Edg+57hAKHT0PZ58xdSDvVHn2wjslXbHzAs=;
+ b=Jbl11qYuHW39OhSwVYy7lQxvfi12vRnUzG9Ec4H4cRp1UkQLtIXAQYkyzxA611qgVYCpf72VPbdRZQ3ddP7oHcB7Q9RINzHGBMIDbiBGfANUPSAYEa3VB5YkvSWIY5y8nHx+XFUzNbkGoJAc/2qY7bftHHsYcMt3Dnt0V4w1ylX/ylNDROxtEWH0WA7u5sqyWIwoyenLxp8fcJpgL0K3+uCb+j1vi/bgg5uIIl3EB7sZbVVwdx6KAcVw4GVCSrXoGoJTCUiyAZRSiycfRDIQud/Ac24DIBXoUNB4k0Jn3s0ieoAi9taYBtBjQEjn74AiRxAyeH96ltAn5Eh7ul2JKg==
+Received: from PU1APC01FT021.eop-APC01.prod.protection.outlook.com
+ (2a01:111:e400:7ebe::50) by
+ PU1APC01HT154.eop-APC01.prod.protection.outlook.com (2a01:111:e400:7ebe::195)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3131.20; Wed, 1 Jul
+ 2020 10:13:20 +0000
+Received: from TY2PR0101MB3726.apcprd01.prod.exchangelabs.com
+ (2a01:111:e400:7ebe::53) by PU1APC01FT021.mail.protection.outlook.com
+ (2a01:111:e400:7ebe::221) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3131.20 via Frontend
+ Transport; Wed, 1 Jul 2020 10:13:20 +0000
+Received: from TY2PR0101MB3726.apcprd01.prod.exchangelabs.com
+ ([fe80::8094:4cea:57ba:52e]) by
+ TY2PR0101MB3726.apcprd01.prod.exchangelabs.com ([fe80::8094:4cea:57ba:52e%8])
+ with mapi id 15.20.3131.028; Wed, 1 Jul 2020 10:13:20 +0000
+From: evelyn marcellana <yourdomainguru.eve01@outlook.com>
+To: "me@ryanheavican.com" <me@ryanheavican.com>
+Subject: Virtualizing.net is for sale!
+Thread-Topic: Virtualizing.net is for sale!
+Thread-Index: AQHWT4+oFxpwNJbhvEKPBazV+nGVrA==
+Date: Wed, 1 Jul 2020 10:13:20 +0000
+Message-ID:
+ <TY2PR0101MB372673B20A3239519BC2C89D816C0@TY2PR0101MB3726.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker:
+ OriginalChecksum:E7ACB40FF1EFFE083CB0B90CE6AA32A58546C8B190D6A4639777B8FA1ACFEED0;UpperCasedChecksum:76FA05DB3A92A83414D402DFFEF565C02A49FBC964AA339B39622B066C3E29A7;SizeAsReceived:6684;Count:41
+x-tmn: [SWDDoeLFnc8D8oQBUcSCxzsWbtIovqWj]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 41
+x-eopattributedmessage: 0
+x-ms-office365-filtering-correlation-id: b34973dd-afe6-4ac0-7557-08d81da76163
+x-ms-traffictypediagnostic: PU1APC01HT154:
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ UPXZ6WPHgdFaa0UgHOLjchpG94ekSO+Eeo8+FFG2IdDi6CUmJCL7xLqhBwrD3kIoF7QGeR8ypf4hCMwcgUsq1p2FnCCWsQX+tZj1lyURLXkfwFZoE926cW2UsVU783hXF1JY1na7MzXRqQaBpobg9P+45PGqwue9I6sZJYQd6w4mpjg/YMiAosP907D1Pu9/BlaOcMaRg8fhIZiriB/EOGr7LgLP3ihVCJ2R9dZxpweg53fopfxqTpqQvXnKI6Ol
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:0;SRV:;IPV:NLI;SFV:NSPM;H:TY2PR0101MB3726.apcprd01.prod.exchangelabs.com;PTR:;CAT:NONE;SFTY:;SFS:;DIR:OUT;SFP:1901;
+x-ms-exchange-antispam-messagedata:
+ MAApRqZdVE8AgzJRsgj+QDKrrJeu9evQFzLnII/oJ5Wh1xOW3AYBhXiUNfuMkbZZNU7iXpFrGD8mhES9aOja/xrbzsuZGBdeuc0OM55OHT0qqSS9kDqOqy8/BdNumVT3zju84cAF1xZZb7VYAz/Lvw==
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_TY2PR0101MB372673B20A3239519BC2C89D816C0TY2PR0101MB3726_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-AuthSource: PU1APC01FT021.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: b34973dd-afe6-4ac0-7557-08d81da76163
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-originalarrivaltime: 01 Jul 2020 10:13:20.2481
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PU1APC01HT154
+
+--_000_TY2PR0101MB372673B20A3239519BC2C89D816C0TY2PR0101MB3726_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Virtualizing.net is for sale!
+
+Hello, my name is Evelyn from Domain Nerdz. We have a domain that is curren=
+tly on sale that you might be interested in (Virtualizing.net).
+
+Anytime someone types Virtualize, Virtualizing, Virtualization, or any othe=
+r phrase with this keyword into their browser your site could be the first =
+they see!
+
+Avg Google Search Results are (keyword): 44,300,000<https://www.google.com/=
+search?biw=3D1600&bih=3D722&sxsrf=3DALeKk02eZr0AjPJxwvxmwArn1XRIXPvFdw%3A15=
+93196005929&ei=3D5T32XoWlOMLyhwP3lorAAQ&q=3DVirtualizing&oq=3DVirtualizing&=
+gs_lcp=3DCgZwc3ktYWIQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCA=
+A6BAgAEEc6BAgAEB46BggAEAoQHjoGCAAQCBAeOggIABAIEAoQHlCBgRRY6YwUYLSOFGgAcAF4A=
+IABYogB2QOSAQE1mAEAoAECoAEBqgEHZ3dzLXdpeg&sclient=3Dpsy-ab&ved=3D0ahUKEwjFq=
+_bPjaDqAhVC-WEKHXeLAhgQ4dUDCAw&uact=3D5>
+You can easily redirect all the traffic this domain gets to your current si=
+te!
+
+GoDaddy.com<https://ph.godaddy.com/domain-value-appraisal/appraisal/?checkA=
+vail=3D1&tmskey=3D&domainToCheck=3DVirtualizing.net>  appraises this domain=
+ at $1,036.
+
+The internet is the most efficient and easiest way to acquire new customers=
+.
+
+Priced at only $398 for a limited time! If interested please go to Virtuali=
+zing.net<http://virtualizing.net/> and select Buy Now, or purchase directly=
+ at GoDaddy.
+Act Fast! First person to select Buy Now gets it!
+
+Thank you very much for your time.
+Domain Nerdz
+Evelyn Marcellana
+
+
+--_000_TY2PR0101MB372673B20A3239519BC2C89D816C0TY2PR0101MB3726_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+<div dir=3D"auto" style=3D"color: rgb(34, 34, 34); background-color: rgb(25=
+5, 255, 255); font-family: sans-serif; font-size: 12.8px">
+<span style=3D"font-family: helvetica, arial, sans-serif; font-size: 16px">=
+<b>Virtualizing.net&nbsp;</b>is for sale!</span></div>
+<div dir=3D"auto" style=3D"color: rgb(34, 34, 34); background-color: rgb(25=
+5, 255, 255); font-family: sans-serif; font-size: 12.8px">
+&nbsp;<br>
+</div>
+<div dir=3D"auto" style=3D"color: rgb(34, 34, 34); background-color: rgb(25=
+5, 255, 255); font-family: sans-serif; font-size: 12.8px">
+<span style=3D"font-family: &quot;helvetica neue&quot;"><span style=3D"font=
+-size: 13px"><span style=3D"font-family: helvetica, arial, sans-serif"><spa=
+n style=3D"font-size: 16px">Hello, my name is Evelyn from</span></span></sp=
+an></span><span style=3D"font-family: &quot;helvetica neue&quot;"><span sty=
+le=3D"font-size: 13px"><span style=3D"font-family: helvetica, arial, sans-s=
+erif"><span style=3D"font-size: 16px">&nbsp;</span></span></span></span><sp=
+an style=3D"font-family: helvetica, arial, sans-serif; font-size: 16px">Dom=
+ain
+ Nerdz</span><span style=3D"font-family: &quot;helvetica neue&quot;"><span =
+style=3D"font-size: 13px"><span style=3D"font-family: helvetica, arial, san=
+s-serif"><span style=3D"font-size: 16px">.&nbsp;</span></span></span></span=
+><span style=3D"font-family: helvetica, arial, sans-serif; font-size: 16px"=
+>We
+ have a domain that is currently on sale that you might be interested in</s=
+pan><span style=3D"font-family: &quot;helvetica neue&quot;"><span style=3D"=
+font-size: 13px"><span style=3D"font-family: helvetica, arial, sans-serif">=
+<span style=3D"font-size: 16px">&nbsp;<b>(Virtualizing.net</b></span></span=
+></span></span><b style=3D"font-size: 16px; font-family: helvetica, arial, =
+sans-serif">).</b></div>
+<div dir=3D"auto" style=3D"color: rgb(34, 34, 34); background-color: rgb(25=
+5, 255, 255); font-family: sans-serif; font-size: 12.8px">
+&nbsp;<br>
+</div>
+<div dir=3D"auto" style=3D"color: rgb(34, 34, 34); background-color: rgb(25=
+5, 255, 255); font-family: sans-serif; font-size: 12.8px">
+<div><font face=3D"helvetica, arial, sans-serif"><span style=3D"font-size: =
+16px">Anytime someone types Virtualize, Virtualizing, Virtualization</span>=
+</font><font face=3D"helvetica, arial, sans-serif"><span style=3D"font-size=
+: 16px">,&nbsp;</span></font><span style=3D"font-family: helvetica, arial, =
+sans-serif; font-size: 16px">o</span><span style=3D"font-family: helvetica,=
+ arial, sans-serif; font-size: 16px">r&nbsp;any
+ other phrase with this keyword into their browser your site could&nbsp;be&=
+nbsp;the&nbsp;first they see!</span></div>
+<div><br>
+</div>
+<div><span style=3D"font-family: helvetica, arial, sans-serif; font-size: 1=
+6px">Avg Google Search Results are (keyword):&nbsp;</span><a href=3D"https:=
+//www.google.com/search?biw=3D1600&amp;bih=3D722&amp;sxsrf=3DALeKk02eZr0AjP=
+JxwvxmwArn1XRIXPvFdw%3A1593196005929&amp;ei=3D5T32XoWlOMLyhwP3lorAAQ&amp;q=
+=3DVirtualizing&amp;oq=3DVirtualizing&amp;gs_lcp=3DCgZwc3ktYWIQAzICCAAyAggA=
+MgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgAEEc6BAgAEB46BggAEAoQHjoGCAA=
+QCBAeOggIABAIEAoQHlCBgRRY6YwUYLSOFGgAcAF4AIABYogB2QOSAQE1mAEAoAECoAEBqgEHZ3=
+dzLXdpeg&amp;sclient=3Dpsy-ab&amp;ved=3D0ahUKEwjFq_bPjaDqAhVC-WEKHXeLAhgQ4d=
+UDCAw&amp;uact=3D5" target=3D"_blank" style=3D"color: rgb(66, 133, 244)"><s=
+pan style=3D"font-size: 11pt; font-family: arial">44,300,000</span></a>&nbs=
+p;&nbsp;<br>
+</div>
+<div>
+<div><span style=3D"font-size: 16px; font-family: helvetica, arial, sans-se=
+rif">You can easily redirect all the traffic this domain gets to your curre=
+nt site!</span>&nbsp;</div>
+<div><br>
+</div>
+<div><a href=3D"https://ph.godaddy.com/domain-value-appraisal/appraisal/?ch=
+eckAvail=3D1&amp;tmskey=3D&amp;domainToCheck=3DVirtualizing.net" rel=3D"nor=
+eferrer noreferrer" target=3D"_blank" style=3D"color: rgb(17, 85, 204)"><sp=
+an style=3D"font-size: 11pt; font-family: arial"><span>GoDaddy</span>.<span=
+>com</span></span></a>&nbsp;<span style=3D"font-family: verdana, arial, hel=
+vetica, sans-serif; font-size: 13.3333px">&nbsp;</span><span style=3D"font-=
+size: 13.3333px; font-family: helvetica, arial, sans-serif"><span style=3D"=
+font-size: 16px">appraises
+ this domain at $1,036.</span></span></div>
+<div><br>
+</div>
+<div>
+<div><span style=3D"font-family: &quot;helvetica neue&quot;"><span style=3D=
+"font-size: 13px"><span style=3D"font-family: verdana, arial, helvetica, sa=
+ns-serif"><span style=3D"font-size: 13.3333px"><span style=3D"font-family: =
+helvetica, arial, sans-serif"><span style=3D"font-size: 16px">The
+ internet is the most efficient and easiest way to acquire new customers.</=
+span></span></span></span></span></span>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div><br>
+</div>
+<div><span style=3D"font-family: helvetica, arial, sans-serif; font-size: 1=
+6px">Priced at only $398 for a limited time!</span><span style=3D"font-fami=
+ly: helvetica, arial, sans-serif; font-size: 16px">&nbsp;</span><span style=
+=3D"font-family: helvetica, arial, sans-serif; font-size: 16px">If
+ interested please go to&nbsp;<b><a href=3D"http://virtualizing.net/" targe=
+t=3D"_blank" style=3D"color: rgb(17, 85, 204)">Virtualizing.net</a>&nbsp;</=
+b></span><span style=3D"font-family: helvetica, arial, sans-serif; font-siz=
+e: 16px">a</span><span style=3D"font-family: helvetica, arial, sans-serif; =
+font-size: 16px">nd</span><span style=3D"font-family: helvetica, arial, san=
+s-serif; font-size: 16px">&nbsp;</span><span style=3D"font-family: helvetic=
+a, arial, sans-serif; font-size: 16px">select
+ Buy Now, or purchase directly at&nbsp;<span>GoDaddy</span>.</span>&nbsp;&n=
+bsp;</div>
+<div style=3D"font-family: arial, sans-serif"><span style=3D"font-family: h=
+elvetica, arial, sans-serif; font-size: 16px">Act Fast! First person to sel=
+ect Buy Now gets it!</span>&nbsp;&nbsp;</div>
+<div style=3D"font-family: arial, sans-serif"><br>
+</div>
+</div>
+</div>
+<div>
+<div><span style=3D"font-family: &quot;helvetica neue&quot;"><span style=3D=
+"font-size: 13px"><span style=3D"font-family: verdana, arial, helvetica, sa=
+ns-serif"><span style=3D"font-size: 13.3333px"><span style=3D"font-family: =
+helvetica, arial, sans-serif"><span style=3D"font-size: 16px">Thank
+ you very much for your time.</span></span></span></span></span></span><br>
+</div>
+<div><font color=3D"#000000" face=3D"Helvetica, Arial, sans-serif"><span st=
+yle=3D"font-size: 16px">Domain Nerdz</span></font></div>
+<font color=3D"#888888"></font></div>
+<font color=3D"#888888"><font color=3D"#888888"><font color=3D"#888888">
+<div><font color=3D"#000000" face=3D"Helvetica, Arial, sans-serif"><span st=
+yle=3D"font-size: 16px">Evelyn Marcellana</span></font></div>
+</font></font></font></div>
+<br>
+</div>
+</body>
+</html>
+
+--_000_TY2PR0101MB372673B20A3239519BC2C89D816C0TY2PR0101MB3726_--

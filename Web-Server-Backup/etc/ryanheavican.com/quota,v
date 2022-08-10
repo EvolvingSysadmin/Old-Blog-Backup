@@ -1,0 +1,39 @@
+head	1.2;
+access;
+symbols;
+locks
+	evolvtion3654l:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2016.10.29.00.20.19;	author evolvtion3654l;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.10.29.00.20.19;	author evolvtion3654l;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@me:262144000
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

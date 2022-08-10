@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="robots" content="doindex, dofollow">
+  <meta charset="utf-8">
+  <title>Server 2016 Technical Preview | Ryan's TechSploits</title>
+  <meta name="description" content="Learn how to install Windows Server 2016 Technical Preview on a Hyper-V host in this Techsploits blog post.">
+  <meta name="keywords" content="server 2016,server 16 technical preview,hyper-v host,server 2016 hyper-v">
+  <meta name="author" content="Ryan Heavican">
+  <link rel="author" href="https://plus.google.com/u/0/+RyanHeavican"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="alternate" href="http://www.ryanheavican.com" hreflang="en-US" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="css/posts.css">
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Rock+Salt" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" media="bogus">
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29114312-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-default  navbar-fixed-top">
+          <div class="container-fluid">
+              <!-- Nav Brand -->
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      MENU <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand" id="navbar-brand"href="/">&lt;TECH&gt; SPLOITS</a>
+              </div>
+              <!-- Nav Links -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right" id="navbar-nav">
+                      <li>
+                        <a href="/#blog">Blog</a>
+                      </li>
+                      <li>
+                          <a href="/#about">About</a>
+                      </li>
+                      <li>
+                          <a href="work">Work</a>
+                      </li>
+                      <!--
+                      <li>
+                          <a href="#">Play</a>
+                      </li>
+                      -->
+                      <li>
+                          <a href="/#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- Page Header -->
+      <header class="intro-header">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                      <div class="post-heading">
+                          <h1>Server 2016 Technical Preview on Gates the Hyper-V Host</h1>
+                          <h2 class="subheading">Learn how I installed a Technical Preview of Microsoft Server 2016 on a Hyper-V Host</h2>
+                          <div class="meta">Posted by <b>Ryan Heavican</b> on August 23, 2016 </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+
+      <!-- Blog Article -->
+      <article>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                      <p>Hyper-V is Microsoft’s native hypervisor that allows for the hosting of virtual machines.  I’ve been seriously neglecting <a href="http://ryanheavican.com/my-continually-evolving-homelab">my homelab’s</a> newish Hyper-V server for no good reason lately. Gates (pretty obvious namesake) is a Dell PowerEdge T20 Server with a measly 8GB memory (for now), 2 120GB SSDs in RAID 1 and 2 1TB WD Reds in RAID 1 as well. I’d previously installed Windows Server 2012 R2 Data Center on this server, but that’s about it. So it’s definitely time to bring this thing to life.</p>
+                      <h2 class="section-heading">Adding the Hyper-V Role</h2>
+                    <p>I, firstly, installed Windows Server 2012 R2 Datacenter on the server’s bare metal. I went with the datacenter edition because it allows for unlimited VMs unlike the other versions.  I gave this new server a static IP and enabled Remote Desktop Connect so I can manage the server remotely. Next, I added the Hyper-V role in Server Manager so now Hyper-V is running on the server’s bare metal. I don’t plan on running any live migrations to or from this server so I didn’t worry about those settings during this installation process.</p>
+                    <figure>
+                      <img class="img-medium" src="img/hyperv-service.png" alt="Installing the Hyper-V Role">
+                      <figcaption>Adding the Hyper-V Role in Server 2012</figcaption>
+                    </figure>
+                    <br>
+                    <figure>
+                      <img class="img-medium" src="img/hyperv-added.png" alt="Hyper-V Role Installed">
+                      <figcaption>The Hyper-V Role Successfully Added</figcaption>
+                    </figure>
+                    <h3>Creating a Virtual Machine</h3>
+                    <p>Next it was time to create my first virtual machine within Hyper-V. To do this I navigated to the Hyper-V Manager and clicked ‘new virtual machine’ and followed the easy to use new virtual machine wizard.</p>
+                    <figure>
+                      <img class="img-medium" src="img/hyperv-vm.png" alt="Creating a new Hyper-V Virtual Machine">
+                      <figcaption>Hyper-V New Virtual Machine Wizard</figcaption>
+                    </figure>
+                      <p>I configured my VM with 2 GB dynamic memory, 128 GB storage (way overkill) and set it up as a second generation VM so it has the most up to date capabilities. I then specified that the VM use a Microsoft Server 2016 Technical Preview ISO that I’d recently downloaded.</p>
+                      <figure>
+                        <img class="img-medium" src="img/hyperv-iso.png" alt="Selecting the Virtual Machine ISO">
+                        <figcaption>Selecting the ISO in Hyper-V</figcaption>
+                      </figure>
+                        <p>I connected to the console of the newly created VM, started it up, and followed the easy to follow Windows prompts to install Server 2016. When I initially started the VM, I ran into a scary looking error message. After some Googling I realized that I simply failed to quickly hold down a key when booting from the ISO for the first time. So press and hold down a key as soon as booting from the ISO or you’ll get a scary warning message like I did.</p>
+                        <h2 class="section-heading">Basic Windows Server 2016 Configuration</h2>
+                        <p>After I had Server 2016 up and running, I made a few final simple configuration changes to make it easier to manage. I then set a static IP address and changed the hostname on the VM. I also enabled remote desktop for remote management.</p>
+                        <figure>
+                          <img class="img-medium" src="img/server16-running.png" alt="Windows Server 2016 Server Manager">
+                          <figcaption>Server Manager in Windows Server 16</figcaption>
+                        </figure>
+                        <p>I haven’t added Gates or this newly created VM to my domain/Active Directory. I intend on eventually setting Gates up on its own VLAN and turning it into a primary Domain Controller for a new domain apart from my existing homelab domain. In the meantime, I’ll be installing a SQL 16 server and a Guacamole server on Gates. Stay tuned!</p>
+                  </div>
+              </div>
+          </div>
+      </article>
+        <!-- Footer -->
+       <footer>
+           <div class="container">
+               <div class="row">
+                 <p class="copyright text-muted">Copyright 2018 &copy; Ryan Heavican</p>
+               </div>
+           </div>
+         </footer>
+         <!-- jQuery -->
+         <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+         <!-- Bootstrap JavaScript -->
+         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+         <!-- Font Awesome icons -->
+         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+         <script>
+         $(document).on('click.nav','.navbar-collapse.in',function(e) {
+            if( $(e.target).is('a') ) {
+                $(this).removeClass('in').addClass('collapse');
+              }
+           });
+         </script>
+       <script>
+         $(function(){$("body").on("input propertychange",".floating-label-form-group",function(o){$(this).toggleClass("floating-label-form-group-with-value",!!$(o.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),jQuery(document).ready(function(o){var s=1170;if(o(window).width()>s){var i=o(".navbar-custom").height();o(window).on("scroll",{previousTop:0},function(){var s=o(window).scrollTop();s<this.previousTop?s>0&&o(".navbar-custom").hasClass("is-fixed")?o(".navbar-custom").addClass("is-visible"):o(".navbar-custom").removeClass("is-visible is-fixed"):s>this.previousTop&&(o(".navbar-custom").removeClass("is-visible"),s>i&&!o(".navbar-custom").hasClass("is-fixed")&&o(".navbar-custom").addClass("is-fixed")),this.previousTop=s})}});
+       </script>
+     </body>
