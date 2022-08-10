@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="robots" content="doindex, dofollow">
+  <meta charset="utf-8">
+  <title>New Blog Layout | Ryan’s Techsploits</title>
+  <meta name="description" content="Read about how--and why--I converted my WordPress blog to flat HTML files using bootstrap in this Techsploits blog post.">
+  <meta name="keywords" content="Techsploits layout,convert WordPress,bootstrap layout,blog layout">
+  <meta name="author" content="Ryan Heavican">
+  <link rel="author" href="https://plus.google.com/u/0/+RyanHeavican"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="alternate" href="http://www.ryanheavican.com" hreflang="en-US" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="css/posts.css">
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Rock+Salt" rel="stylesheet">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" media="bogus">
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29114312-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-default  navbar-fixed-top">
+          <div class="container-fluid">
+              <!-- Nav Brand -->
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      MENU <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand" id="navbar-brand"href="/">&lt;TECH&gt; SPLOITS</a>
+              </div>
+              <!-- Nav Links -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right" id="navbar-nav">
+                      <li>
+                        <a href="/#blog">Blog</a>
+                      </li>
+                      <li>
+                          <a href="/#about">About</a>
+                      </li>
+                      <li>
+                          <a href="work">Work</a>
+                      </li>
+                      <!--
+                      <li>
+                          <a href="#">Play</a>
+                      </li>
+                      -->
+                      <li>
+                          <a href="/#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- Page Header -->
+      <header class="intro-header">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                          <div class="post-heading">
+                              <h1>Converting a WordPress Blog to Flat HTML</h1>
+                              <h2 class="subheading">Learn How & Why I Changed My Blog from WordPress to Flat HTML Files</h2>
+                              <div class="meta">Posted by <b>Ryan Heavican</b> on October 28, 2016</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </header>
+    <!-- Blog Article -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>Hi Internets! You may or may not have noticed that it’s been about a month since my last Techsploits blog post. But there has been good reason for this. For the past month or so I’ve been spending much of my spare time building a new blog layout from the ground up. This has been a great experience in learning about front end web development. And importantly, this new setup will give me greater flexibility for further developing my web development, web design, and Search Engine Optimization skills.</p>
+                    <figure>
+                      <img class="img-large"src="img/new-html-layout.png" alt="Techsploits New Blog Layout">
+                      <figcaption>Techsploits' New HTML Layout in the Atom Text Editor</figcaption>
+                    </figure>
+                    <h2 class="section-heading">New Blog Development</h2>
+                    <p>Building the new Techsploits blog layout was a great learning process. It was also a time intensive process even though the current site consists of relatively little content and only a few page templates.</p>
+                    <h3>Design Research</h3>
+                    <p>The first step I took in building the new blog was design research. I spent a good deal of time looking for blog layouts that I found visually appealing. I also broke down the design of some of the biggest news websites on the web to see how they present articles. Once I found different design elements that I could turn into a simple and clean layout, I started building out the site.</p>
+                    <h3>Desktop Design</h3>
+                    <p>I decided to build the blog using bootstrap. Bootstrap is an HTML, CSS, and JavaScript framework that makes creating web pages very easy. Bootstrap is also geared towards mobile web development which makes building responsive sites that look good on both desktop and mobile very easy.</p>
+                    <figure>
+                      <img class="img-medium"src="img/desktop-web-development.png" alt="Techsploits New Desktop Layout">
+                      <figcaption>The New Desktop Layout</figcaption>
+                    </figure>
+                    <h3>Mobile Design</h3>
+                    <p>Bootstrap is a mobile first framework. This means that developers should design their bootstrap sites for mobile screens first and then use CSS to style the site for desktop. Unfortunately I took the opposite approach with my blog.</p>
+                    <p>I built my site for desktop first and then had to go back to ensure my layout was responsive for mobile. The whole process was a great learning experience. Going forward, I’ll still build my bootstrap sites for desktop first. But I’ll be able to style sites in a way that makes building out the responsive mobile styling very easy.</p>
+                    <figure>
+                      <img class="img-small"src="img/mobile-web-development.png" alt="Techsploits New Mobile Layout">
+                      <figcaption>The New Mobile Layout</figcaption>
+                    </figure>
+                    <h3>Hosting</h3>
+                    <p>I hosted Techsploits in a pretty unusual way throughout my development process. I initially used CodePen for development. I quickly regretted doing this as I kept losing work when my sessions with the site would be interrupted resulting in my work being continuously saved over. Lesson learned. From now on I’ll only use CodePen to display finished pages and will do development on a local machine with a repository.</p>
+                    <p>After I finished building the site locally, I needed to find a hosting provider. The site had been initially hosted on a managed Wordpress account. First I built out the on Amazon Web Services S3, which offers free basic hosting. Then I canceled my Managed Hosting account and opened a linux hosting account with cpanel that gives me a ton of control over my hosting environment.</p>
+                    <figure>
+                      <img class="img-large"src="img/aws-hosting.png" alt="AWS S3 Hosting Environment">
+                      <figcaption>The AWS S3 Hosting that I Used for Development</figcaption>
+                    </figure>
+                    <h3>Site speed</h3>
+                    <p>Optimizing Techsploits for speed was my first undertaking after publishing my new blog layout. I mainly used GT Metrix and Google PageSpeed insights to identify the causes of slow page load time. These tools made great suggestions like trying to eliminate as many calls to external resources, like external JavaScript or CSS, as possible. I also cleaned up my CSS during this process in order to make my CSS files as small and fast as possible.</p>
+                    <figure>
+                      <img class="img-medium"src="img/blog-site-speed.png" alt="Techsploits Site Speed">
+                      <figcaption>Techsploits' GT Metrix Speed Results</figcaption>
+                    </figure>
+                    <h3>Search Engine Optimization</h3>
+                    <p>Site speed plays a big factor in SEO, but there are many other onsite factors that play into SEO. Firstly, I ensured that my HTML headings were structured properly and that my meta descriptions were well written and optimized for each page’s keywords. I also included intrasite links throughout my articles and ensured that the blog is laid out in a way that is conducive to presenting dynamic content. Now the blog just needs a great deal of quality content and backlinks to it posted in some of my favorite forums.</p>
+                    <h2 class="section-heading">What's Next?</h2>
+                    <p>Now that my new blog layout is finalized I can get back to posting about my projects. In the coming days I’ll be posting about Windows group policy, RetroPi consoles, hackintoshes and network security. Stay tuned!</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Footer -->
+   <footer>
+       <div class="container">
+           <div class="row">
+             <p class="copyright text-muted">Copyright 2018 &copy; Ryan Heavican</p>
+           </div>
+       </div>
+     </footer>
+     <!-- jQuery -->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <!-- Bootstrap JavaScript -->
+     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <!-- Font Awesome icons -->
+     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+     <script>
+     $(document).on('click.nav','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') ) {
+            $(this).removeClass('in').addClass('collapse');
+          }
+       });
+     </script>
+   <script>
+     $(function(){$("body").on("input propertychange",".floating-label-form-group",function(o){$(this).toggleClass("floating-label-form-group-with-value",!!$(o.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),jQuery(document).ready(function(o){var s=1170;if(o(window).width()>s){var i=o(".navbar-custom").height();o(window).on("scroll",{previousTop:0},function(){var s=o(window).scrollTop();s<this.previousTop?s>0&&o(".navbar-custom").hasClass("is-fixed")?o(".navbar-custom").addClass("is-visible"):o(".navbar-custom").removeClass("is-visible is-fixed"):s>this.previousTop&&(o(".navbar-custom").removeClass("is-visible"),s>i&&!o(".navbar-custom").hasClass("is-fixed")&&o(".navbar-custom").addClass("is-fixed")),this.previousTop=s})}});
+   </script>
+ </body>
